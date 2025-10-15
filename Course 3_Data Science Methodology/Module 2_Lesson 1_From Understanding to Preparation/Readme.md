@@ -2,7 +2,7 @@
 Congratulations! You have completed this lesson. At this point in the course, you know:
 
 <p align="center">
- ![alt text](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%203_Data%20Science%20Methodology/Module%202_Lesson%201_From%20Understanding%20to%20Preparation/Data%20Understanding%20and%20Preparation.png)
+ ![Image Alt]([image_url](https://github.com/tuethu/IBM-Data-Science-Course/blob/d82745e5cac7d68296e011fa80f89af972383f36/Course%203_Data%20Science%20Methodology/Module%202_Lesson%201_From%20Understanding%20to%20Preparation/Data%20Understanding%20and%20Preparation.png))
 </p>
 
 - The Data Understanding stage encompasses all activities related to constructing the data set and answers the question as to whether the data you collected represents the problem to be solved.
