@@ -2,7 +2,7 @@
 Congratulations! You have completed this lesson. At this point in the course, you know:
 
 <p align="center">
- <img src="https://raw.githubusercontent.com/tuethu/IBM-Data-Science-Course/master/ibm.svg" title="IBM logo" alt = "IBM logo" />
+ <img src="https://raw.githubusercontent.com/tuethu/IBM-Data-Science-Course/Course 3_Data Science Methodology/Module 2_Lesson 1_From Understanding to Preparation/master/Data Understanding and Preparation.svg" title="IBM logo" alt = "IBM logo" />
 </p>
 
 - The Data Understanding stage encompasses all activities related to constructing the data set and answers the question as to whether the data you collected represents the problem to be solved.
