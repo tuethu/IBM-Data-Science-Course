@@ -34,22 +34,36 @@ Course link: [Data Science Methodology](https://www.coursera.org/learn/data-scie
 
 ### Module 2: From Understanding to Preparation and from Modeling to Evaluation
 - Data Understanding
-- Data Preparation
-- Modeling
+- Data Preparation - Concepts
+- Data Preparation - Case Study
+- Hands-on Lab: From Understanding to Preparation
+- Lesson Summary: From Understanding to Preparation
+- Practice Quiz: Lesson 1 From Understanding to Preparation
+- Module 2 Lesson 1 Glossary: From Understanding to Preparation
+- Graded Quiz Lesson 1: From Understanding to Preparation
+- Modeling - Concepts
+- Modeling - Case Study
 - Evaluation
-- Lab: From Understanding to Preparation
-- Lab: From Modeling to Evaluation
-- Quiz: From Understanding to Preparation
-- Quiz: From Modeling to Evaluation
+- Hands-on Lab: From Modeling to Evaluation
+- Lesson Summary: From Modeling to Evaluation
+- Practice Quiz Lesson 2: From Modeling to Evaluation
+- Glossary: From Modeling to Evaluation
+- Graded Quiz Lesson 2:  From Modeling to Evaluation
 
 ### Module 3: From Deployment to Feedback
 - Deployment
 - Feedback
-- Quiz: From Deployment to Feedback
-- Peer-review Assignment
+- Storytelling
+- Course Summary
+- Module 3 Summary : From Deployment to Feedback
+- Practice Quiz: From Deployment to Feedback
+- Module 3 Glossary: From Deployment to Feedback
+- Module 3 Graded Quiz: From Deployment to Feedback
 
-Module 3: From Deployment to Feedback
-Deployment
-Feedback
-Quiz: From Deployment to Feedback
-Peer-review Assignment
+### Module 4: Final Project and Assessment
+- Introduction to CRISP-DM
+- Final Assignment Overview
+- Final Assignment
+- Review Your Peers
+- Review what you learned
+- Final Quiz
