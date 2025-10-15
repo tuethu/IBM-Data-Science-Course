@@ -1,9 +1,7 @@
 # Module 2 Lesson 1: From Understanding to Preparation
 Congratulations! You have completed this lesson. At this point in the course, you know:
 
-<p align="center">
  ![Image Alt](https://github.com/tuethu/IBM-Data-Science-Course/blob/d82745e5cac7d68296e011fa80f89af972383f36/Course%203_Data%20Science%20Methodology/Module%202_Lesson%201_From%20Understanding%20to%20Preparation/Data%20Understanding%20and%20Preparation.png)
-</p>
 
 - The Data Understanding stage encompasses all activities related to constructing the data set and answers the question as to whether the data you collected represents the problem to be solved.
 - During the Data Understanding stage, scientists might use descriptive statistics, predictive statistics, or both.
