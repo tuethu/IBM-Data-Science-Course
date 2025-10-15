@@ -1,4 +1,4 @@
-#Lesson Summary: Modeling to Evaluation
+# Lesson Summary: Modeling to Evaluation
 
 Congratulations! You have completed this lesson. At this point in the course, you know:
 
