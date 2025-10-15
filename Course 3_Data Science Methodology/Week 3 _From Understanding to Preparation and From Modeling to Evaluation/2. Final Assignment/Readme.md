@@ -1,4 +1,6 @@
 
+# Data Science Methodology Final Assignment: Credit Cards
+
 Final Assignment:
 In this Assignment, you will demonstrate your understanding of the data science methodology by applying it to a given problem. Pick one of the following topics to apply the data science methodology to:
 
