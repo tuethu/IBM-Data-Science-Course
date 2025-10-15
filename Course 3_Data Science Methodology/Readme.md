@@ -17,12 +17,20 @@ Course link: [Data Science Methodology](https://www.coursera.org/learn/data-scie
 ### Module 1: From Problem to Approach and from Requirements to Collection
 - Business Understanding
 - Analytic Approach
+- Analytic Approach Based on the Question Type
+- Activity - Business Understanding: Asking Questions
+- Activity - Analytical Approach: Identifying the Pattern to Address the Question
+- Lesson Summary: From Problem to Approach
+- Practice Quiz: From Problem to Approach
+- Glossary: From Problem to Approach
+- Graded Quiz:  From Problem to Approach
 - Data Requirements
 - Data Collection
-- Lab: From Problem to Approach
-- Lab: From Requirement to Collection
-- Quiz: From Problem to Approach
-- Quiz: From Requirement to Collection
+- From Requirements to Collection
+- Lesson Summary: From Requirements to Collection
+- Practice Quiz: From Requirements to Collection 
+- Glossary: From Requirements to Collection
+- Graded quiz:  From Requirements to Collection  
 
 ### Module 2: From Understanding to Preparation and from Modeling to Evaluation
 - Data Understanding
