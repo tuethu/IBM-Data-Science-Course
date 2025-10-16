@@ -17,7 +17,8 @@ In this module, you will learn about the different types and categories of tools
 - List examples of Open Source, Commercial, and Cloud-based tools in various categories
 
 
-**Module 2: Languages of Data Science** 
+
+<ins>**Module 2: Languages of Data Science**<ins> 
 
 This module will bring awareness about the criteria determining which language you should learn. You will learn the benefits of Python, R, SQL, and other common languages such as Java, Scala, C++, JavaScript, and Julia. You will explore how you can use these languages in Data Science. You will also look at some sites for more information about the languages. 
 
@@ -35,7 +36,8 @@ Identify the criteria and roles for determining the language to learn.
 - List the global communities for connecting with other users.
 
 
-**Module 3: Packages, APIs, Data Sets and Models**  
+
+<ins>**Module 3: Packages, APIs, Data Sets and Models**<ins> 
 
 This module will give you in-depth knowledge of different libraries, APIs, dataset sources and models used by data scientist.
 
@@ -56,7 +58,8 @@ Learning Objectives
 - Explore ML models in the Model Learning eXchange.
 
 
-**Module 4: Jupyter Notebooks and JupyterLab** 
+
+<ins>**Module 4: Jupyter Notebooks and JupyterLab**<ins> 
 
 This module introduces the Jupyter Notebook and JupyterLab. You will learn how to work with different kernels and the basic Jupyter architecture. In addition, you will identify the tools in an Anaconda Jupyter environment. Finally, the module overviews cloud-based Jupyter environments and their data science features. 
 
@@ -75,7 +78,8 @@ Learning Objectives
 - Describe cloud-based Jupyter environments and their data science features.
 
 
-**Module 5: RStudio and GitHub** 
+
+<ins>**Module 5: RStudio and GitHub**<ins> 
 
 This module will start with an introduction to R and RStudio and will end up with Github usage. You will learn about the different R visualization packages and how to create visual charts using the plot function.
 
@@ -98,7 +102,8 @@ Learning Objectives
 - Explain the purpose of branches and how to merge changes.
 
 
-**Module 6: Final Project and Assessment**  
+
+<ins>**Module 6: Final Project and Assessment**<ins>  
 
 In this module, you will work on a final project to demonstrate some of the skills learned in the course. You will also be tested on your knowledge of various components and tools in a Data Scientist's toolkit learned in the previous modules.
 
@@ -115,7 +120,8 @@ Learning Objectives
 - Demonstrate proficiency in Data Science toolkit knowledge
 
 
-**Module 7: IBM Watson Studio (Optional)** 
+
+<ins>**Module 7: IBM Watson Studio (Optional)**<ins> 
 
 This is as an optional module if you are interested in learning about and working with data science tools from IBM such as  Watson Studio.
 
