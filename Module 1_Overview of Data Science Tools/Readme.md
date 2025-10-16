@@ -23,7 +23,7 @@ Execution Environments - provide computational resources and run the code
 
 The data science ecosystem consists of many open source and commercial options, and include both traditional desktop applications and server-based tools, as well as cloud-based services that can be accessed using web-browsers and mobile interfaces.
 
-** Data Management Tools **: include Relational Databases, NoSQL Databases, and Big Data platforms:
+**Data Management Tools**: include Relational Databases, NoSQL Databases, and Big Data platforms:
 
 MySQL, and PostgreSQL are examples of Open Source Relational Database Management Systems (RDBMS), and IBM Db2 and SQL Server are examples of commercial RDBMSes and are also available as Cloud services.
 
