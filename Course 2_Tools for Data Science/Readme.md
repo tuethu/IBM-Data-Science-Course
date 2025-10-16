@@ -8,7 +8,7 @@ To successfully complete the course, you are required to complete the first 6 ou
 
 Here is what you will be learning in each module:
 
-**Module 1: Overview of Data Science Tools**  
+<ins>**Module 1: Overview of Data Science Tools** <ins>
 
 In this module, you will learn about the different types and categories of tools that data scientists use and popular examples of each. You will also become familiar with Open Source,  Cloud-based,  and Commercial options for data science tools.
 
@@ -115,7 +115,7 @@ Learning Objectives
 - Demonstrate proficiency in Data Science toolkit knowledge
 
 
-**Module7: IBM Watson Studio (Optional)** 
+**Module 7: IBM Watson Studio (Optional)** 
 
 This is as an optional module if you are interested in learning about and working with data science tools from IBM such as  Watson Studio.
 
