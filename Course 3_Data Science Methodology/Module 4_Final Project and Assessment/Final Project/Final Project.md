@@ -7,8 +7,7 @@ Hospitals
 Credit Cards
 You will have to play the role of the client as well as the data scientist to come up with a problem that is more specific but related to these topics.
 
-# Project Title:
-Online Shopping Credit Cards Scram Detection
+# Project Title: Online Shopping Credit Cards Scram Detection
 
 
 ### Q1. Which topic did you choose to apply the data science methodology to? (2 points)
