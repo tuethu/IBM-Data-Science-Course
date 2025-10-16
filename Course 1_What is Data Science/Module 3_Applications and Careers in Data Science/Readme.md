@@ -1,4 +1,5 @@
-#Course Summary
+# Course Summary
+
 Congratulations! You have completed this course. At this point, you know that:
 
 - Data science is the practice of extracting valuable insights from vast datasets to guide strategic decision-making.
