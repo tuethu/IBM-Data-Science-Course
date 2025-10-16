@@ -1,4 +1,4 @@
-#Summary: Deep Learning and Machine Learning
+# Summary: Deep Learning and Machine Learning
 Congratulations! You have completed this lesson. At this point in the course, you know: 
 
 - Big Data has five characteristics:  velocity, volume, variety, veracity, and value.
