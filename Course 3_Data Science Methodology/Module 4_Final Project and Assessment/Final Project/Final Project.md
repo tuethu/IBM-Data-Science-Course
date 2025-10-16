@@ -1,5 +1,5 @@
 
-Final Assignment:
+# Final Assignment:
 In this Assignment, you will demonstrate your understanding of the data science methodology by applying it to a given problem. Pick one of the following topics to apply the data science methodology to:
 
 Emails
@@ -7,7 +7,7 @@ Hospitals
 Credit Cards
 You will have to play the role of the client as well as the data scientist to come up with a problem that is more specific but related to these topics.
 
-Project Title:
+# Project Title:
 Online Shopping Credit Cards Scram Detection
 
 
