@@ -2,7 +2,7 @@
 
 Congratulations! You have completed this lesson. At this point in the course, you know:
 
- ![Image Alt](https://github.com/tuethu/IBM-Data-Science-Course/blob/7d904a1052f2966c841a8fd4b8331a3871875139/Course%203_Data%20Science%20Methodology/Module%202%20/Lesson%202_From%20Modeling%20to%20Evaluation/Data%20Modeling%20to%20Evaluation.png)
+ ![Image Alt](https://github.com/tuethu/IBM-Data-Science-Course/blob/6589c9320977acda729ef866e0f951936470aa3c/Course%203_Data%20Science%20Methodology/Module%202_From%20Understanding%20to%20Preparation%20and%20from%20Modeling%20to%20Evaluation/Lesson%202_From%20Modeling%20to%20Evaluation/Data%20Modeling%20to%20Evaluation.png)
  
 - The end goal of the Modeling stage is that the data model answers the business question.
 - The data modeling process uses a training data set. Data scientists test multiple algorithms on the training set data to determine whether the variables are required and whether the data supports answering the business question. The outcome of those models are either descriptive or predictive.
