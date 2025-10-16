@@ -23,7 +23,7 @@ Execution Environments - provide computational resources and run the code
 
 The data science ecosystem consists of many open source and commercial options, and include both traditional desktop applications and server-based tools, as well as cloud-based services that can be accessed using web-browsers and mobile interfaces.
 
-**Data Management Tools**: include Relational Databases, NoSQL Databases, and Big Data platforms:
+**Data Management Tools** : include Relational Databases, NoSQL Databases, and Big Data platforms:
 
 MySQL, and PostgreSQL are examples of Open Source Relational Database Management Systems (RDBMS), and IBM Db2 and SQL Server are examples of commercial RDBMSes and are also available as Cloud services.
 
@@ -31,13 +31,13 @@ MongoDB and Apache Cassandra are examples of NoSQL databases.
 
 Apache Hadoop and Apache Spark are used for Big Data analytics. 
 
-** Data Integration and Transformation Tools **: include Apache Airflow and Apache Kafka. 
+**Data Integration and Transformation Tools** : include Apache Airflow and Apache Kafka. 
 
-** Data Visualization Tools **:  include commercial offerings  such as Cognos Analytics, Tableau and PowerBI  and can be used for building dynamic and interactive dashboards.  
+**Data Visualization Tools** :  include commercial offerings  such as Cognos Analytics, Tableau and PowerBI  and can be used for building dynamic and interactive dashboards.  
 
-** Code Asset Management Tools **: Git is an essential code asset management tool. GitHub is a popular web-based platform for storing and managing source code. Its features make it an ideal tool for collaborative software development, including version control, issue tracking, and project management. 
+**Code Asset Management Tools** : Git is an essential code asset management tool. GitHub is a popular web-based platform for storing and managing source code. Its features make it an ideal tool for collaborative software development, including version control, issue tracking, and project management. 
 
-** Development Environments **: Popular development environments for Data Science include Jupyter Notebooks and RStudio. 
+**Development Environments** : Popular development environments for Data Science include Jupyter Notebooks and RStudio. 
 
 - Jupyter Notebooks provides an interactive environment for creating and sharing code, descriptive text, data visualizations, and other computational artifacts in a web-browser based interface.  
 
