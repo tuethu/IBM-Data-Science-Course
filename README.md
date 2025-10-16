@@ -38,14 +38,25 @@ Read more below:
 
 **Course Link:** [IBM Data Science Professional Certificate](https://www.coursera.org/professional-certificates/ibm-data-science)
 
-## Instructors
+## Primary Instructors
 - Alex Aklson
 - Polong Lin
-- Romeo Kienzler
-- Svetlana Levitan
-- Joseph Santarcangelo
-- Rav Ahuja
-- SAEED AGHABOZORGI
+
+## Other Contributors and Staff
+- Project Lead: Rav Ahuja
+- Instructional Designer: Patsy R. Kravitz
+- Lab Authors: Alex Aklson, Polong Lin, Dr. Pooja
+- Technical Advisor: Alex Aklson, Polong Lin, Dr. Pooja
+
+## Production Team
+- Publishing: Rachael Jones, Santosh Kumar Sahu
+- QA: Mary Stenberg, Steve Hord, Mercedes Schneider
+- Project Manager: Vishali Karpagam Sangameswaran
+- Narration: Tom Aglio
+- Video Production: Vaishali Rani, Alex Jones
+
+## Teaching Assistants and Forum Moderators
+- Teaching Assistants: Lakshmi Holla, Anita Verma, Geetika Pal, Niveditha Pandith TS, Pratiksha Verma, Sathya Priya, D.M. Naidu
 
 ## Specialization Overview
 
