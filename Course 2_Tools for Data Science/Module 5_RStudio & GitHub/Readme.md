@@ -22,11 +22,11 @@ Congratulations! You have completed this module. At this point in the course, yo
 
 - Repositories are storage structures that:
 
- - -  Store the code
+- -  Store the code
 
-Track issues and changes
+- -  Track issues and changes
 
-Enable you to collaborate with others
+- -  Enable you to collaborate with others
 
 - Git is one of the most popular distributed version control systems. 
 
