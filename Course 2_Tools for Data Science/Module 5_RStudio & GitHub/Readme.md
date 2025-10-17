@@ -22,7 +22,7 @@ Congratulations! You have completed this module. At this point in the course, yo
 
 - Repositories are storage structures that:
 
-- - Store the code
+ - Store the code
 
 Track issues and changes
 
