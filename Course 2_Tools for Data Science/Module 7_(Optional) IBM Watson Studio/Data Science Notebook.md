@@ -28,10 +28,10 @@ style="background-color: purple">
 
 4. K-Pop Demon Hunters
 5. Classic Characters
-Ghostbusters
-Flintstones
-Disney Characters
-How to train your dragons
+- Ghostbusters
+- Flintstones
+- Disney Characters
+- How to train your dragons
   
 ![How to train your dragons](https://wallpapers.com/images/hd/how-to-train-your-dragon-hidden-world-mwo6iaijnaqtt3ca.webp)
 
