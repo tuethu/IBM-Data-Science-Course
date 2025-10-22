@@ -24,7 +24,10 @@ genres_tuple[3:6] # Use slicing to obtain indexes 3,4 and 5
 - Tuples, termed nesting, can include other tuples of complex data types.
 
 - You can access elements in a nested tuple through indexing.
-  
+```
+"disco".find('s') #Find the index of 's' in "disco"
+2 #result
+ ``` 
 
 ## LIST
 
@@ -70,7 +73,14 @@ print(fruits)
 - Dictionaries in Python are key-value pairs that provide a flexible way to store and retrieve data based on unique keys.
 
 - Dictionaries consist of keys and values, both composed of string elements.
+```
+soundtrack_dic = {"The Bodyguard":"1992", "Saturday Night Fever":"1977"}
+soundtrack_dic.keys() #find the keys
+dict_keys(['The Bodyguard', 'Saturday Night Fever']) #result of the keys
 
+soundtrack_dic.values() #find the values
+dict_values(['1992', '1977']) #result of the values
+```
 - You denote dictionaries using <ins>curly brackets<ins> {}.
 
 - The keys necessitate immutability and uniqueness.
