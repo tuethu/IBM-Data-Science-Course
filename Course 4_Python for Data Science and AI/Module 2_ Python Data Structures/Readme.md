@@ -6,7 +6,7 @@ Congratulations! You have completed this module. At this point, you know that:
 
 - In Python, we often use tuples to group related data together.Tuples refer to ordered and immutable collections of elements.
 
-- Tuples are usually written as comma-separated elements in <ins>parentheses<ins> “()".
+- Tuples are usually written as comma-separated elements in <ins>parentheses<ins>  “()".
 
 - You can include strings, integers, and floats in tuples and access them using both positive and negative indices.
 
