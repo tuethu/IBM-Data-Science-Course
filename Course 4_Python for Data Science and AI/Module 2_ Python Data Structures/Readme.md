@@ -42,7 +42,7 @@ fruits.append("mango")
 print(fruits)
 ```
 
-
+- You can perform operations such as adding, deleting, splitting, and so forth on a list.
   - **add (extend) The `extend()` method is used to add multiple elements to a list**
 ```
 fruits = ["apple", "banana", "orange"] 
