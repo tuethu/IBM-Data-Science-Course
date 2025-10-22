@@ -122,7 +122,9 @@ colors = ("orange", "red", "green")
 - A list passed through the set function generates a set containing unique elements.
 
 - You use “Set Operations” to perform actions such as adding, removing, and verifying elements in a set.
-  *Add (Elements can be added to a set using the `add()` method. Duplicates are automatically removed, as sets only store unique values) (not append or extend like in List) * 
+
+  *Add (Elements can be added to a set using the `add()` method. Duplicates are automatically removed, as sets only store unique values) *
+  ***(not append or extend like in List)*** 
 ```
 fruits.add("mango")
 ```
