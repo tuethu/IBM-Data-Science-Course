@@ -35,6 +35,11 @@ Congratulations! You have completed this module. At this point, you know that:
 
 - You can perform operations such as adding, deleting, splitting, and so forth on a list.
 
+**add (append)**
+fruits = ["apple", "banana", "orange"] 
+fruits.append("mango") 
+print(fruits)
+
 - You can separate elements in a list using delimiters.
 
 - Aliasing occurs when multiple names refer to the same object.
