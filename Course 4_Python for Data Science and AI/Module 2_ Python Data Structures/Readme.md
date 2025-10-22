@@ -55,7 +55,7 @@ print(fruits)
 
 - You can also clone a list to create another list.
 
-
+[Tuple and List Cheat Sheet ](https://author-ide.skills.network/render?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZF9pbnN0cnVjdGlvbnNfdXJsIjoiaHR0cHM6Ly9jZi1jb3Vyc2VzLWRhdGEuczMudXMuY2xvdWQtb2JqZWN0LXN0b3JhZ2UuYXBwZG9tYWluLmNsb3VkL0lCTURldmVsb3BlclNraWxsc05ldHdvcmstUFkwMTAxRU4tU2tpbGxzTmV0d29yay9sYWJzL2hhbmRvdXRzL0NoZWF0X1NoZWV0X1dlZWstMi5tZD90PTE3NTAzMTY5NDIiLCJ0b29sX3R5cGUiOiJpbnN0cnVjdGlvbmFsLWxhYiIsImF0bGFzX2ZpbGVfaWQiOjEwODI1LCJhZG1pbiI6ZmFsc2UsImlhdCI6MTc1NzQ0ODMwNX0.pZ4GmPcAY2wsZmQWF5y2cIYhvRZUL5gJ2JM47q3JjGY).
 
 ## DICTIONARY
 
