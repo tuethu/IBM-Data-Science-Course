@@ -6,13 +6,20 @@ Congratulations! You have completed this module. At this point, you know that:
 
 - In Python, we often use tuples to group related data together.Tuples refer to ordered and immutable collections of elements.
 
-- Tuples are usually written as comma-separated elements in parentheses “()".
+- Tuples are usually written as comma-separated elements in parentheses <ins>“()"<ins>.
 
 - You can include strings, integers, and floats in tuples and access them using both positive and negative indices.
 
 - You can perform operations such as combining, concatenating, and slicing on tuples.
 
-- Tuples are immutable, so you need to create a new tuple to manipulate it.
+```
+genres_tuple = ("pop", "rock", "soul", "hard rock", "soft rock", \
+                "R&B", "progressive rock", "disco") 
+genres_tuple[3:6] # Use slicing to obtain indexes 3,4 and 5
+('hard rock', 'soft rock', 'R&B') #result
+
+```
+- Tuples are <ins>immutable<ins>, so you need to create a new tuple to manipulate it.
 
 - Tuples, termed nesting, can include other tuples of complex data types.
 
@@ -23,7 +30,7 @@ Congratulations! You have completed this module. At this point, you know that:
 
 - Lists in Python contain ordered collections of items that can hold elements of different types and are mutable, allowing for versatile data storage and manipulation.
 
-- A list is an ordered sequence, represented with square brackets "[]".
+- A list is an ordered sequence, represented with square brackets <ins>"[]"<ins>.
 
 - Lists possess mutability, rendering them akin to tuples.
 
