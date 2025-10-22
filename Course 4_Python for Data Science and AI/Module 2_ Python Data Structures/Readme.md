@@ -71,7 +71,7 @@ print(fruits)
 
 - Dictionaries consist of keys and values, both composed of string elements.
 
-- You denote dictionaries using curly brackets.
+- You denote dictionaries using <ins>curly brackets<ins> {}.
 
 - The keys necessitate immutability and uniqueness.
 
@@ -85,6 +85,13 @@ print(fruits)
 
 - You can make additions and deletions to dictionaries.
 
+```
+dict_name = {} #Creates an empty dictionary
+person = { "name": "John",  "age": 30, "city": "New York"}
+person["Country"] = "USA" # A new entry will be created.
+person["city"] = "Chicago"  # Update the existing value for the same key
+
+```
 - You can perform an operation on a dictionary to check the key, which results in a true or false output.
 
 - You can apply methods to obtain a list of keys and values in a dictionary.
@@ -94,17 +101,39 @@ print(fruits)
 
 - Sets in Python are collections of unique elements, useful for tasks such as removing duplicates and performing set operations like union and intersection. Sets lack order.
 
-- Curly brackets "{}" are helpful for defining elements of a set.
-
-- Sets do not contain duplicate items.
+- <ins>Curly brackets<ins> "{}" are helpful for defining elements of a set.
+```
+empty_set = set() #Creating an Empty Set 
+fruits = {"apple", "banana", "orange"}
+colors = ("orange", "red", "green")
+```
+- Sets do <ins>NOT contain duplicate<ins> items.
 
 - A list passed through the set function generates a set containing unique elements.
 
 - You use “Set Operations” to perform actions such as adding, removing, and verifying elements in a set.
 
+```
+fruits.add("mango")
+```
+
 - You can combine sets using the ampersand "&" operator to obtain the common elements from both sets.
 
 - You can use the Union function to combine two sets, including both the common and unique elements from both sets.
+  
+```
+combined = fruits.union(colors) 
+common = fruits.intersection(colors) 
+unique_to_fruits = fruits.difference(colors) 
+sym_diff = fruits.symmetric_difference(colors)
+```
 
 - The sub-set method is used to determine if two or more sets are subsets.
+
+```
+is_subset = fruits.issubset(colors)
+```
+
+[Dictionary and Set Cheat Sheet ](https://author-ide.skills.network/render?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZF9pbnN0cnVjdGlvbnNfdXJsIjoiaHR0cHM6Ly9jZi1jb3Vyc2VzLWRhdGEuczMudXMuY2xvdWQtb2JqZWN0LXN0b3JhZ2UuYXBwZG9tYWluLmNsb3VkL0lCTURldmVsb3BlclNraWxsc05ldHdvcmstUFkwMTAxRU4tU2tpbGxzTmV0d29yay9sYWJzL2hhbmRvdXRzL0NoZWF0X1NoZWV0X1dlZWstMl9QYXJ0LTIubWQ_dD0xNzQ5MDI2NzU0IiwidG9vbF90eXBlIjoiaW5zdHJ1Y3Rpb25hbC1sYWIiLCJhdGxhc19maWxlX2lkIjoxMDgzNSwiYWRtaW4iOmZhbHNlLCJpYXQiOjE3NTc0NDgzMDl9.GbzFlAbl7gwY5nBE1cWFVTjNKuES7EF1Kt7i8JA6KVI).
+
 
