@@ -41,11 +41,20 @@ fruits = ["apple", "banana", "orange"]
 fruits.append("mango") 
 print(fruits)
 ```
+
+*add (extend) The `extend()` method is used to add multiple elements to a list**
+```
+fruits = ["apple", "banana", "orange"] 
+more_fruits = ["mango", "grape"] 
+fruits.extend(more_fruits) 
+print(fruits)
+```
 - You can separate elements in a list using delimiters.
 
 - Aliasing occurs when multiple names refer to the same object.
 
 - You can also clone a list to create another list.
+
 
 
 ## DICTIONARY
