@@ -35,7 +35,7 @@ Congratulations! You have completed this module. At this point, you know that:
 
 - You can perform operations such as adding, deleting, splitting, and so forth on a list.
 
-**add (append)**
+**add (append) The `append()` method is used to add an element to the end of a list**
 ```
 fruits = ["apple", "banana", "orange"] 
 fruits.append("mango") 
