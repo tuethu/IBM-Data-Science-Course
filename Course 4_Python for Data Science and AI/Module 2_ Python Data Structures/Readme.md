@@ -6,7 +6,7 @@ Congratulations! You have completed this module. At this point, you know that:
 
 - In Python, we often use tuples to group related data together.Tuples refer to ordered and immutable collections of elements.
 
-- Tuples are usually written as comma-separated elements in parentheses <ins>“()"<ins>.
+- Tuples are usually written as comma-separated elements in <ins>parentheses<ins> “()".
 
 - You can include strings, integers, and floats in tuples and access them using both positive and negative indices.
 
@@ -30,7 +30,7 @@ genres_tuple[3:6] # Use slicing to obtain indexes 3,4 and 5
 
 - Lists in Python contain ordered collections of items that can hold elements of different types and are mutable, allowing for versatile data storage and manipulation.
 
-- A list is an ordered sequence, represented with square brackets <ins>"[]"<ins>.
+- A list is an ordered sequence, represented with square <ins>brackets<ins> "[]".
 
 - Lists possess mutability, rendering them akin to tuples.
 
