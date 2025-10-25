@@ -58,10 +58,9 @@ for i in range(1, 16):
 ```
 
 - A while loop in Python executes a block of code as long as a specified condition remains true.
+    - Write a while loop to copy the strings 'orange' of the list squares to the list new_squares. Stop and exit the loop if the value on the list is not 'orange':
 
 ```
-# Write a while loop to copy the strings 'orange' of the list squares to the list new_squares. Stop and exit the loop if the value on the list is not 'orange':
-
 squares = ['orange', 'orange', 'purple', 'blue ', 'orange']
 new_squares = []
 i = 0
@@ -175,6 +174,21 @@ Everywhere that Mary went The lamb was sure to go","little" )
 - Python developers use the "try-except-else-finally" statement to attempt a block of code, catch exceptions in the "except" block, execute code in the "else" block when no exceptions occur, and ensure that the "finally" block always runs, regardless of whether exception was raised or not.
 
 ```
+a = 1
+
+try:
+    b = int(input("Please enter a number to divide a"))
+    a = a/b
+except ZeroDivisionError:
+    print("The number you provided cant divide 1 because it is 0")
+except ValueError:
+    print("You did not provide a number")
+except:
+    print("Something went wrong")
+else:
+    print("success a=",a)
+finally:
+    print("Processing Complete")
 ```
   
 [Exception Handling](https://author-ide.skills.network/render?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZF9pbnN0cnVjdGlvbnNfdXJsIjoiaHR0cHM6Ly9jZi1jb3Vyc2VzLWRhdGEuczMudXMuY2xvdWQtb2JqZWN0LXN0b3JhZ2UuYXBwZG9tYWluLmNsb3VkL0lCTURldmVsb3BlclNraWxsc05ldHdvcmstUFkwMTAxRU4tU2tpbGxzTmV0d29yay9sYWJzL0V4Y2VwdGlvbl9oYW5kbGluZ19SZWFkaW5nLm1kP3Q9MTc0NjExODc1NiIsInRvb2xfdHlwZSI6Imluc3RydWN0aW9uYWwtbGFiIiwiYXRsYXNfZmlsZV9pZCI6MTA4MTcsImFkbWluIjpmYWxzZSwiaWF0IjoxNzU3NDQ4MzA0fQ.Bayq6CpYG5UOwdCl_38c8OCm9QI2RmEBu2R4shXIQ6o)
@@ -187,6 +201,27 @@ Everywhere that Mary went The lamb was sure to go","little" )
 - Methods may modify an object’s internal state, but the object’s type usually remains the same.
 
 - Classes in Python are blueprints for creating objects, defining their attributes and methods, enabling code organization, and object-oriented programming.
+
+```
+class Vehicle:
+    color = "white"
+
+    def __init__(self, max_speed, mileage):
+        self.max_speed = max_speed
+        self.mileage = mileage
+        self.seating_capacity = None 
+        
+    # Method
+    def assign_seating_capacity(self, seating_capacity):
+        self.seating_capacity = seating_capacity
+
+    def display_properties(self):
+        print("Properties of the Vehicle:")
+        print("Color:", self.color)
+        print("Maximum Speed:", self.max_speed)
+        print("Mileage:", self.mileage)
+        print("Seating Capacity:", self.seating_capacity)
+```
 
 - Function "init" is a special method used to initialize data attributes.
 
@@ -202,6 +237,34 @@ Everywhere that Mary went The lamb was sure to go","little" )
 
 
 ## Lesson 6_Practice with Python Programming Fundamentals
+
+```
+class TextAnalyzer(object):
+    
+    def __init__ (self, text):
+        # remove punctuation
+        removePunctuation = text.replace('.','').replace('!','').replace('?','').replace(',','')
+        
+        # make text lowercase
+        removePunctuation = removePunctuation.lower()
+        self.fmtText = removePunctuation
+        
+    def freqAll(self):        
+        # 1. Split the fmtText attribute into individual words using the split() method.)
+        words = self.fmtText.split('')
+        
+        # 2.Create an empty dictionary to store the word frequency.
+        wordFreq = {}
+        for word in set (words):
+
+        # 3.Iterate over the list of words and update the frequency dictionary accordingly.
+        # 4.Use count method for counting the occurence.
+            wordFreq[word] = wordFreq.count(word)
+
+        # 5. Return the frequency dictionary.
+        return wordFreq
+
+```
 [Python Programming Fundamentals Cheat Sheet](https://author-ide.skills.network/render?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZF9pbnN0cnVjdGlvbnNfdXJsIjoiaHR0cHM6Ly9jZi1jb3Vyc2VzLWRhdGEuczMudXMuY2xvdWQtb2JqZWN0LXN0b3JhZ2UuYXBwZG9tYWluLmNsb3VkL0lCTURldmVsb3BlclNraWxsc05ldHdvcmstUFkwMTAxRU4tU2tpbGxzTmV0d29yay9sYWJzL2hhbmRvdXRzL0NoZWF0X1NoZWV0X1dlZWstMy5tZD90PTE3NTAzMTAxNTciLCJ0b29sX3R5cGUiOiJpbnN0cnVjdGlvbmFsLWxhYiIsImF0bGFzX2ZpbGVfaWQiOjEwODI5LCJhZG1pbiI6ZmFsc2UsImlhdCI6MTc1NzQ0ODMwN30.32ZV_tRoDobGor7tmyZd7ZlK2Be2xd-ozNhpsXwr0HM)
 
 [Python Quiz Reference Sheet](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-PY0101EN-SkillsNetwork/labs/Module%203/Python_reference_sheet.pdf?utm_medium=Exinfluencer&utm_source=Exinfluencer&utm_content=000026UJ&utm_term=10006555&utm_id=NA-SkillsNetwork-Channel-SkillsNetworkCoursesIBMDeveloperSkillsNetworkPY0101ENSkillsNetwork19487395-2022-01-01)
