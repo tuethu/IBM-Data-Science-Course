@@ -44,9 +44,9 @@ else:
 - A for loop in Python iterates over a sequence, such as a list, tuple, or string, and executes a block of code for each item in the sequence.
 
 
-# Write a Python program using a for loop that prints numbers from 1 to 15 but:
-# Skips multiples of 3
-# Stops the loop if the number is greater than 12
+    - Write a Python program using a for loop that prints numbers from 1 to 15 but:
+    - Skips multiples of 3
+    - Stops the loop if the number is greater than 12
 
 ```
 for i in range(1, 16):
