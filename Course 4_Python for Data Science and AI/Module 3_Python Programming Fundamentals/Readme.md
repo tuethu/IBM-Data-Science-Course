@@ -101,9 +101,9 @@ print (new_squares)
 
 - In Python, the scope of a variable determines where you can access or modify that variable. Global scope allows access from anywhere, while local scope restricts it to a block or function.
 
-
+### Example of <ins>global<ins> variable
 ```
-# Example of <ins>global<ins> variable
+
 myFavouriteBand = "AC/DC"
 
 def getBandRating(bandname):
