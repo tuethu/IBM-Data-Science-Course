@@ -103,7 +103,7 @@ print (new_squares)
 
 
 ```
-# Example of *** global *** variable
+# Example of <ins>global<ins> variable
 myFavouriteBand = "AC/DC"
 
 def getBandRating(bandname):
