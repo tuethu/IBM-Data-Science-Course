@@ -43,12 +43,12 @@ else:
 
 - A for loop in Python iterates over a sequence, such as a list, tuple, or string, and executes a block of code for each item in the sequence.
 
-```
+
 # Write a Python program using a for loop that prints numbers from 1 to 15 but:
 # Skips multiples of 3
 # Stops the loop if the number is greater than 12
 
-
+```
 for i in range(1, 16):
     if i % 3 == 0:
         continue  # skip multiples of 3
@@ -101,8 +101,8 @@ print (new_squares)
 
 - In Python, the scope of a variable determines where you can access or modify that variable. Global scope allows access from anywhere, while local scope restricts it to a block or function.
 
-```
 # Example of ***global*** variable
+```
 
 myFavouriteBand = "AC/DC"
 
