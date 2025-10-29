@@ -8,9 +8,9 @@ Congratulations! You have completed this module. At this point, you know that:
 
   - Python uses the <ins>**open with**</ins> function to read and process a file attribute, that is, from open to close.
 
-  - In Python, you use the open method to edit or overwrite a file.
+  - In Python, you use the <ins>**open**</ins> method to edit or overwrite a file.
 
-  - To write a file, Python uses the open function along with w.
+  - To write a file, Python uses the <ins>**open**</ins> function along with w.
 
   - In Python, "a" indicates that the program has appended to the file.
 
@@ -23,7 +23,7 @@ Congratulations! You have completed this module. At this point, you know that:
 
   - You import the file (panda) by using the import command followed by the file name. 
 
-  - In Python, you use the as command to provide a shorter name for the file.  
+  - In Python, you use the <ins>**as**</ins> command to provide a shorter name for the file.  
 
   - In Pandas, you use a data frame (df) to specify the files to read.
 
@@ -33,7 +33,7 @@ Congratulations! You have completed this module. At this point, you know that:
 
   - We can work with data in a DataFrames and save the results in different formats.
 
-  - In Python, you use the Unique method to determine unique elements in a column of the DataFrames.
+  - In Python, you use the <ins>**Unique**</ins> method to determine unique elements in a column of the DataFrames.
 
   - You use the inequality operator along with df to assign a Boolean value to the selected column in DataFrames. 
 
@@ -51,9 +51,9 @@ Congratulations! You have completed this module. At this point, you know that:
 
   - You can access elements in a NumPy using an index. 
 
-  - You use the attribute dtype to get the data type of the array elements. 
+  - You use the attribute <ins>**dtype**</ins> to get the data type of the array elements. 
 
-  - You use size and ndim to get the size and dimension of the array, respectively. 
+  - You use <ins>**size**</ins> and <ins>**ndim**</ins> to get the size and dimension of the array, respectively. 
 
   - You can use indexing and slicing methods in NumPy. 
 
