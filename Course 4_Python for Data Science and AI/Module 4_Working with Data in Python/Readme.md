@@ -4,19 +4,19 @@ Congratulations! You have completed this module. At this point, you know that:
 
 - Python uses the open() function and allows you to read and write files, providing access to the content within the file for reading. It also allows overwriting it for writing and specifies the file mode (for example, r for reading, w for writing, a for appending).
 
-To read a file, Python uses an open function along with r.
+ - To read a file, Python uses an open function along with r.
 
-Python uses the open with function to read and process a file attribute, that is, from open to close.
+ - Python uses the open with function to read and process a file attribute, that is, from open to close.
 
-In Python, you use the open method to edit or overwrite a file.
+ - In Python, you use the open method to edit or overwrite a file.
 
-To write a file, Python uses the open function along with w.
+ - To write a file, Python uses the open function along with w.
 
-In Python, "a" indicates that the program has appended to the file.
+ - In Python, "a" indicates that the program has appended to the file.
 
-In Python, “\n” signifies that the code should start on a new line. 
+ - In Python, “\n” signifies that the code should start on a new line. 
 
-Python uses various methods to print lines from attributes.
+ - Python uses various methods to print lines from attributes.
 
 
 - Pandas is a powerful Python library for data manipulation and analysis, providing data structures and functions to work with structured data like data frames and series.
