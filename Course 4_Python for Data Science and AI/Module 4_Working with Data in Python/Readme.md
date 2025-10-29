@@ -21,64 +21,65 @@ Congratulations! You have completed this module. At this point, you know that:
 
 - Pandas is a powerful Python library for data manipulation and analysis, providing data structures and functions to work with structured data like data frames and series.
 
-You import the file (panda) by using the import command followed by the file name. 
+  - You import the file (panda) by using the import command followed by the file name. 
 
-In Python, you use the as command to provide a shorter name for the file.  
+  - In Python, you use the as command to provide a shorter name for the file.  
 
-In Pandas, you use a data frame (df) to specify the files to read.
+  - In Pandas, you use a data frame (df) to specify the files to read.
 
-DataFrames consist of rows and columns.  
+  - DataFrames consist of rows and columns.  
 
-You can create new DataFrames by using the column or columns of a specific DataFrame.  
+  - You can create new DataFrames by using the column or columns of a specific DataFrame.  
 
-We can work with data in a DataFrames and save the results in different formats.
+  - We can work with data in a DataFrames and save the results in different formats.
 
-In Python, you use the Unique method to determine unique elements in a column of the DataFrames.
+  - In Python, you use the Unique method to determine unique elements in a column of the DataFrames.
 
-You use the inequality operator along with df to assign a Boolean value to the selected column in DataFrames. 
+  - You use the inequality operator along with df to assign a Boolean value to the selected column in DataFrames. 
 
-You save a new DataFrame as a different DataFrame, which may contain values from an earlier DataFrame.
+  - You save a new DataFrame as a different DataFrame, which may contain values from an earlier DataFrame.
+    
 
 - NumPy is a Python library for numerical and matrix operations, offering multidimensional array objects and a variety of mathematical functions to work with data efficiently.
 
-NumPy is a basis for Pandas.
+  - NumPy is a basis for Pandas.
 
-A NumPy array or ND array is similar to a list, usually of a fixed size with the same kind of element.
+  - A NumPy array or ND array is similar to a list, usually of a fixed size with the same kind of element.
 
 
 - A one-dimensional NumPy array is a linear sequence of elements with a single axis, like a traditional list, but optimized for numerical computations and array operations.
 
-You can access elements in a NumPy using an index. 
+  - You can access elements in a NumPy using an index. 
 
-You use the attribute dtype to get the data type of the array elements. 
+  - You use the attribute dtype to get the data type of the array elements. 
 
-You use size and ndim to get the size and dimension of the array, respectively. 
+  - You use size and ndim to get the size and dimension of the array, respectively. 
 
-You can use indexing and slicing methods in NumPy. 
+  - You can use indexing and slicing methods in NumPy. 
 
-Vector additions are widely used operations in Python. 
+  - Vector additions are widely used operations in Python. 
 
-Representing vector addition with line segments or arrows is useful.
+  - Representing vector addition with line segments or arrows is useful.
 
-NumPy codes work much faster, which is helpful with lots of data.
+  - NumPy codes work much faster, which is helpful with lots of data.
 
-You perform vector subtraction by replacing the addition sign with a negative sign. 
+  - You perform vector subtraction by replacing the addition sign with a negative sign. 
 
-Multiplying an array by a scalar in Python entails multiplying each element of the array by the scalar value, leading to a new array in which each element scales by the scalar.
+  - Multiplying an array by a scalar in Python entails multiplying each element of the array by the scalar value, leading to a new array in which each element scales by the scalar.
 
-Hadamard product refers to the element-wise multiplication of two arrays of the same shape, resulting in a new array where each element is the product of the corresponding elements in the input arrays.
+  - Hadamard product refers to the element-wise multiplication of two arrays of the same shape, resulting in a new array where each element is the product of the corresponding elements in the input arrays.
 
-The dot product in Python is the sum of the element-wise products of two arrays, often used for vector and matrix operations to find the scalar result of multiplying corresponding elements and summing them.
+  - The dot product in Python is the sum of the element-wise products of two arrays, often used for vector and matrix operations to find the scalar result of multiplying corresponding elements and summing them.
 
-When working with NumPy, it is common to utilize libraries like Matplotlib to create graphs and visualizations from numerical data stored in NumPy arrays.
+  - When working with NumPy, it is common to utilize libraries like Matplotlib to create graphs and visualizations from numerical data stored in NumPy arrays.
 
 
 - A two-dimensional NumPy array is a grid-like structure with rows and columns suitable for representing data as a matrix or a table for numerical computations.
 
-In NumPy, "shape" refers to an array's dimensions (number of rows and columns), indicating its size and structure.
+  - In NumPy, "shape" refers to an array's dimensions (number of rows and columns), indicating its size and structure.
 
-You use the attribute "size" to obtain the size of an array. 
+  - You use the attribute "size" to obtain the size of an array. 
 
-You use rectangular attributes to access the various elements in an array.
+  - You use rectangular attributes to access the various elements in an array.
 
- You use a scalar to multiply elements in NumPy.
+  - You use a scalar to multiply elements in NumPy.
