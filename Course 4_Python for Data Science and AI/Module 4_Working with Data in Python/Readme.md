@@ -6,7 +6,7 @@ Congratulations! You have completed this module. At this point, you know that:
 
   - To read a file, Python uses an open function along with r.
 
-  - Python uses the <ins>open with<ins>  function to read and process a file attribute, that is, from open to close.
+  - Python uses the **open with** function to read and process a file attribute, that is, from open to close.
 
   - In Python, you use the open method to edit or overwrite a file.
 
