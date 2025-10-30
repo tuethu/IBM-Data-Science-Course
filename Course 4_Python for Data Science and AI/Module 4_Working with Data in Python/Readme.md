@@ -10,10 +10,28 @@ Congratulations! You have completed this module. At this point, you know that:
 
   - In Python, you use the <ins>**open**</ins> method to edit or overwrite a file.
 
+```
+with open(example1, "r") as file1:
+    print(file1.readline(20)) # does not read past the end of line
+    print(file1.read(20)) # Returns the next 20 chars
+```
+
+
   - To write a file, Python uses the <ins>**open**</ins> function along with w.
-
+```
+with open('/Example2.txt', 'w') as writefile:
+    writefile.write("Overwrite\n")
+with open('/Example2.txt', 'r') as testwritefile:
+    print(testwritefile.read())
+ ```
+   
   - In Python, "a" indicates that the program has appended to the file.
-
+```
+with open('/Example2.txt', 'a+') as testwritefile:
+    testwritefile.write("This is line E\n")
+    print(testwritefile.read())
+```
+    
   - In Python, “\n” signifies that the code should start on a new line. 
 
   - Python uses various methods to print lines from attributes.
