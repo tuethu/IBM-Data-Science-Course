@@ -39,6 +39,11 @@ with open('/Example2.txt', 'a+') as testwritefile:
   - Python uses various methods to print lines from attributes.
 
 
+[Writing Files with Open](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-PY0101EN-SkillsNetwork/labs/lab/module_4/write_file_with_open_reading.md.html?origin=www.coursera.org)
+
+[Reading Files with Open](https://author-ide.skills.network/render?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZF9pbnN0cnVjdGlvbnNfdXJsIjoiaHR0cHM6Ly9jZi1jb3Vyc2VzLWRhdGEuczMudXMuY2xvdWQtb2JqZWN0LXN0b3JhZ2UuYXBwZG9tYWluLmNsb3VkL0lCTURldmVsb3BlclNraWxsc05ldHdvcmstUFkwMTAxRU4tU2tpbGxzTmV0d29yay9sYWJzL2xhYi9Nb2R1bGVfNC9SZWFkX2ZpbGVfd2l0aF9vcGVuX1JlYWRpbmcubWQ_dD0xNzQ2MTE4Nzg2IiwidG9vbF90eXBlIjoiaW5zdHJ1Y3Rpb25hbC1sYWIiLCJhdGxhc19maWxlX2lkIjoxMDg0MywiYWRtaW4iOmZhbHNlLCJpYXQiOjE3NTc0NDgzMTJ9.EhWDzZdB9DyQd9kL9wvEmtdKiue_XaX3sPxyFJgpF6g)
+
+
 ## Lesson 2_Pandas
 
 - Pandas is a powerful Python library for data manipulation and analysis, providing data structures and functions to work with structured data like data frames and series.
@@ -105,6 +110,9 @@ df_new.loc['a':'d', 'CustomerCity']
 ![Pandas 1](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%204_Python%20for%20Data%20Science%20and%20AI/Module%204_Working%20with%20Data%20in%20Python/Lesson%202_Pandas/Pandas_1.png)
 
 ![Pandas 2](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%204_Python%20for%20Data%20Science%20and%20AI/Module%204_Working%20with%20Data%20in%20Python/Lesson%202_Pandas/Pandas_2.png)
+
+
+[Introduction to Pandas for Data Analysis](https://author-ide.skills.network/render?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZF9pbnN0cnVjdGlvbnNfdXJsIjoiaHR0cHM6Ly9jZi1jb3Vyc2VzLWRhdGEuczMudXMuY2xvdWQtb2JqZWN0LXN0b3JhZ2UuYXBwZG9tYWluLmNsb3VkL0lCTURldmVsb3BlclNraWxsc05ldHdvcmstUFkwMTAxRU4tU2tpbGxzTmV0d29yay9sYWJzL01vZHVsZV80L1JlYWRpbmdfUGFuZGFzLm1kP3Q9MTc0NjExODgyMyIsInRvb2xfdHlwZSI6Imluc3RydWN0aW9uYWwtbGFiIiwiYXRsYXNfZmlsZV9pZCI6MTA4NDcsImFkbWluIjpmYWxzZSwiaWF0IjoxNzU3NDQ4MzEzfQ.3xOgm-bcbdeo5GcftsmI8TJRGKmes6ei5DxolbTUYc0)
 
 
 ## Lesson 3_Numpy in Python
@@ -192,3 +200,11 @@ Z = np.dot(A,B) # Calculate the dot product
 ```
 
 
+
+[Matrix Mathematics](https://author-ide.skills.network/render?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZF9pbnN0cnVjdGlvbnNfdXJsIjoiaHR0cHM6Ly9jZi1jb3Vyc2VzLWRhdGEuczMudXMuY2xvdWQtb2JqZWN0LXN0b3JhZ2UuYXBwZG9tYWluLmNsb3VkL0lCTURldmVsb3BlclNraWxsc05ldHdvcmstUFkwMTAxRU4tU2tpbGxzTmV0d29yay9sYWJzL21vZF80L21hdHJpeF9tYXRocy5tZD90PTE3NTM0NjI3NzkiLCJ0b29sX3R5cGUiOiJpbnN0cnVjdGlvbmFsLWxhYiIsImF0bGFzX2ZpbGVfaWQiOjEwODU5LCJhZG1pbiI6ZmFsc2UsImlhdCI6MTc1NzQ0ODMxN30.pQxJLxlIEwxqCCOCXcyF9W1BZhR4Dv60PYo_VMZLerc)
+
+[Beginner's Guide to NumPy](https://author-ide.skills.network/render?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZF9pbnN0cnVjdGlvbnNfdXJsIjoiaHR0cHM6Ly9jZi1jb3Vyc2VzLWRhdGEuczMudXMuY2xvdWQtb2JqZWN0LXN0b3JhZ2UuYXBwZG9tYWluLmNsb3VkL0lCTURldmVsb3BlclNraWxsc05ldHdvcmstUFkwMTAxRU4tU2tpbGxzTmV0d29yay9sYWJzL01vZHVsZV80L251bXB5X3JlYWRpbmcubWQ_dD0xNzQ5Nzk1NTQxIiwidG9vbF90eXBlIjoiaW5zdHJ1Y3Rpb25hbC1sYWIiLCJhdGxhc19maWxlX2lkIjoxMDg1MSwiYWRtaW4iOmZhbHNlLCJpYXQiOjE3NTc0NDgzMTR9.WJvSCAlEd5pBR4SmibLhQcIZgJRP27GDZVa3eX78axM)
+
+[Cheat Sheet: Working with Data in Python](https://author-ide.skills.network/render?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZF9pbnN0cnVjdGlvbnNfdXJsIjoiaHR0cHM6Ly9jZi1jb3Vyc2VzLWRhdGEuczMudXMuY2xvdWQtb2JqZWN0LXN0b3JhZ2UuYXBwZG9tYWluLmNsb3VkL0lCTURldmVsb3BlclNraWxsc05ldHdvcmstUFkwMTAxRU4tU2tpbGxzTmV0d29yay9sYWJzL2hhbmRvdXRzL0NoZWF0X1NoZWV0X1dlZWstNC5tZD90PTE3NDYxMTg3OTEiLCJ0b29sX3R5cGUiOiJpbnN0cnVjdGlvbmFsLWxhYiIsImF0bGFzX2ZpbGVfaWQiOjEwODM3LCJhZG1pbiI6ZmFsc2UsImlhdCI6MTc1NzQ0ODMxMH0.ZVx6wLgcEcn_0OeKaaCJLPEkAYOwM2EKNitFjFbIoOU)
+
+[Module 4 Glossary: Working with Data in Python](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-PY0101EN-SkillsNetwork/labs/200336.025_Module_4_Glossary.md.html)
