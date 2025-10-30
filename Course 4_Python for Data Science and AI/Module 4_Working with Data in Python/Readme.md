@@ -101,7 +101,10 @@ df_new.loc['a':'d', 'CustomerCity']
 ```
 
   - You save a new DataFrame as a different DataFrame, which may contain values from an earlier DataFrame.
-    
+
+[Pandas 1](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%204_Python%20for%20Data%20Science%20and%20AI/Module%204_Working%20with%20Data%20in%20Python/Lesson%202_Pandas/Pandas_1.png)).
+
+[Pandas 2](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%204_Python%20for%20Data%20Science%20and%20AI/Module%204_Working%20with%20Data%20in%20Python/Lesson%202_Pandas/Pandas_2.png).
 
 ## Lesson 3_Numpy in Python
 
