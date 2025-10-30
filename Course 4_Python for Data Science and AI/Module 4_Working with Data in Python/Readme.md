@@ -2,6 +2,8 @@
 
 Congratulations! You have completed this module. At this point, you know that: 
 
+## Lesson 1_Reading and Writing Files with Open
+
 - Python uses the open() function and allows you to read and write files, providing access to the content within the file for reading. It also allows overwriting it for writing and specifies the file mode (for example, r for reading, w for writing, a for appending).
 
   - To read a file, Python uses an open function along with r.
@@ -37,13 +39,44 @@ with open('/Example2.txt', 'a+') as testwritefile:
   - Python uses various methods to print lines from attributes.
 
 
+## Lesson 2_Pandas
+
 - Pandas is a powerful Python library for data manipulation and analysis, providing data structures and functions to work with structured data like data frames and series.
 
   - You import the file (panda) by using the import command followed by the file name. 
 
-  - In Python, you use the <ins>**as**</ins> command to provide a shorter name for the file.  
+  - In Python, you use the <ins>**as**</ins> command to provide a shorter name for the file.
+```
+from pyodide.http import pyfetch
+import pandas as pd
 
+filename = "https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/LXjSAttmoxJfEG6il1Bqfw/Product-sales.csv"
+
+async def download(url, filename):
+    response = await pyfetch(url)
+    if response.status == 200:
+        with open(filename, "wb") as f:
+            f.write(await response.bytes())
+
+
+await download(filename, "Product-sales.csv")
+df = pd.read_csv("Product-sales.csv")
+```
   - In Pandas, you use a data frame (df) to specify the files to read.
+
+```
+x = df['Product']
+x
+
+#Output as following
+0        Laptop
+1    Smartphone
+2    Desk Chair
+3      Notebook
+4       Monitor
+Name: Product, dtype: object
+
+```
 
   - DataFrames consist of rows and columns.  
 
@@ -53,10 +86,24 @@ with open('/Example2.txt', 'a+') as testwritefile:
 
   - In Python, you use the <ins>**Unique**</ins> method to determine unique elements in a column of the DataFrames.
 
-  - You use the inequality operator along with df to assign a Boolean value to the selected column in DataFrames. 
+```
+df.iloc[0, 0] # Access the value on the first row and the first column
+```
+
+  - You use the inequality operator along with df to assign a Boolean value to the selected column in DataFrames.
+
+```
+new_index=['a','b','c','d','e']
+df_new=df
+df_new.index=new_index
+df_new.loc['a', 'CustomerCity']
+df_new.loc['a':'d', 'CustomerCity']
+```
 
   - You save a new DataFrame as a different DataFrame, which may contain values from an earlier DataFrame.
     
+
+## Lesson 3_Numpy in Python
 
 - NumPy is a Python library for numerical and matrix operations, offering multidimensional array objects and a variety of mathematical functions to work with data efficiently.
 
