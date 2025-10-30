@@ -118,9 +118,32 @@ df_new.loc['a':'d', 'CustomerCity']
 
   - You use the attribute <ins>**dtype**</ins> to get the data type of the array elements. 
 
-  - You use <ins>**size**</ins> and <ins>**ndim**</ins> to get the size and dimension of the array, respectively. 
+```
+b = np.array([3.1, 11.02, 6.2, 213.2, 5.2])
+type(b)
+b.dtype
+```
 
-  - You can use indexing and slicing methods in NumPy. 
+  - You use <ins>**size**</ins> and <ins>**ndim**</ins> to get the size and dimension of the array, respectively.
+    
+```
+a = np.array([0, 1, 2, 3, 4])
+a.size
+```
+
+  - You can use indexing and slicing methods in NumPy.
+```
+arr1 = np.array([1, 2, 3, 4, 5])
+arr2 = np.array([6, 7, 8, 9, 10])
+
+#Starting index in slice is 1 as first even element(2) in array1 is at index 1
+even_arr1 = arr1[1:5:2]
+print("even for array1",even_arr1)
+    
+#Starting index in slice is 0 as first odd element(1) in array1 is at index 0
+odd_arr1=arr1[0:5:2]
+print("odd for array1",odd_arr1)
+```
 
   - Vector additions are widely used operations in Python. 
 
@@ -136,6 +159,15 @@ df_new.loc['a':'d', 'CustomerCity']
 
   - The dot product in Python is the sum of the element-wise products of two arrays, often used for vector and matrix operations to find the scalar result of multiplying corresponding elements and summing them.
 
+```
+a = np.array([-1, 1])
+b = np.array([1, 1])
+Plotvec2(a, b)
+print("The dot product is", np.dot(a,b))
+
+#result: The dot product is 0
+```
+
   - When working with NumPy, it is common to utilize libraries like Matplotlib to create graphs and visualizations from numerical data stored in NumPy arrays.
 
 
@@ -148,3 +180,11 @@ df_new.loc['a':'d', 'CustomerCity']
   - You use rectangular attributes to access the various elements in an array.
 
   - You use a scalar to multiply elements in NumPy.
+ 
+```
+A = np.array([[0, 1, 1], [1, 0, 1]]) # Create a matrix A
+B = np.array([[1, 1], [1, 1], [-1, 1]]) # Create a matrix B
+Z = np.dot(A,B) # Calculate the dot product
+```
+
+
