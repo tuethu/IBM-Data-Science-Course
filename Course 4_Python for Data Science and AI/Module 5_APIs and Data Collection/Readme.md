@@ -132,8 +132,7 @@ GET request body: None #result
 
 ![Working with Files](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%204_Python%20for%20Data%20Science%20and%20AI/Module%205_APIs%20and%20Data%20Collection/Lesson%204_Working%20with%20Files/Working%20with%20Files.png)
 
-Table Rows is <tr>
-Table Cells is <td>
+(Table Rows is tr & Table Cells is td)
   
 - Navigable string is like a Python string that supports beautiful soup functionality.
 
