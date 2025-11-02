@@ -15,6 +15,8 @@ Congratulations! You have completed this module. At this point, you know that:
   - An Instance forms when you create a dictionary and then use the DataFrames constructor to create a Pandas object. 
 
   - Method “head()” will display the mentioned number of rows from the top (default 5) of DataFrames, while method “mean()” will calculate the mean and return the values
+ 
+[Reading: Some Context on APIs](https://author-ide.skills.network/render?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZF9pbnN0cnVjdGlvbnNfdXJsIjoiaHR0cHM6Ly9jZi1jb3Vyc2VzLWRhdGEuczMudXMuY2xvdWQtb2JqZWN0LXN0b3JhZ2UuYXBwZG9tYWluLmNsb3VkL0lCTURldmVsb3BlclNraWxsc05ldHdvcmstUFkwMTAxRU4tU2tpbGxzTmV0d29yay9sYWJzL21vZF81L0FQSV9yZWxldmFuY2UubWQ_dD0xNzQ2MTE4NzY1IiwidG9vbF90eXBlIjoiaW5zdHJ1Y3Rpb25hbC1sYWIiLCJhdGxhc19maWxlX2lkIjoxMDg2MSwiYWRtaW4iOmZhbHNlLCJpYXQiOjE3NTc0NDgzMTh9.jOj82UHSpxVpe33QE87i_f2CJwYgWN48DuBZDaxSzQ0)
 
 
 ## Lesson 2_REST APIs
@@ -72,6 +74,12 @@ Requests is a Python library that allows you to send HTTP/1.1 requests easily
 
   - Each HTML table is comprised of table tags and is structured with elements such as rows, headers, body and so on.
 
+[Reading: Web Scraping and HTML Basics](https://author-ide.skills.network/render?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZF9pbnN0cnVjdGlvbnNfdXJsIjoiaHR0cHM6Ly9jZi1jb3Vyc2VzLWRhdGEuczMudXMuY2xvdWQtb2JqZWN0LXN0b3JhZ2UuYXBwZG9tYWluLmNsb3VkL0lCTURldmVsb3BlclNraWxsc05ldHdvcmstUFkwMTAxRU4tU2tpbGxzTmV0d29yay9sYWJzL2xhYi9tb2R1bGVfNS9XZWJTY3JhcGluZ19yZWFkaW5nLm1kP3Q9MTc1MDI0MjYzNCIsInRvb2xfdHlwZSI6Imluc3RydWN0aW9uYWwtbGFiIiwiYXRsYXNfZmlsZV9pZCI6MTA4NDksImFkbWluIjpmYWxzZSwiaWF0IjoxNzU3NDQ4MzE0fQ.u1Gcsc2xt_HHc5UuZ7Box_XgPclpI8oPRzF5adVPnHE)
+
+[Reading: Web Scraping - A Key Tool in Data Science](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-PY0101EN-SkillsNetwork/labs/mod_5/additional_webscraping.md.html)
+
+[Reading: Web Scraping Tables using Pandas](https://author-ide.skills.network/render?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZF9pbnN0cnVjdGlvbnNfdXJsIjoiaHR0cHM6Ly9jZi1jb3Vyc2VzLWRhdGEuczMudXMuY2xvdWQtb2JqZWN0LXN0b3JhZ2UuYXBwZG9tYWluLmNsb3VkL0lCTURldmVsb3BlclNraWxsc05ldHdvcmstUFkwMTAxRU4tU2tpbGxzTmV0d29yay9sYWJzL21vZF81L3dlYnNjcmFwaW5nX3VzaW5nX3BhbmRhcy5tZD90PTE3NTAyNDk4NTIiLCJ0b29sX3R5cGUiOiJpbnN0cnVjdGlvbmFsLWxhYiIsImF0bGFzX2ZpbGVfaWQiOjEwODU3LCJhZG1pbiI6ZmFsc2UsImlhdCI6MTc1NzQ0ODMxNn0.M6a-Belm2yynClG-DP_DXcL7e3rEV41w65506nukrmQ)
+
 
 ## Lesson 4_Working with Files
 
@@ -98,6 +106,8 @@ Requests is a Python library that allows you to send HTTP/1.1 requests easily
 - The extension of a file name will let you know what type of file it is and what it needs to open with.
 
 - To access data from CSV files, we can use Python libraries such as Pandas.
+
+[Cheat Sheet: APIs and Data Collection](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-PY0101EN-SkillsNetwork/handouts/Python%20Cheat%20Sheet%20-%20The%20Basics%20Coursera.pdf)
 
 - Similarly, different methods help parse JSON, XML, and other files.
 
