@@ -59,6 +59,10 @@ df.mean()
   - Uniform resource locator (URL) is the most popular way to find resources on the web.
 
   - URL is divided into three parts: scheme, internet address or base URL, and route
+ 
+    - Scheme:- This is this protocol, for this lab it will always be http://
+    - Internet address or Base URL :- This will be used to find the location here are some examples: www.ibm.com and  www.gitlab.com 
+    - Route:- Location on the web server for example: /images/IDSNlogo.png
 
   - The GET method is one of the popular methods of requesting information. Some other methods may also include the body.
 ```
