@@ -107,7 +107,9 @@ Requests is a Python library that allows you to send HTTP/1.1 requests easily
 
 - To access data from CSV files, we can use Python libraries such as Pandas.
 
+- Similarly, different methods help parse JSON, XML, and other files.
+
 [Cheat Sheet: APIs and Data Collection](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-PY0101EN-SkillsNetwork/handouts/Python%20Cheat%20Sheet%20-%20The%20Basics%20Coursera.pdf)
 
-- Similarly, different methods help parse JSON, XML, and other files.
+[Python Cheat Sheet: The Basics](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-PY0101EN-SkillsNetwork/handouts/Python%20Cheat%20Sheet%20-%20The%20Basics%20Coursera.pdf)
 
