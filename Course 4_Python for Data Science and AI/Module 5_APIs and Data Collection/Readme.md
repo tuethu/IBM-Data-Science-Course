@@ -83,8 +83,6 @@ Requests is a Python library that allows you to send HTTP/1.1 requests easily
 
   - You can modify the results of your query with the GET method.
 
-  - You can obtain multiple requests from a URL like name, ID, and so on with a Query string.
-
 ```
 url_post='http://httpbin.org/post'
 r_post=requests.post(url_post,data=payload)
@@ -95,6 +93,10 @@ print("GET request body:",r.request.body)
 POST request body: name=Joseph&ID=123 #result
 GET request body: None #result 
 ```
+
+  - You can obtain multiple requests from a URL like name, ID, and so on with a Query string.
+
+![A query string](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%204_Python%20for%20Data%20Science%20and%20AI/Module%205_APIs%20and%20Data%20Collection/Lesson%202_REST%20APIs%20%26%20HTTP%20Requests/A%20query%20string.png)
 
 
 ## Lesson 3_Web Scraping
@@ -128,6 +130,8 @@ GET request body: None #result
 
 - Beautiful soup represents HTML as a set of tree-like objects with methods to parse the HTML.
 
+![Working with Files](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%204_Python%20for%20Data%20Science%20and%20AI/Module%205_APIs%20and%20Data%20Collection/Lesson%204_Working%20with%20Files/Working%20with%20Files.png)
+
 - Navigable string is like a Python string that supports beautiful soup functionality.
 
 - find_all is a method used to extract content based on the tag’s name, its attributes, the text of a string, or some combination of these.
@@ -135,6 +139,18 @@ GET request body: None #result
 - The find_all method looks through a tag’s descendants and retrieves all descendants that match your filters.
 
 - The result is a Python iterable like a list.
+
+```
+table_rows=table_bs.find_all('tr')
+table_rows
+
+
+#result
+#[<tr><td id="flight">Flight No</td><td>Launch site</td> <td>Payload mass</td></tr>,
+ <tr> <td>1</td><td><a href="https://en.wikipedia.org/wiki/Florida">Florida<a></a></a></td><td>300 kg</td></tr>,
+ <tr><td>2</td><td><a href="https://en.wikipedia.org/wiki/Texas">Texas</a></td><td>94 kg</td></tr>,
+ <tr><td>3</td><td><a href="https://en.wikipedia.org/wiki/Florida">Florida<a> </a></a></td><td>80 kg</td></tr>]
+```
 
 - File formats refer to the specific structure and encoding rules used to store and represent data in files, such as .txt for plain text or .csv for comma-separated values.
 
