@@ -16,6 +16,20 @@ Congratulations! You have completed this module. At this point, you know that:
 
   - Method “head()” will display the mentioned number of rows from the top (default 5) of DataFrames, while method “mean()” will calculate the mean and return the values
  
+```
+import pandas as pd
+import matplotlib.pyplot as plt
+
+dict_={'a':[11,21,31],'b':[12,22,32]}
+
+df=pd.DataFrame(dict_)
+type(df)
+
+df.head()
+df.mean()
+
+```
+ 
 [Reading: Some Context on APIs](https://author-ide.skills.network/render?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZF9pbnN0cnVjdGlvbnNfdXJsIjoiaHR0cHM6Ly9jZi1jb3Vyc2VzLWRhdGEuczMudXMuY2xvdWQtb2JqZWN0LXN0b3JhZ2UuYXBwZG9tYWluLmNsb3VkL0lCTURldmVsb3BlclNraWxsc05ldHdvcmstUFkwMTAxRU4tU2tpbGxzTmV0d29yay9sYWJzL21vZF81L0FQSV9yZWxldmFuY2UubWQ_dD0xNzQ2MTE4NzY1IiwidG9vbF90eXBlIjoiaW5zdHJ1Y3Rpb25hbC1sYWIiLCJhdGxhc19maWxlX2lkIjoxMDg2MSwiYWRtaW4iOmZhbHNlLCJpYXQiOjE3NTc0NDgzMTh9.jOj82UHSpxVpe33QE87i_f2CJwYgWN48DuBZDaxSzQ0)
 
 
@@ -47,10 +61,18 @@ Congratulations! You have completed this module. At this point, you know that:
   - URL is divided into three parts: scheme, internet address or base URL, and route
 
   - The GET method is one of the popular methods of requesting information. Some other methods may also include the body.
-
+```
+data2 = requests.get("https://official-joke-api.appspot.com/jokes/ten") #Using requests.get("url") function, load the data from the URL
+results2 = json.loads(data2.text) #Retrieve results using json.loads() function
+df3 = pd.DataFrame(results2) #Convert json data into pandas data frame. Drop the type and id columns
+df3.drop(columns=["type","id"],inplace=True)
+df3
+```
   - Response method contains the version and body of the response.
 
   - POST submits data to the server, PUT updates data already on the server, DELETE deletes data from the server
+  - 
+![HTTP and Requests](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%204_Python%20for%20Data%20Science%20and%20AI/Module%205_APIs%20and%20Data%20Collection/Lesson%202_REST%20APIs%20%26%20HTTP%20Requests/HTTP%20and%20Requests.png)
 
 
 Requests is a Python library that allows you to send HTTP/1.1 requests easily
@@ -58,6 +80,17 @@ Requests is a Python library that allows you to send HTTP/1.1 requests easily
   - You can modify the results of your query with the GET method.
 
   - You can obtain multiple requests from a URL like name, ID, and so on with a Query string.
+
+```
+url_post='http://httpbin.org/post'
+r_post=requests.post(url_post,data=payload)
+print("POST request body:",r_post.request.body)
+print("GET request body:",r.request.body)
+
+#results (We can compare the POST and GET request body, we see only the POST request has a body)
+POST request body: name=Joseph&ID=123 #result
+GET request body: None #result 
+```
 
 
 ## Lesson 3_Web Scraping
