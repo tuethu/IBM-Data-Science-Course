@@ -75,7 +75,7 @@ df3
   - Response method contains the version and body of the response.
 
   - POST submits data to the server, PUT updates data already on the server, DELETE deletes data from the server
-  - 
+    
 ![HTTP and Requests](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%204_Python%20for%20Data%20Science%20and%20AI/Module%205_APIs%20and%20Data%20Collection/Lesson%202_REST%20APIs%20%26%20HTTP%20Requests/HTTP%20and%20Requests.png)
 
 
@@ -132,8 +132,8 @@ GET request body: None #result
 
 ![Working with Files](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%204_Python%20for%20Data%20Science%20and%20AI/Module%205_APIs%20and%20Data%20Collection/Lesson%204_Working%20with%20Files/Working%20with%20Files.png)
 
-<tr>Table Rows 
-<td>Table Cells 
+Table Rows is <tr>
+Table Cells is <td>
   
 - Navigable string is like a Python string that supports beautiful soup functionality.
 
