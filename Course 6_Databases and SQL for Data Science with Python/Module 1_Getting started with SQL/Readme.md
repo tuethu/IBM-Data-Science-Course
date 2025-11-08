@@ -12,19 +12,10 @@ Congratulations! You have completed this lesson. At this point in the course, yo
   
    1. COUNT
 
-```
-SELECT * FROM FilmLocations;
-SELECT COUNT(*) FROM FilmLocations;
-SELECT COUNT(Locations) FROM FilmLocations WHERE Writer="James Cameron";
-SELECT Count(*) FROM FilmLocations WHERE ReleaseYear<1950; #Retrieve the number of rows having a release year older than 1950 from the "FilmLocations" table.
-```
  
    2. DISTINCT 
 
-```
-SELECT DISTINCT Title FROM FilmLocations;
-```
-   
+
    3. LIMIT 
   
 ```
