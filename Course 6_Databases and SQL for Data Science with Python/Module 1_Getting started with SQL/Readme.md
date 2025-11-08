@@ -8,7 +8,7 @@ Congratulations! You have completed this lesson. At this point in the course, yo
 
 - The SQL retrieves specific data from databases.
 
-- The COUNT, DISTINCT, and LIMIT are expressions used with SELECT statements. 
+- The COUNT is expression used with SELECT statements. 
       - COUNT
 ```
 SELECT * FROM FilmLocations;
@@ -16,13 +16,13 @@ SELECT COUNT(*) FROM FilmLocations;
 SELECT COUNT(Locations) FROM FilmLocations WHERE Writer="James Cameron";
 SELECT Count(*) FROM FilmLocations WHERE ReleaseYear<1950; #Retrieve the number of rows having a release year older than 1950 from the "FilmLocations" table.
 ```
-
+- The DISTINCT is expression used with SELECT statements. 
    - DISTINCT
 ```
 SELECT DISTINCT Title FROM FilmLocations;
 ```
    
-   - LIMIT
+- The LIMIT is expression used with SELECT statements. 
 ```
 SELECT * FROM FilmLocations LIMIT 25;
 SELECT * FROM FilmLocations LIMIT 15 OFFSET 10; #retrieve 15 rows from the table starting from row 11.
