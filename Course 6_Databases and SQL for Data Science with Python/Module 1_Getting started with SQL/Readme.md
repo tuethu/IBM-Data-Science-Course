@@ -10,7 +10,7 @@ Congratulations! You have completed this lesson. At this point in the course, yo
 
 - The COUNT, DISTINCT, and LIMIT are expressions used with SELECT statements.
   
-  ■ COUNT
+   ■ COUNT
 ```
 SELECT * FROM FilmLocations;
 SELECT COUNT(*) FROM FilmLocations;
