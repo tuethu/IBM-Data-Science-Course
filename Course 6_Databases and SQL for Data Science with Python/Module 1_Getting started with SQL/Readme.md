@@ -18,6 +18,7 @@ SELECT COUNT(*) FROM FilmLocations;
 SELECT COUNT(Locations) FROM FilmLocations WHERE Writer="James Cameron";
 SELECT Count(*) FROM FilmLocations WHERE ReleaseYear<1950; #Retrieve the number of rows having a release year older than 1950 from the "FilmLocations" table.
 ```
+ 
    - 2. DISTINCT 
 
 ```
