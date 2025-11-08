@@ -28,20 +28,24 @@ SELECT * FROM FilmLocations LIMIT 15 OFFSET 10; #retrieve 15 rows from the table
 - The real-world applications of SELECT statements.
 
  - The INSERT, UPDATE, and DELETE are DML statements for populating and changing tables.
-     - INSERT
+  - INSERT
 ```
 INSERT INTO Instructor(ins_id, lastname, firstname, city, country)
 VALUES(4, 'Saha', 'Sandip', 'Edmonton', 'CA'), (5, 'Doe', 'Jane', 'Dhaka', 'BD');
 ```
-     - UPDATE
+  - UPDATE
 ```
 UPDATE Instructor 
 SET city='Toronto' 
 WHERE firstname="Sandip";
 ```
-     - DELETE
+  - DELETE
 ```
 DELETE FROM instructor
 WHERE firstname = 'Hima';
-
 ```
+
+
+[SQL Cheat Sheet: Basics](https://author-ide.skills.network/render?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZF9pbnN0cnVjdGlvbnNfdXJsIjoiaHR0cHM6Ly9jZi1jb3Vyc2VzLWRhdGEuczMudXMuY2xvdWQtb2JqZWN0LXN0b3JhZ2UuYXBwZG9tYWluLmNsb3VkL0lCTURldmVsb3BlclNraWxsc05ldHdvcmstREIwMjAxRU4tU2tpbGxzTmV0d29yay9sYWJzL0NoZWF0U2hlZXQvU1FMLUNoZWF0LVNoZWV0LUJhc2Npcy5tZD90PTE3NDYxMTkwNzciLCJ0b29sX3R5cGUiOiJpbnN0cnVjdGlvbmFsLWxhYiIsImF0bGFzX2ZpbGVfaWQiOjEyMzY2LCJhZG1pbiI6ZmFsc2UsImlhdCI6MTc1NzQ0ODM4Nn0.t7w7XLUY7jExmrnfEwG3bUtxwCfWF2htDMaJ7nDqx4Q)
+
+[SELECT statement examples](https://author-ide.skills.network/render?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZF9pbnN0cnVjdGlvbnNfdXJsIjoiaHR0cHM6Ly9jZi1jb3Vyc2VzLWRhdGEuczMudXMuY2xvdWQtb2JqZWN0LXN0b3JhZ2UuYXBwZG9tYWluLmNsb3VkL0lCTURldmVsb3BlclNraWxsc05ldHdvcmstREIwMjAxRU4tU2tpbGxzTmV0d29yay9sYWJzL3Y4L1NFTEVDVF9zdGF0ZW1lbnRfZXhhbXBsZXMubWQ_dD0xNzQ3OTIwMDg5IiwidG9vbF90eXBlIjoiaW5zdHJ1Y3Rpb25hbC1sYWIiLCJhdGxhc19maWxlX2lkIjozMjA2OCwiYWRtaW4iOmZhbHNlLCJpYXQiOjE3NTc2OTQ0MjJ9.oRclyQyHfuKyxrBRdLY-Q_9Zj8vr8Q7WoDZtmQe_OmU)
