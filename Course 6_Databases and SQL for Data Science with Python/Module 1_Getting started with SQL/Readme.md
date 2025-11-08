@@ -9,6 +9,7 @@ Congratulations! You have completed this lesson. At this point in the course, yo
 - The SQL retrieves specific data from databases.
 
 - The COUNT, DISTINCT, and LIMIT are expressions used with SELECT statements.
+  
    1. COUNT
 
 ```
