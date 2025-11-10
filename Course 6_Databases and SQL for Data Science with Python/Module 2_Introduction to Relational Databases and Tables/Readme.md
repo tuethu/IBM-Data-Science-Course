@@ -11,6 +11,89 @@ Congratulations! You have completed this lesson. At this point in the course, yo
 - The primary key of a relational table uniquely identifies each tuple or row, preventing duplication of data and providing a way of defining relationships between tables.  
 
 - SQL statements fall into two different categories: Data Definition Language (DDL) statements and Data Manipulation Language (DML) statements.
+  
+## DDL (Data Definition Language) 
+such as CREATE, TRUNCATE (Remove all data but keep the table), DROP (Delete the table), RENAME, ALTER (Add a new column)
+
+ 1. CREATE
+    
+CREATE TABLE PETSALE (
+        ID INTEGER NOT NULL,
+        PET CHAR(20),
+        SALEPRICE DECIMAL(6,2),
+        PROFIT DECIMAL(6,2),
+        SALEDATE DATE
+        );
+
+
+   2. ALTER
+      2.1. Adding a column
+
+ALTER TABLE PETSALE
+ADD COLUMN QUANTITY INTEGER;
+
+or 
+
+ALTER TABLE PETSALE
+MODIFY PET VARCHAR(20);
+
+      2.2. Modify a column
+
+ALTER TABLE PETSALE
+MODIFY PET VARCHAR(20);
+
+      2.3. Deleting a column
+
+ALTER TABLE PETSALE
+DROP COLUMN PROFIT;
+
+
+
+
+      2.4. Rename a Column
+Rename the column PET to ANIMAL of the PETSALE
+
+ALTER TABLE `PETSALE` CHANGE `PET` `ANIMAL` varchar(20);
+
+INSERT statement
+
+INSERT INTO PETSALE VALUES
+        (1,'Cat',450.09,100.47,'2018-05-29'),
+        (2,'Dog',666.66,150.76,'2018-06-01'),
+        (3,'Parrot',50.00,8.9,'2018-06-04'),
+        (4,'Hamster',60.60,12,'2018-06-11'),
+        (5,'Goldfish',48.48,3.5,'2018-06-14');
+
+----------------------------------------------
+
+
+
+Now update the newly added QUANTITY column of the PETSALE table with some values and show all the table records.
+
+UPDATE PETSALE SET QUANTITY = 9 WHERE ID = 1;
+UPDATE PETSALE SET QUANTITY = 3 WHERE ID = 2;
+UPDATE PETSALE SET QUANTITY = 2 WHERE ID = 3;
+
+
+
+
+
+
+Task 4: TRUNCATE statement
+Let's remove all rows from the PET table and show the empty table
+
+
+TRUNCATE TABLE PET ;
+
+SELECT * FROM PET;
+
+Task 5: DROP statement
+Finally, you will use the DROP statement to delete an existing table. Let's delete the PET table and verify if the table still exists or not (
+
+DROP TABLE PET;
+
+SELECT * FROM PET;
+
 
 [Reading: Examples to ALTER and TRUNCATE tables using MySQL](https://author-ide.skills.network/render?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZF9pbnN0cnVjdGlvbnNfdXJsIjoiaHR0cHM6Ly9jZi1jb3Vyc2VzLWRhdGEuczMudXMuY2xvdWQtb2JqZWN0LXN0b3JhZ2UuYXBwZG9tYWluLmNsb3VkL0lCTURldmVsb3BlclNraWxsc05ldHdvcmstREIwMjAxRU4tU2tpbGxzTmV0d29yay9sYWJzL3Y4L0FsdGVyX1RydW5jYXRlX3JlYWRpbmcubWQ_dD0xNzQ2MTIyNDk5IiwidG9vbF90eXBlIjoiaW5zdHJ1Y3Rpb25hbC1sYWIiLCJhdGxhc19maWxlX2lkIjozMjA3MCwiYWRtaW4iOmZhbHNlLCJpYXQiOjE3NTc2OTQ0MjJ9.JZMtjW9DRy8N0AffWssTwGh5L6w-0X_8M8ZqHFsjLJg)
 
