@@ -11,6 +11,7 @@ Congratulations! You have completed this lesson. At this point in the course, yo
 - The primary key of a relational table uniquely identifies each tuple or row, preventing duplication of data and providing a way of defining relationships between tables.  
 
 - SQL statements fall into two different categories: Data Definition Language (DDL) statements and Data Manipulation Language (DML) statements.
+  ![DDL and DML](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%206_Databases%20and%20SQL%20for%20Data%20Science%20with%20Python/Module%202_Introduction%20to%20Relational%20Databases%20and%20Tables/DDL%20and%20DML.jpg)
   
 ## 1. DDL (Data Definition Language) 
 such as CREATE, TRUNCATE (Remove all data but keep the table), DROP (Delete the table), RENAME, ALTER (Add a new column)
