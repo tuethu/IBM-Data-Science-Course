@@ -28,6 +28,7 @@ CREATE TABLE PETSALE (
 ```
 
    2. ALTER
+      
       2.1. Adding a column
 
 ```
@@ -35,13 +36,13 @@ ALTER TABLE PETSALE
 ADD COLUMN QUANTITY INTEGER;
 ```
 
-        2.2. Modify a column
+   2.2. Modify a column
         
 ```
 ALTER TABLE PETSALE
 MODIFY PET VARCHAR(20);
 ```
-      2.3. Deleting a column
+  2.3. Deleting a column
 
 ```
 ALTER TABLE PETSALE
