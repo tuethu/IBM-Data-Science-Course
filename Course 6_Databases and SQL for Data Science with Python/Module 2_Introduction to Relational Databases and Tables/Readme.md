@@ -16,7 +16,8 @@ Congratulations! You have completed this lesson. At this point in the course, yo
 such as CREATE, TRUNCATE (Remove all data but keep the table), DROP (Delete the table), RENAME, ALTER (Add a new column)
 
  1. CREATE
-    
+
+```
 CREATE TABLE PETSALE (
         ID INTEGER NOT NULL,
         PET CHAR(20),
@@ -24,36 +25,39 @@ CREATE TABLE PETSALE (
         PROFIT DECIMAL(6,2),
         SALEDATE DATE
         );
-
+```
 
    2. ALTER
       2.1. Adding a column
 
+```
 ALTER TABLE PETSALE
 ADD COLUMN QUANTITY INTEGER;
+```
 
-or 
-
+        2.2. Modify a column
+        
+```
 ALTER TABLE PETSALE
 MODIFY PET VARCHAR(20);
-
-      2.2. Modify a column
-
-ALTER TABLE PETSALE
-MODIFY PET VARCHAR(20);
-
+```
       2.3. Deleting a column
 
+```
 ALTER TABLE PETSALE
 DROP COLUMN PROFIT;
-
+```
 
 
 
       2.4. Rename a Column
 Rename the column PET to ANIMAL of the PETSALE
 
+```
 ALTER TABLE `PETSALE` CHANGE `PET` `ANIMAL` varchar(20);
+```
+
+
 
 INSERT statement
 
