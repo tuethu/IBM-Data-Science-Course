@@ -29,7 +29,7 @@ CREATE TABLE PETSALE (
 
    2. ALTER
       
-      2.1. Adding a column
+2.1. Adding a column
 
 ```
 ALTER TABLE PETSALE
@@ -49,9 +49,7 @@ ALTER TABLE PETSALE
 DROP COLUMN PROFIT;
 ```
 
-
-
-      2.4. Rename a Column
+   2.4. Rename a Column
 Rename the column PET to ANIMAL of the PETSALE
 
 ```
