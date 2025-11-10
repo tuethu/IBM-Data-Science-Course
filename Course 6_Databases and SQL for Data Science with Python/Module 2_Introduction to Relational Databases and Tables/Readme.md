@@ -105,6 +105,7 @@ SELECT * FROM PET;
 [Lab: CREATE, ALTER, TRUNCATE, DROP Tables](https://www.coursera.org/learn/sql-data-science/supplement/3oLXs/optional-hands-on-lab-using-ibm-db2)
 
 
+### Course Materials
 
 [Reading: Examples to ALTER and TRUNCATE tables using MySQL](https://author-ide.skills.network/render?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZF9pbnN0cnVjdGlvbnNfdXJsIjoiaHR0cHM6Ly9jZi1jb3Vyc2VzLWRhdGEuczMudXMuY2xvdWQtb2JqZWN0LXN0b3JhZ2UuYXBwZG9tYWluLmNsb3VkL0lCTURldmVsb3BlclNraWxsc05ldHdvcmstREIwMjAxRU4tU2tpbGxzTmV0d29yay9sYWJzL3Y4L0FsdGVyX1RydW5jYXRlX3JlYWRpbmcubWQ_dD0xNzQ2MTIyNDk5IiwidG9vbF90eXBlIjoiaW5zdHJ1Y3Rpb25hbC1sYWIiLCJhdGxhc19maWxlX2lkIjozMjA3MCwiYWRtaW4iOmZhbHNlLCJpYXQiOjE3NTc2OTQ0MjJ9.JZMtjW9DRy8N0AffWssTwGh5L6w-0X_8M8ZqHFsjLJg)
 
