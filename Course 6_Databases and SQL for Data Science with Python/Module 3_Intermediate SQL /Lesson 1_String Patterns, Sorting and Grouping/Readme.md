@@ -41,7 +41,7 @@ ORDER BY DEP_ID;
 ```
 
 ## 3. Grouping
-- limit the result to departments with fewer than 4 employees,
+- Limit the result to departments with fewer than 4 employees,
 
 ```
 SELECT DEP_ID, AVG(SALARY)
