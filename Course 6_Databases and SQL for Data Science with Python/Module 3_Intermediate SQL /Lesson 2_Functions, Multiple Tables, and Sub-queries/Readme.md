@@ -20,8 +20,10 @@ SELECT SUM(COST) FROM PETRESCUE;
 SELECT MAX(QUANTITY) FROM PETRESCUE;
 
 SELECT AVG(COST) FROM PETRESCUE;
+```
 
-#displays the average cost of rescuing a single dog
+- Display the average cost of rescuing a single dog
+```
 SELECT AVG(COST/QUANTITY) FROM PETRESCUE WHERE ANIMAL = 'Dog';
 ```
 
@@ -49,9 +51,6 @@ SELECT * FROM PETRESCUE WHERE LCASE(ANIMAL)="cat";
 ```
 
 
-SELECT UCASE(ANIMAL) FROM PETRESCUE;
-SELECT LCASE(ANIMAL) FROM PETRESCUE;
-
 ##  3. Date Functions
 
 - Display the number of rescues in the 5th month.
@@ -72,25 +71,26 @@ SELECT FROM_DAYS(DATEDIFF(CURRENT_DATE, RESCUEDATE)) FROM PETRESCUE
 To present the output in a YYYY-MM-DD format
 
 
-- Accessing multiple tables with sub-queries
-```
-SELECT * FROM EMPLOYEES WHERE JOB_ID IN (SELECT JOB_IDENT FROM JOBS);
-```
+##  4. Accessing multiple tables with <ins>sub-queries</ins>
 
+- Retrieve JOB information and a list of employees whose birth year is after 1976
+
+```
 SELECT JOB_TITLE, MIN_SALARY, MAX_SALARY, JOB_IDENT
 FROM JOBS
-WHERE JOB_IDENT IN (select JOB_ID from EMPLOYEES where SALARY > 70000 );
-
-
-Accessing multiple tables with Implicit Joins
+WHERE JOB_IDENT IN (SELECT JOB_ID
+                    FROM EMPLOYEES
+                    WHERE YEAR(B_DATE)>1976 );
 ```
-SELECT *
-FROM EMPLOYEES, JOBS
-WHERE EMPLOYEES.JOB_ID = JOBS.JOB_IDENT;
-or
-SELECT *
-FROM EMPLOYEES E, JOBS J
-WHERE E.JOB_ID = J.JOB_IDENT;
+
+##  5. Accessing multiple tables with <ins>Implicit Joins</ins>
+
+- Retrieve JOB information and a list of employees whose birth year is after 1976
+
+```
+SELECT J.JOB_TITLE, J.MIN_SALARY, J.MAX_SALARY, J.JOB_IDENT
+FROM JOBS J, EMPLOYEES E
+WHERE E.JOB_ID = J.JOB_IDENT AND YEAR(E.B_DATE)>1976;
 ```
 
 SELECT EMP_ID,F_NAME,L_NAME, JOB_TITLE
