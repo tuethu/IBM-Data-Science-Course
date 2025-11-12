@@ -13,6 +13,12 @@ Congratulations! You have completed this lesson. At this point in the course, yo
 
 - Derived tables or table expressions are sub-queries where the outer query uses the results of the sub-query as a data source.
 
+- 3 ways to work with multiple tables in the same query:
+  - a sub-query
+  - an implicit join
+  - a JOIN operator like INNER JOIN, LEFT OUTER JOIN, RIGHT OUTER JOIN, or FULL OUTER JOIN.
+
+
 ## 1. Aggregation Functions
 ```
 SELECT SUM(COST) FROM PETRESCUE;
@@ -61,14 +67,16 @@ SELECT SUM(QUANTITY) FROM PETRESCUE WHERE MONTH(RESCUEDATE)="05";
 - The rescue shelter is supposed to find good homes for all animals within 1 year of their rescue. Write a query that displays the ID and the target date
 ```
 SELECT ID, DATE_ADD(RESCUEDATE, INTERVAL 1 YEAR) FROM PETRESCUE;
+#DATE_ADD(date, INTERVAL value unit) : Adds a time interval to a date
 ```
 
-
-SELECT DAY(RESCUEDATE) FROM PETRESCUE;
-SELECT DATE_SUB(RESCUEDATE, INTERVAL 3 DAY) FROM PETRESCUE
-
-SELECT FROM_DAYS(DATEDIFF(CURRENT_DATE, RESCUEDATE)) FROM PETRESCUE
-To present the output in a YYYY-MM-DD format
+- Calculate the total number of days an employee has lived, using their date of birth ('DOB') and the current date, in MySQL
+Assume the 'DOB' column exists in the 'Employees' table. 
+```
+SELECT FROM_DAYS(DATEDIFF(CURRENT_DATE, DOB)) FROM Employees
+#FROM_DAYS(N): Converts a number of days since year 0 into a date
+#DATEDIFF(date1, date2): Returns the number of days between two dates 
+```
 
 
 ##  4. Accessing multiple tables with <ins>sub-queries</ins>
@@ -92,15 +100,6 @@ SELECT J.JOB_TITLE, J.MIN_SALARY, J.MAX_SALARY, J.JOB_IDENT
 FROM JOBS J, EMPLOYEES E
 WHERE E.JOB_ID = J.JOB_IDENT AND YEAR(E.B_DATE)>1976;
 ```
-
-SELECT EMP_ID,F_NAME,L_NAME, JOB_TITLE
-FROM EMPLOYEES E, JOBS J
-WHERE E.JOB_ID = J.JOB_IDENT;
-or
-SELECT E.EMP_ID, E.F_NAME, E.L_NAME, J.JOB_TITLE
-FROM EMPLOYEES E, JOBS J
-WHERE E.JOB_ID = J.JOB_IDENT;
-
 
 
 
