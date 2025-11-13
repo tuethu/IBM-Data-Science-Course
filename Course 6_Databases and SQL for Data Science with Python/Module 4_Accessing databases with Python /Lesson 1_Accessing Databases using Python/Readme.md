@@ -30,22 +30,6 @@ plot = sns.jointplot(x='per_capita_income_',y='hardship_index', data=income_and_
 ```
 
 
-
-The csv file is read and converted into an SQL table 'Employees' under the HR database
-
-
-import sqlite3
-
-import pandas as pd
-
-conn = sqlite3.connect(‘HR.db’)
-
-data = pd.read_csv(‘./employees.csv’)
-
-data.to_sql(‘Employees’, conn)
-
-
-
 - Cell magic in Jupyter Notebooks can be used as:
  1. Timing a complete cell block as per requirement(%%timeit) (Run the cell multiple times and give average execution time)
 
@@ -74,6 +58,21 @@ or
 cursor = connection.execute("SELECT * FROM Employees")
 out = cursor.fetchall()
 #cursor = connection.execute(query_statement)
+```
+
+
+- The csv file is read and converted into an SQL table 'Employees' under the HR database in the following codes
+
+```
+import sqlite3
+
+import pandas as pd
+
+conn = sqlite3.connect(‘HR.db’)
+
+data = pd.read_csv(‘./employees.csv’)
+
+data.to_sql(‘Employees’, conn)
 ```
 
 
