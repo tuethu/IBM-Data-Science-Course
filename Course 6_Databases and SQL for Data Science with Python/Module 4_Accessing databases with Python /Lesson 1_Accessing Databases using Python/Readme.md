@@ -4,8 +4,10 @@ Congratulations! You have completed this lesson. At this point in the course, yo
 
 - Magic commands are special commands that provide special functionalities.
 
-- Cell magics are commands prefixed with two %% characters and operate on multiple input lines. 
-
+- Cell magics are commands prefixed with two %% characters and operate on multiple input lines. The syntax for connecting to magic sql using sqllite is
+```
+%sql sqlite://DatabaseName
+```
 - DB APIs are commands prefixed with two %% characters and operate on multiple input lines.
 
 - The two main concepts in the Python DB API are Connection Objects and Query Objects.
@@ -26,3 +28,78 @@ Congratulations! You have completed this lesson. At this point in the course, yo
 income_and_hardship = %sql SELECT per_capita_income_, hardship_index FROM chicago_socioeconomic_data;
 plot = sns.jointplot(x='per_capita_income_',y='hardship_index', data=income_and_hardship.DataFrame())
 ```
+
+
+
+The csv file is read and converted into an SQL table 'Employees' under the HR database
+
+
+import sqlite3
+
+import pandas as pd
+
+conn = sqlite3.connect(‘HR.db’)
+
+data = pd.read_csv(‘./employees.csv’)
+
+data.to_sql(‘Employees’, conn)
+
+
+
+- Cell magic in Jupyter Notebooks can be used as:
+	- Timing a complete cell block as per requirement(%%timeit) (Run the cell multiple times and give average execution time)
+
+```
+%%timeit
+squares = [x**2 for x in range(1000)]
+
+#Output: 1000 loops, best of 5: 250 µs per loop
+```
+
+	- Coding in Jupyter notebook using a programming language other than Python 
+
+```
+%%bash
+echo "Hello from Bash!"
+ls -l
+```
+
+- 2 correct ways to query a database table using python
+```
+out = pd.read_sql("SELECT * FROM Employees", conn)
+#out = pandas.read_sql(query_statement, connection_object)
+```
+or 
+```
+cursor = connection.execute("SELECT * FROM Employees")
+out = cursor.fetchall()
+#cursor = connection.execute(query_statement)
+```
+
+
+## Step-by-Step: Querying a MySQL Table in Python
+import mysql.connector
+
+### Step 1: Connect to the database
+conn = mysql.connector.connect(
+    host="localhost",
+    user="your_username",
+    password="your_password",
+    database="your_database"
+)
+
+### Step 2: Create a cursor object
+cursor = conn.cursor()
+
+### Step 3: Write and execute your query
+query = "SELECT * FROM Employees;"
+cursor.execute(query)
+
+### Step 4: Fetch results
+results = cursor.fetchall()
+for row in results:
+    print(row)
+
+### Step 5: Close the connection
+cursor.close()
+conn.close()
