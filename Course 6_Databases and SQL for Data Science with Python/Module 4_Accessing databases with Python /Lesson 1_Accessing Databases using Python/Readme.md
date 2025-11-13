@@ -47,7 +47,7 @@ data.to_sql(‘Employees’, conn)
 
 
 - Cell magic in Jupyter Notebooks can be used as:
-	- Timing a complete cell block as per requirement(%%timeit) (Run the cell multiple times and give average execution time)
+ 1. Timing a complete cell block as per requirement(%%timeit) (Run the cell multiple times and give average execution time)
 
 ```
 %%timeit
@@ -56,7 +56,7 @@ squares = [x**2 for x in range(1000)]
 #Output: 1000 loops, best of 5: 250 µs per loop
 ```
 
-- Coding in Jupyter notebook using a programming language other than Python 
+   2. Coding in Jupyter notebook using a programming language other than Python 
 
 ```
 %%bash
@@ -103,3 +103,7 @@ for row in results:
 ### Step 5: Close the connection
 cursor.close()
 conn.close()
+
+[SQL Cheat Sheet: Accessing Databases using Python](https://author-ide.skills.network/render?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZF9pbnN0cnVjdGlvbnNfdXJsIjoiaHR0cHM6Ly9jZi1jb3Vyc2VzLWRhdGEuczMudXMuY2xvdWQtb2JqZWN0LXN0b3JhZ2UuYXBwZG9tYWluLmNsb3VkL0lCTURldmVsb3BlclNraWxsc05ldHdvcmstREIwMjAxRU4tU2tpbGxzTmV0d29yay9sYWJzL3Y4L0NoZWF0X3NoZWV0X0FjY2Vzc19kYl9weXRob24ubWQ_dD0xNzQ2MTIyNTk5IiwidG9vbF90eXBlIjoiaW5zdHJ1Y3Rpb25hbC1sYWIiLCJhdGxhc19maWxlX2lkIjozMjExNywiYWRtaW4iOmZhbHNlLCJpYXQiOjE3NTc2OTQ0MjN9.ZtFqOMseyPCrZ1S21ESt4-ZrSRe0CdEUOozRMEkLUjo)
+
+
