@@ -1,4 +1,4 @@
-#Summary: Accessing databases using Python
+# Summary: Accessing databases using Python
 
 Congratulations! You have completed this lesson. At this point in the course, you know: 
 
@@ -20,4 +20,9 @@ Congratulations! You have completed this lesson. At this point in the course, yo
 
 - To use pandas to retrieve data from the database tables, load data using the read_sql method and select the SQL Select Query
 
-- A categorical scatterplot is created using the swarmplot() method by the seaborn package.
+- A categorical scatterplot is created using the swarmplot() method by the <ins>seaborn</ins> package.
+```
+!pip install matplotlib seaborn
+income_and_hardship = %sql SELECT per_capita_income_, hardship_index FROM chicago_socioeconomic_data;
+plot = sns.jointplot(x='per_capita_income_',y='hardship_index', data=income_and_hardship.DataFrame())
+```
