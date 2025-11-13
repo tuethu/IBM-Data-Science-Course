@@ -56,7 +56,7 @@ squares = [x**2 for x in range(1000)]
 #Output: 1000 loops, best of 5: 250 µs per loop
 ```
 
-	- Coding in Jupyter notebook using a programming language other than Python 
+- Coding in Jupyter notebook using a programming language other than Python 
 
 ```
 %%bash
