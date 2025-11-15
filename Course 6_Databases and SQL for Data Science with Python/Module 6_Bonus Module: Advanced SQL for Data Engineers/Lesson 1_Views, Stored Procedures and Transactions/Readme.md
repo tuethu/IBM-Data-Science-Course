@@ -13,9 +13,9 @@ FROM EMPLOYEES;
 
 ## 2. Update a View
 
-Modify “EMP_DEPT” such that it displays Department names instead of Department IDs. 
-For this, we need to combine information from EMPLOYEES and DEPARTMENTS as follows.
-EMP_ID, FNAME, LNAME from EMPLOYEES table and
+Modify “EMP_DEPT” such that it displays Department names instead of Department IDs.\ 
+For this, we need to combine information from EMPLOYEES and DEPARTMENTS as follows.\
+EMP_ID, FNAME, LNAME from EMPLOYEES table and\
 DEP_NAME from DEPARTMENTS table, combined over the columns DEP_ID and DEPT_ID_DEP
 
 ```
