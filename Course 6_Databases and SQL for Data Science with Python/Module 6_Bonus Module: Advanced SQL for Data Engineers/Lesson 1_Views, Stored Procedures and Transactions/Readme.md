@@ -108,7 +108,7 @@ BEGIN
     BEGIN
         ROLLBACK;
         RESIGNAL;
-	#If any of the UPDATE statements fail, the whole transaction fails.\
+	#If any of the UPDATE statements fail, the whole transaction fails.
 	You will roll back the transaction. Commit the transaction only if the whole transaction is successful.
 
     END;
@@ -116,7 +116,7 @@ BEGIN
     UPDATE BankAccounts
     SET Balance = Balance-200
     WHERE AccountName = 'Rose';
-	#we have to update Rose's balance as well as the ShoeShop balance in the BankAccounts table.\
+	#we have to update Rose's balance as well as the ShoeShop balance in the BankAccounts table.
 	Then we also have to update Boots stock in the ShoeShop 
 
     UPDATE BankAccounts
@@ -130,9 +130,9 @@ BEGIN
     UPDATE BankAccounts
     SET Balance = Balance-300
     WHERE AccountName = 'Rose';
-	#The 1st  pair of boots is ok but the 2nd pair of boots has not been bought since her balance becomes insufficient\
+	#The 1st  pair of boots is ok but the 2nd pair of boots has not been bought since her balance becomes insufficient
 	 (100$ < price of a pair of boots is 200$).\
-	So, the last UPDATE statement fails. Since the whole transaction fails if any of the SQL statements fail,\
+	So, the last UPDATE statement fails. Since the whole transaction fails if any of the SQL statements fail,
 	the transaction won't be committed.
 
     COMMIT;
