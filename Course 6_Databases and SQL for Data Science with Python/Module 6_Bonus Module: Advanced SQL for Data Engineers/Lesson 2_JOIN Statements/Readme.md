@@ -8,7 +8,7 @@ Congratulations! You have completed this lesson. At this point in the course, yo
 
 - There are two types of joins: inner join and outer join; and three types of outer joins: left outer join, right outer join, and full outer join.
 
-[Hands-on Lab](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%206_Databases%20and%20SQL%20for%20Data%20Science%20with%20Python/Module%206_Bonus%20Module%3A%20Advanced%20SQL%20for%20Data%20Engineers/Lesson%202_JOIN%20Statements/Handson%20Lab_Joins.png)
+![Hands-on Lab](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%206_Databases%20and%20SQL%20for%20Data%20Science%20with%20Python/Module%206_Bonus%20Module%3A%20Advanced%20SQL%20for%20Data%20Engineers/Lesson%202_JOIN%20Statements/Handson%20Lab_Joins.png)
 
 ## 1. INNER JOIN
 
@@ -21,7 +21,7 @@ INNER JOIN JOB_HISTORY as JH on E.EMP_ID=JH.EMPL_ID
 INNER JOIN JOBS as J on E.JOB_ID=J.JOB_IDENT
 where E.DEP_ID ='5';
 ```
-[Inner Join](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%206_Databases%20and%20SQL%20for%20Data%20Science%20with%20Python/Module%206_Bonus%20Module%3A%20Advanced%20SQL%20for%20Data%20Engineers/Lesson%202_JOIN%20Statements/Handson%20Lab_1_Joins.png)
+![Inner Join](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%206_Databases%20and%20SQL%20for%20Data%20Science%20with%20Python/Module%206_Bonus%20Module%3A%20Advanced%20SQL%20for%20Data%20Engineers/Lesson%202_JOIN%20Statements/Handson%20Lab_1_Joins.png)
 
 ## 2. LEFT/RIGHT JOIN
 
@@ -33,7 +33,7 @@ LEFT OUTER JOIN DEPARTMENTS AS D
 ON E.DEP_ID = D.DEPT_ID_DEP
 AND YEAR(E.B_DATE) < 1980;
 ```
-[Left Outer Join](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%206_Databases%20and%20SQL%20for%20Data%20Science%20with%20Python/Module%206_Bonus%20Module%3A%20Advanced%20SQL%20for%20Data%20Engineers/Lesson%202_JOIN%20Statements/Handson%20Lab_2_Joins.png)
+![Left Outer Join](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%206_Databases%20and%20SQL%20for%20Data%20Science%20with%20Python/Module%206_Bonus%20Module%3A%20Advanced%20SQL%20for%20Data%20Engineers/Lesson%202_JOIN%20Statements/Handson%20Lab_2_Joins.png)
 
 ## 3. FULL OUTER JOIN 
 
@@ -52,7 +52,7 @@ from EMPLOYEES AS E
 RIGHT OUTER JOIN DEPARTMENTS AS D
 ON E.DEP_ID=D.DEPT_ID_DEP AND E.SEX = 'M';
 ```
-[Full Outer Join](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%206_Databases%20and%20SQL%20for%20Data%20Science%20with%20Python/Module%206_Bonus%20Module%3A%20Advanced%20SQL%20for%20Data%20Engineers/Lesson%202_JOIN%20Statements/Handson%20Lab_3_Joins.png)
+![Full Outer Join](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%206_Databases%20and%20SQL%20for%20Data%20Science%20with%20Python/Module%206_Bonus%20Module%3A%20Advanced%20SQL%20for%20Data%20Engineers/Lesson%202_JOIN%20Statements/Handson%20Lab_3_Joins.png)
 
 - The most common type of join is the inner join, which matches the results from two tables and returns the selected elements from each table, only where corresponding elements in both the tables are the same.
 
