@@ -47,7 +47,8 @@ DROP VIEW EMP_DEPT
 
 ### 2.1. Create a stored procedure routine named UPDATE_SALEPRICE
 
-This procedure routine will take animal ID and health conditon as parameters which will be used to update the sale price of animal in the PETSALE table by an amount depending on their health condition. Suppose that:
+This procedure routine will take animal ID and health conditon as parameters which will be used to update the sale price of animal\
+in the PETSALE table by an amount depending on their health condition. Suppose that:
 
 For animal with ID XX having BAD health condition, the sale price will be reduced further by 25%.\
 For animal with ID YY having WORSE health condition, the sale price will be reduced further by 50%.\
@@ -107,14 +108,16 @@ BEGIN
     BEGIN
         ROLLBACK;
         RESIGNAL;
-	#If any of the UPDATE statements fail, the whole transaction fails. You will roll back the transaction. Commit the transaction only if the whole transaction is successful.
+	#If any of the UPDATE statements fail, the whole transaction fails.\
+	You will roll back the transaction. Commit the transaction only if the whole transaction is successful.
 
     END;
     START TRANSACTION;
     UPDATE BankAccounts
     SET Balance = Balance-200
     WHERE AccountName = 'Rose';
-	#we have to update Rose's balance as well as the ShoeShop balance in the BankAccounts table. Then we also have to update Boots stock in the ShoeShop 
+	#we have to update Rose's balance as well as the ShoeShop balance in the BankAccounts table.\
+	Then we also have to update Boots stock in the ShoeShop 
 
     UPDATE BankAccounts
     SET Balance = Balance+200
@@ -127,7 +130,10 @@ BEGIN
     UPDATE BankAccounts
     SET Balance = Balance-300
     WHERE AccountName = 'Rose';
-	#The 1st  pair of boots is ok but the 2nd pair of boots has not been bought since her balance becomes insufficient (100$ < price of a pair of boots is 200$). So, the last UPDATE statement fails. Since the whole transaction fails if any of the SQL statements fail, the transaction won't be committed.
+	#The 1st  pair of boots is ok but the 2nd pair of boots has not been bought since her balance becomes insufficient\
+	 (100$ < price of a pair of boots is 200$).\
+	So, the last UPDATE statement fails. Since the whole transaction fails if any of the SQL statements fail,\
+	the transaction won't be committed.
 
     COMMIT;
 END //
