@@ -95,8 +95,7 @@ CALL UPDATE_SALEPRICE;
 
 
 
-## 3. Committing and Rolling Back a Transaction
-
+## 3. COMMITTING AND ROLLING BACK A TRANSACTION 
 ```
 DELIMITER //
 
