@@ -33,6 +33,7 @@ DROP VIEW EMP_DEPT
 ```
 
 - An ACID transaction (Atomicity, Consistency, Isolation, and Durability) is one where all the SQL statements must complete successfully, or none at all.
+  
 ![ACID transaction](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%206_Databases%20and%20SQL%20for%20Data%20Science%20with%20Python/Module%206_Bonus%20Module%3A%20Advanced%20SQL%20for%20Data%20Engineers/Lesson%201_Views%2C%20Stored%20Procedures%20and%20Transactions/ACID%20Transaction.png)
 
 
