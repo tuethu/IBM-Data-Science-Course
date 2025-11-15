@@ -3,16 +3,16 @@
 Congratulations! You have completed this lesson. At this point in the course, you know:
 
 - Views are a dynamic mechanism for presenting data from one or more tables.A transaction represents a complete unit of work, which can be one or more SQL statements.
-## VIEW
+## 1. VIEW
 
-### 1. Create a View
+### 1.1. Create a View
 ```
 CREATE VIEW EMP_DEPT AS
 SELECT EMP_ID, F_NAME, L_NAME, DEP_ID
 FROM EMPLOYEES;
 ```
 
-### 2. Update a View
+### 1.2. Update a View
 
 Modify “EMP_DEPT” such that it displays Department names instead of Department IDs.\ 
 For this, we need to combine information from EMPLOYEES and DEPARTMENTS as follows.\
@@ -26,7 +26,7 @@ FROM EMPLOYEES, DEPARTMENTS
 WHERE EMPLOYEES.DEP_ID = DEPARTMENTS.DEPT_ID_DEP;
 ```
 
-### 3. Drop a View
+### 1.3. Drop a View
 
 ```
 DROP VIEW EMP_DEPT
@@ -36,13 +36,13 @@ DROP VIEW EMP_DEPT
 ![ACID transaction](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%206_Databases%20and%20SQL%20for%20Data%20Science%20with%20Python/Module%206_Bonus%20Module%3A%20Advanced%20SQL%20for%20Data%20Engineers/Lesson%201_Views%2C%20Stored%20Procedures%20and%20Transactions/ACID%20Transaction.png)
 
 
-## STORED PROCEDURE
+## 2. STORED PROCEDURE
 
 - A stored procedure is a set of SQL statements that are stored and executed on the database server, allowing you to send one statement as an alternative to sending multiple statements.
 
 - You can write stored procedures in many different languages like SQL PL, PL/SQL, Java, and C.
 
-### 1. Create a stored procedure routine named UPDATE_SALEPRICE
+### 2.1. Create a stored procedure routine named UPDATE_SALEPRICE
 
 This procedure routine will take animal ID and health conditon as parameters which will be used to update the sale price of animal in the PETSALE table by an amount depending on their health condition. Suppose that:
 
@@ -72,7 +72,7 @@ END @
 DELIMITER ;
 ```
 
-### 2. Call the UPDATE_SALEPRICE routine 
+### 2.2. Call the UPDATE_SALEPRICE routine 
 
 ```
    CALL RETRIEVE_ALL;
@@ -82,7 +82,7 @@ DELIMITER ;
    CALL RETRIEVE_ALL;
 ```
 
-### 3. Drop the stored procedure routine
+### 2.3. Drop the stored procedure routine
 
 ```
 DROP PROCEDURE UPDATE_SALEPRICE;
@@ -90,7 +90,7 @@ DROP PROCEDURE UPDATE_SALEPRICE;
 CALL UPDATE_SALEPRICE;
 ```
 
-## Committing and Rolling Back a Transaction
+## 3. Committing and Rolling Back a Transaction
 
 ```
 DELIMITER //
@@ -123,11 +123,10 @@ BEGIN
     SET Balance = Balance-300
     WHERE AccountName = 'Rose';
 	#The 1st  pair of boots is ok but the 2nd pair of boots has not been bought since her balance becomes insufficient (100$ < price of a pair of boots is 200$). So, the last UPDATE statement fails. Since the whole transaction fails if any of the SQL statements fail, the transaction won't be committed.
-```
 
     COMMIT;
 END //
 
 DELIMITER ;
-
+```
 
