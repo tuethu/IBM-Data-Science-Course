@@ -57,3 +57,5 @@ ON E.DEP_ID=D.DEPT_ID_DEP AND E.SEX = 'M';
 - The most common type of join is the inner join, which matches the results from two tables and returns the selected elements from each table, only where corresponding elements in both the tables are the same.
 
 - You can use an alias as shorthand for a table or column name.
+
+ [SQL Cheat Sheet: JOIN statements](https://author-ide.skills.network/render?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZF9pbnN0cnVjdGlvbnNfdXJsIjoiaHR0cHM6Ly9jZi1jb3Vyc2VzLWRhdGEuczMudXMuY2xvdWQtb2JqZWN0LXN0b3JhZ2UuYXBwZG9tYWluLmNsb3VkL0lCTURldmVsb3BlclNraWxsc05ldHdvcmstREIwMjAxRU4tU2tpbGxzTmV0d29yay9sYWJzL0NoZWF0U2hlZXQvU1FMLUNoZWF0LVNoZWV0LUpPSU5fU3RhdGVtZW50cy5tZD90PTE3NDYxMjI1MTUiLCJ0b29sX3R5cGUiOiJpbnN0cnVjdGlvbmFsLWxhYiIsImF0bGFzX2ZpbGVfaWQiOjMyMDg0LCJhZG1pbiI6ZmFsc2UsImlhdCI6MTc1NzY5NDQyM30.8Hm92yfYvbZt-RfOeX04WYM_wm0G63hVYpPOqbqFm-Y)
