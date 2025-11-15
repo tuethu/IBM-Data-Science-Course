@@ -36,6 +36,8 @@ DROP VIEW EMP_DEPT
 ![ACID transaction](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%206_Databases%20and%20SQL%20for%20Data%20Science%20with%20Python/Module%206_Bonus%20Module%3A%20Advanced%20SQL%20for%20Data%20Engineers/Lesson%201_Views%2C%20Stored%20Procedures%20and%20Transactions/ACID%20Transaction.png)
 
 
+
+
 ## 2. STORED PROCEDURE
 
 - A stored procedure is a set of SQL statements that are stored and executed on the database server, allowing you to send one statement as an alternative to sending multiple statements.
@@ -89,6 +91,9 @@ DROP PROCEDURE UPDATE_SALEPRICE;
 
 CALL UPDATE_SALEPRICE;
 ```
+
+
+
 
 ## 3. Committing and Rolling Back a Transaction
 
