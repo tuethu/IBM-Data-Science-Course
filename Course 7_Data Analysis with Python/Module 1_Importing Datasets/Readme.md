@@ -43,3 +43,6 @@ Congratulations! You have completed this lesson. At this point in the course, yo
 - You can import the database module, use the Connect API to open a connection, and then create a cursor object to run queries and fetch results. 
 
 - Remember to close the database connection to free up resources.
+
+
+[Cheat Sheet: Importing Data Sets](https://author-ide.skills.network/render?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZF9pbnN0cnVjdGlvbnNfdXJsIjoiaHR0cHM6Ly9jZi1jb3Vyc2VzLWRhdGEuczMudXMuY2xvdWQtb2JqZWN0LXN0b3JhZ2UuYXBwZG9tYWluLmNsb3VkL0lCTURldmVsb3BlclNraWxsc05ldHdvcmstREEwMTAxRU4tQ291cnNlcmEvbGFicy8yMDA1NDIuMDk0X00xX0NoZWF0X1NoZWV0Lm1kP3Q9MTc0NjExODg0OCIsInRvb2xfdHlwZSI6Imluc3RydWN0aW9uYWwtbGFiIiwiYXRsYXNfZmlsZV9pZCI6MTE1NjcsImFkbWluIjpmYWxzZSwiaWF0IjoxNzU3NDQ4MzM2fQ.8sie3A9_mwkrkAIuI0RyrRNimCW5Xgdh9k1KbVhbSP0)
