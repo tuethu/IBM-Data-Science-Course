@@ -6,30 +6,48 @@ Congratulations! You have completed this lesson. At this point in the course, yo
 
 - To understand the data, you must analyze the attributes for each column of data.
 
-- Python libraries are collections of functions and methods that facilitate various functionalities without writing code from scratch and are categorized into Scientific Computing, Data Visualization, and Machine Learning Algorithms.
+- Python libraries are <ins>collections of functions and methods</ins> that facilitate various functionalities without writing code from scratch and are categorized into Scientific Computing, Data Visualization, and Machine Learning Algorithms.
 
 - Many data science libraries are interconnected; for instance, Scikit-learn is built on top of NumPy, SciPy, and Matplotlib.
 
 - The data format and the file path are two key factors for reading data with Pandas.
 
 - The read_CSV method in Pandas can read files in CSV format into a Pandas DataFrame.
+  
+```
+  df = pd.read_csv(file_name)
+```
 
 - Pandas has unique data types like object, float, Int, and datetime.
 
 - Use the dtype method to check each column’s data type; misclassified data types might need manual correction.
+```
+df.dtypes
+```
 
 - Knowing the correct data types helps apply appropriate Python functions to specific columns.
 
 - Using Statistical Summary with describe() provides count, mean, standard deviation, min, max, and quartile ranges for numerical columns.
+```
+df.describe()
+```
 
 - You can also use include='all' as an argument to get summaries for object-type columns.
+df.describe(include = "all")
 
 - The statistical summary helps identify potential issues like outliers needing further attention.
 
 - Using the info() Method gives an overview of the top and bottom 30 rows of the DataFrame, useful for quick visual inspection.
-
+```
+df.info()
+```
 - Some statistical metrics may return "NaN," indicating missing values, and the program can’t calculate statistics for that specific data type.
-
+```
+df.replace('?',np.nan, inplace = True)
+# df.replace(...)replaces values in the DataFrame df
+# np.nan is NumPy- a special constant meaning “Not a Number”, used to represent missing or undefined values
+# inplace=True: the replacement happens directly inside df without creating a new copy
+```
 - Python can connect to databases through specialized code, often written in Jupyter notebooks.
 
 - SQL Application Programming Interfaces (APIs) and Python DB APIs (most often used) facilitate the interaction between Python and the DBMS.
