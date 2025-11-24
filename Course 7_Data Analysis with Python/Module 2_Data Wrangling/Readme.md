@@ -35,10 +35,11 @@ plt.title("Price bins")
 - Statistical models generally require numerical inputs, making it necessary to convert categorical variables like "fuel type" into numerical formats.
 
 - You can implement the one-hot encoding technique in Python using pandas’ get_dummies method to transform categorical variables into a format suitable for machine learning models.
-- 
+```
 dummy_variable_1 = pd.get_dummies(df["Screen"])
 dummy_variable_1.rename(columns={'IPS Panel':'Screen-IPS_panel', 'Full HD':'Screen-Full_HD'}, inplace=True)
 df = pd.concat([df, dummy_variable_1], axis=1)
 df.drop("Screen", axis = 1, inplace=True)
+```
 
 [Cheat Sheet: Data Wrangling](https://author-ide.skills.network/render?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZF9pbnN0cnVjdGlvbnNfdXJsIjoiaHR0cHM6Ly9jZi1jb3Vyc2VzLWRhdGEuczMudXMuY2xvdWQtb2JqZWN0LXN0b3JhZ2UuYXBwZG9tYWluLmNsb3VkL0lCTURldmVsb3BlclNraWxsc05ldHdvcmstREEwMTAxRU4tQ291cnNlcmEvbGFicy8yMDA1NDIuMDk0X00yX0NoZWF0X1NoZWV0Lm1kP3Q9MTc0NjExODg1OSIsInRvb2xfdHlwZSI6Imluc3RydWN0aW9uYWwtbGFiIiwiYXRsYXNfZmlsZV9pZCI6MTE1NjksImFkbWluIjpmYWxzZSwiaWF0IjoxNzU3NDQ4MzM2fQ.IQNQVUq6nxLR7CcjQPkQJc2EEgXJy34gTY-nDPJiAVw)
