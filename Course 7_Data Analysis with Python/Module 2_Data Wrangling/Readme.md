@@ -4,6 +4,17 @@ Congratulations! You have completed this lesson. At this point in the course, yo
 
 - Data formatting is critical for making data from various sources consistent and comparable.
 
+## Deal with missing data
+
+- 1. Drop data
+a. Drop the whole row
+b. Drop the whole column
+
+- 2. Replace data
+a. Replace it by mean
+b. Replace it by frequency
+c. Replace it based on other functions
+
 - Master the techniques in Python to convert units of measurement, like transforming "city miles per gallon" to "city-liters per 100 kilometers" for ease of comparison and analysis.
 ```
 # Convert mpg to L/100km by mathematical operation (235 divided by mpg) L/100km = 235 / mpg
