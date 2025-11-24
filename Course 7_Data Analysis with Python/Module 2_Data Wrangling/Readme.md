@@ -3,6 +3,7 @@
 Congratulations! You have completed this lesson. At this point in the course, you know:
 
 - Data formatting is critical for making data from various sources consistent and comparable.
+- What is the purpose of data wrangling/ cleaning? to convert data from an initial format to a format that may be better for analysis.
 
 ## Deal with missing data
 
