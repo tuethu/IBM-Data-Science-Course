@@ -18,9 +18,9 @@ df.drop("aspiration", axis = 1, inplace=True)
    - a. Replace it by mean
      
 ```
-     #Replace NaN in "stroke" column with the mean value
-     avg_horsepower = df['horsepower'].astype('float').mean(axis=0)
-     df.replace({"horsepower": {np.nan: avg_horsepower }}, inplace=True)
+ #Replace NaN in "stroke" column with the mean value
+avg_horsepower = df['horsepower'].astype('float').mean(axis=0)
+df.replace({"horsepower": {np.nan: avg_horsepower }}, inplace=True)
 ```
 
    - b. Replace it by frequency
@@ -44,6 +44,7 @@ df['city-L/100km'] = 235/df["city-mpg"]
 #In Pandas, you use:
 .dtype() to check the data type
 .astype() to change the data type
+
 #Convert data types to proper format
 df[["bore", "stroke"]] = df[["bore", "stroke"]].astype("float")
 df[["normalized-losses"]] = df[["normalized-losses"]].astype("int")
