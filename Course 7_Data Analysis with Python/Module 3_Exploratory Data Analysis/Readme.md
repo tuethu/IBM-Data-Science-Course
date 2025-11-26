@@ -40,7 +40,7 @@ grouped_pivot = grouped_test1.pivot(index='drive-wheels',columns='body-style')
 
 - Visualization functions like regplot, from the seaborn library, are especially useful for exploring correlation.
 
-1. The Pearson correlation
+## The Pearson correlation
 a key method for assessing the correlation between continuous numerical variables, provides two critical values—the coefficient, which indicates the strength and direction of the correlation, and the P-value, which assesses the certainty of the correlation.
 The Pearson Correlation measures the linear dependence between two variables X and Y.
 The resulting coefficient is a value between -1 and 1 inclusive, where:
@@ -52,7 +52,8 @@ The resulting coefficient is a value between -1 and 1 inclusive, where:
 df.select_dtypes(include=['number']).corr()
 ```
 
-2. For P-values, values less than .001 indicate strong certainty in the correlation, while larger values indicate less certainty. Both the coefficient and P-value are important for confirming a strong correlation.
+## P-values
+values less than .001 indicate strong certainty in the correlation, while larger values indicate less certainty. Both the coefficient and P-value are important for confirming a strong correlation.
 The P-value is the probability value that the correlation between these two variables is statistically significant. Normally, we choose a significance level of 0.05, which means that we are 95% confident that the correlation between the variables is significant.
 
 By convention, when the
