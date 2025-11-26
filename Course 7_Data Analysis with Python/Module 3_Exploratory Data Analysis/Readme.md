@@ -40,30 +40,30 @@ grouped_pivot = grouped_test1.pivot(index='drive-wheels',columns='body-style')
 
 - Visualization functions like regplot, from the seaborn library, are especially useful for exploring correlation.
 
-- The Pearson correlation, a key method for assessing the correlation between continuous numerical variables, provides two critical values—the coefficient, which indicates the strength and direction of the correlation, and the P-value, which assesses the certainty of the correlation.
+1. The Pearson correlation
+a key method for assessing the correlation between continuous numerical variables, provides two critical values—the coefficient, which indicates the strength and direction of the correlation, and the P-value, which assesses the certainty of the correlation.
 The Pearson Correlation measures the linear dependence between two variables X and Y.
 The resulting coefficient is a value between -1 and 1 inclusive, where:
-1: Perfect positive linear correlation.
-0: No linear correlation, the two variables most likely do not affect each other.
--1: Perfect negative linear correlation.
+   - 1: Perfect positive linear correlation.
+   - 0: No linear correlation, the two variables most likely do not affect each other.
+   - -1: Perfect negative linear correlation.
   
 ```
 df.select_dtypes(include=['number']).corr()
 ```
 
-- For P-values, values less than .001 indicate strong certainty in the correlation, while larger values indicate less certainty. Both the coefficient and P-value are important for confirming a strong correlation.
+2. For P-values, values less than .001 indicate strong certainty in the correlation, while larger values indicate less certainty. Both the coefficient and P-value are important for confirming a strong correlation.
 The P-value is the probability value that the correlation between these two variables is statistically significant. Normally, we choose a significance level of 0.05, which means that we are 95% confident that the correlation between the variables is significant.
 
 By convention, when the
-
 p-value is 
- 0.001: we say there is strong evidence that the correlation is significant.
+   -  0.001: we say there is strong evidence that the correlation is significant.
 the p-value is 
- 0.05: there is moderate evidence that the correlation is significant.
+   -  0.05: there is moderate evidence that the correlation is significant.
 the p-value is 
- 0.1: there is weak evidence that the correlation is significant.
+   -  0.1: there is weak evidence that the correlation is significant.
 the p-value is 
- 0.1: there is no evidence that the correlation is significant.
+   -  0.1: there is no evidence that the correlation is significant.
 
 ```
  pearson_coef, p_value = stats.pearsonr(df['wheel-base'], df['price'])
