@@ -10,10 +10,26 @@ Congratulations! You have completed this lesson. At this point in the course, yo
 1. Drop data
    - a. Drop the whole row
    - b. Drop the whole column
+```   
+df.drop("aspiration", axis = 1, inplace=True)
+```
 
 2. Replace data
    - a. Replace it by mean
+     
+```
+     #Replace NaN in "stroke" column with the mean value
+     avg_horsepower = df['horsepower'].astype('float').mean(axis=0)
+     df.replace({"horsepower": {np.nan: avg_horsepower }}, inplace=True)
+```
+
    - b. Replace it by frequency
+```
+common_screen_size = df['Screen_Size_cm'].value_counts().idxmax()
+df.replace({'Screen_Size_cm': {np.nan: common_screen_size}}, inplace=True)
+print("Average of Screen Size:", common_screen_size)
+```
+
    - c. Replace it based on other functions
 
 - Master the techniques in Python to convert units of measurement, like transforming "city miles per gallon" to "city-liters per 100 kilometers" for ease of comparison and analysis.
@@ -24,8 +40,22 @@ df['city-L/100km'] = 235/df["city-mpg"]
 
 - Acquire skills to identify and correct data types in Python, ensuring the data is accurately represented for subsequent statistical analyses.
 
-- Data normalization helps make variables comparable and helps eliminate inherent biases in statistical models.
+```
+#In Pandas, you use:
+.dtype() to check the data type
+.astype() to change the data type
+#Convert data types to proper format
+df[["bore", "stroke"]] = df[["bore", "stroke"]].astype("float")
+df[["normalized-losses"]] = df[["normalized-losses"]].astype("int")
+```
 
+- Data normalization helps make variables comparable and helps eliminate inherent biases in statistical models.
+  
+```
+#Often it is required to normalize a continuous data attribute. Write a code to normalize the "CPU_frequency" attribute with respect to the maximum value available in the dataset.
+df['CPU_frequency'] = df['CPU_frequency'] / df['CPU_frequency'].max()
+print("CPU_frequency column:\n", df['CPU_frequency'])
+```
 - You can apply Feature Scaling, Min-Max, and Z-Score to normalize data and apply each technique in Python using pandas’ methods.
 
 - Binning is a method of data pre-processing to improve model accuracy and data visualization. Binning is a process of creating a categorical attribute which splits the values of a continuous data into a specified number of groups. 
