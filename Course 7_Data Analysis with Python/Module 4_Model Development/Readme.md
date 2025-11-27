@@ -66,7 +66,7 @@ plt.close()
 
 - To prepare your data for more accurate modeling, use feature transformation techniques, particularly using the preprocessing library in scikit-learn, transform your data using polynomial features, and use the modules like StandardScaler to normalize the data.
 
-
+```
 def PlotPolly(model, independent_variable, dependent_variabble, Name):
     x_new = np.linspace(independent_variable.min(),independent_variable.max(),100)
     y_new = model(x_new)
@@ -78,8 +78,8 @@ def PlotPolly(model, independent_variable, dependent_variabble, Name):
     fig = plt.gcf()
     plt.xlabel(Name)
     plt.ylabel('Price of laptops')
-# Call for function of degree 5
-PlotPolly(p5, X, Y, 'CPU_frequency')
+PlotPolly(p5, X, Y, 'CPU_frequency')   #Call for function of degree 5
+```
 
 ![Polynomial Regression](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%207_Data%20Analysis%20with%20Python/Module%204_Model%20Development/Polynomial%20Regression.png)
     
