@@ -102,11 +102,24 @@ PlotPolly(p5, X, Y, 'CPU_frequency')   #Call for function of degree 5
 
 - Pipelines allow you to simplify how you perform transformations and predictions sequentially, and you can use pipelines in scikit-learn to streamline your modeling process.
 
+![Pipelines Definition](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%207_Data%20Analysis%20with%20Python/Module%204_Model%20Development/Pipelines%20Definition.png)
+
 - You can construct and train a pipeline to automate tasks such as normalization, polynomial transformation, and making predictions.
+- Two very important measures that are often used in Statistics to determine the accuracy of a model are:
+   - 1. R^2 / R-squared
+R squared, also known as the coefficient of determination, is a measure to indicate how close the data is to the fitted regression line.
+The value of the R-squared is the percentage of variation of the response variable (y) that is explained by a linear model.
+
+![R squared](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%207_Data%20Analysis%20with%20Python/Module%204_Model%20Development/R%20squared.png)
+
+   - 2. Mean Squared Error (MSE)
+The Mean Squared Error measures the average of the squares of errors. That is, the difference between actual value (y) and the estimated value (ŷ).
 
 - To determine the fit of your model, you can perform sample evaluations by using the Mean Square Error (MSE), using Python’s mean_squared_error function from scikit-learn, and using the score method to obtain the R-squared value.
 
-- A model with a high R-squared value close to 1 and a low MSE is generally a good fit, whereas a model with a low R-squared and a high MSE may not be useful.
+
+
+- A model with a <ins>high R-squared value</ins> close to 1 and a <ins>low MSE</ins> is generally a good fit, whereas a model with a low R-squared and a high MSE may not be useful.
 
 - Be alert to situations where your R-squared value might be negative, which can indicate overfitting. 
 
