@@ -62,6 +62,8 @@ plt.close()
 
 ## 3. Polynomial Regression
 
+![Polynomial Regression Definition](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%207_Data%20Analysis%20with%20Python/Module%204_Model%20Development/Polynomial%20Regression%20Definition.png)
+
 - The order of the polynomials affects the fit of the model to your data. Apply Python's polyfit function to develop polynomial regression models that suit your specific dataset.
 
 - To prepare your data for more accurate modeling, use feature transformation techniques, particularly using the preprocessing library in scikit-learn, transform your data using polynomial features, and use the modules like StandardScaler to normalize the data.
