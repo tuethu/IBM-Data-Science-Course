@@ -67,8 +67,20 @@ plt.close()
 - The order of the polynomials affects the fit of the model to your data. Apply Python's polyfit function to develop polynomial regression models that suit your specific dataset.
 
 - To prepare your data for more accurate modeling, use feature transformation techniques, particularly using the preprocessing library in scikit-learn, transform your data using polynomial features, and use the modules like StandardScaler to normalize the data.
+  
+- Remember that polynomial fits are done using numpy.polyfit.
 
 ```
+X = X.to_numpy().flatten()
+f1 = np.polyfit(X, Y, 1)
+p1 = np.poly1d(f1)
+
+f3 = np.polyfit(X, Y, 3)
+p3 = np.poly1d(f3)
+
+f5 = np.polyfit(X, Y, 5)
+p5 = np.poly1d(f5)
+
 def PlotPolly(model, independent_variable, dependent_variabble, Name):
     x_new = np.linspace(independent_variable.min(),independent_variable.max(),100)
     y_new = model(x_new)
@@ -80,6 +92,7 @@ def PlotPolly(model, independent_variable, dependent_variabble, Name):
     fig = plt.gcf()
     plt.xlabel(Name)
     plt.ylabel('Price of laptops')
+
 PlotPolly(p5, X, Y, 'CPU_frequency')   #Call for function of degree 5
 ```
 
