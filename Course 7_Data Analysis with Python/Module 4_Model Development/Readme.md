@@ -40,8 +40,26 @@ Why is that? Randomly spread out residuals means that the variance is constant, 
 
 ![Residual plot](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%207_Data%20Analysis%20with%20Python/Module%204_Model%20Development/Residual%20plot.png)
 
-- Use distribution plots for models with multiple features: Learn to construct distribution plots to compare predicted and actual values, particularly when your model includes more than one independent variable. Know that this can offer deeper insights into the accuracy of your model across different ranges of values.
-  
+### Distribution plots for models with multiple features:
+We can look at the distribution of the fitted values that result from the model and compare it to the distribution of the actual values.
+Learn to construct distribution plots to compare predicted and actual values, particularly when your model includes more than one independent variable. Know that this can offer deeper insights into the accuracy of your model across different ranges of values.
+
+plt.figure(figsize=(width, height))
+
+```
+ax1 = sns.distplot(df['price'], hist=False, color="r", label="Actual Value")
+sns.distplot(Y_hat, hist=False, color="b", label="Fitted Values" , ax=ax1)
+
+
+plt.title('Actual vs Fitted Values for Price')
+plt.xlabel('Price (in dollars)')
+plt.ylabel('Proportion of Cars')
+
+plt.show()
+plt.close()
+```
+![Distribution plot](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%207_Data%20Analysis%20with%20Python/Module%204_Model%20Development/Distribution%20plot.png)
+
 ## 3. Polynomial Regression
 
 - The order of the polynomials affects the fit of the model to your data. Apply Python's polyfit function to develop polynomial regression models that suit your specific dataset.
