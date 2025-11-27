@@ -1,7 +1,7 @@
 # Lesson Summary
 Congratulations! You have completed this lesson. At this point in the course, you know: 
 
-## Single Linear Regression
+## 1. Single Linear Regression
 
 - Linear regression refers to using one independent variable to make a prediction.
 - Simple linear regression, or SLR, is a method used to understand the relationship between two variables, the predictor independent variable x and the target dependent variable y.
@@ -18,7 +18,7 @@ Yhat=lm.predict(X)
 Yhat[0:5]
 ```
 
-## Multiple Linear Regression
+## 2. Multiple Linear Regression
 
 - You can use multiple linear regression to explain the relationship between one continuous target y variable and two or more predictor x variables.
 
@@ -42,13 +42,13 @@ Why is that? Randomly spread out residuals means that the variance is constant, 
 
 - Use distribution plots for models with multiple features: Learn to construct distribution plots to compare predicted and actual values, particularly when your model includes more than one independent variable. Know that this can offer deeper insights into the accuracy of your model across different ranges of values.
   
-## Polynomial Regression
+## 3. Polynomial Regression
 
 - The order of the polynomials affects the fit of the model to your data. Apply Python's polyfit function to develop polynomial regression models that suit your specific dataset.
 
 - To prepare your data for more accurate modeling, use feature transformation techniques, particularly using the preprocessing library in scikit-learn, transform your data using polynomial features, and use the modules like StandardScaler to normalize the data.
 
-## Pipeline
+## 4. Pipeline
 
 - Pipelines allow you to simplify how you perform transformations and predictions sequentially, and you can use pipelines in scikit-learn to streamline your modeling process.
 
