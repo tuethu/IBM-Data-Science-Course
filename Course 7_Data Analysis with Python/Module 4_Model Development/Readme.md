@@ -34,9 +34,8 @@ lm.fit(Z, df['price'])
 ### Residual plot: 
 A residual plot is a graph that shows the residuals (e) (The difference between the observed value (y) and the predicted value (Yhat))
 on the vertical y-axis and the independent variable on the horizontal x-axis.
-is called the residual . When we look at a regression plot, the residual is the distance from the data point to the fitted regression line.
 
-- When using residual plots for model evaluation, residuals should ideally have zero mean, appear evenly distributed around the x-axis, and have consistent variance. 
+- When using residual plots for model evaluation, residuals should ideally have **zero mean**, appear **evenly distributed** around the x-axis, and have consistent variance. 
 Why is that? Randomly spread out residuals means that the variance is constant, and thus the linear model is a good fit for this data.
 
 ![Residual plot](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%207_Data%20Analysis%20with%20Python/Module%204_Model%20Development/Residual%20plot.png)
