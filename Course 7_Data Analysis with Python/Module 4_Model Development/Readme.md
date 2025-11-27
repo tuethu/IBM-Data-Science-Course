@@ -106,7 +106,8 @@ PlotPolly(p5, X, Y, 'CPU_frequency')   #Call for function of degree 5
 
 - You can construct and train a pipeline to automate tasks such as normalization, polynomial transformation, and making predictions.
 - Two very important measures that are often used in Statistics to determine the accuracy of a model are:
-   - 1. R^2 / R-squared
+  
+### 1. R^2 / R-squared
 R squared, also known as the coefficient of determination, is a measure to indicate how close the data is to the fitted regression line.
 The value of the R-squared is the percentage of variation of the response variable (y) that is explained by a linear model.
 
@@ -118,7 +119,7 @@ print('The R-square value is: ', r_squared)
 
 ![R squared](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%207_Data%20Analysis%20with%20Python/Module%204_Model%20Development/R%20squared.png)
 
-   - 2. Mean Squared Error (MSE)
+### 2. Mean Squared Error (MSE)
 The Mean Squared Error measures the average of the squares of errors. That is, the difference between actual value (y) and the estimated value (ŷ).
 
 ```
