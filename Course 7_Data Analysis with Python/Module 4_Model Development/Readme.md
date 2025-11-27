@@ -7,8 +7,10 @@ Congratulations! You have completed this lesson. At this point in the course, yo
 
 ## Multiple Linear Regression
 - You can use multiple linear regression to explain the relationship between one continuous target y variable and two or more predictor x variables.
-
+  
 - Simple linear regression, or SLR, is a method used to understand the relationship between two variables, the predictor independent variable x and the target dependent variable y.
+
+![Linear Regression and Multiple Linear Regression](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%207_Data%20Analysis%20with%20Python/Module%204_Model%20Development/Linear%20Regression%20and%20Multiple%20Linear%20Regression.png)
 
 - Use the regplot and residplot functions in the Seaborn library to create regression and residual plots, which help you identify the strength, direction, and linearity of the relationship between your independent and dependent variables.
 
