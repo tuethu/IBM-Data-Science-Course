@@ -126,6 +126,15 @@ Because it diverges from the true underlying function, it does not generalize we
 
   ## Part 4: Grid Search
 
-- That grid search allows you to scan through multiple hyperparameters using the Scikit-learn library, which iterates over these parameters using cross-validation. Based on the results of the grid search method, you select optimum hyperparameter values.
+- That grid search allows you to scan through multiple hyperparameters using the Scikit-learn library, which iterates over these parameters using cross-validation. Based on the results of the grid search method, you <ins>select optimum hyperparameter values</ins>
 
 - The GridSearchCV() method takes in a dictionary as its argument where the key is the name of the hyperparameter, and the values are the hyperparameter values you wish to iterate over.
+```
+from sklearn.model_selection import GridSearchCV
+from sklearn.linear_model import Ridge
+parameters= [{'alpha': [0.001,0.1,1, 10, 100, 1000, 10000, ...]}]
+RR=Ridge()
+Grid1 = GridSearchCV(RR, parameters1,cv=4) Grid1.fit(x_data[['attribute_1', 'attribute_2', ...]], y_data)
+BestRR=Grid1.best_estimator_
+BestRR.score(x_test[['attribute_1', 'attribute_2', ...]], y_test)
+```
