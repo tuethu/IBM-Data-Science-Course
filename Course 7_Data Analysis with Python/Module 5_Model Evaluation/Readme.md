@@ -102,7 +102,7 @@ plt.text(3, 0.75, 'Maximum R^2 ')
 
 ![Ridge Regression](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%207_Data%20Analysis%20with%20Python/Module%205_Model%20Evaluation/Ridge%20Regression.png)
 
-- You should use ridge regression when there is a strong relationship among the independent variables to prevent overfitting.
+- You should use ridge regression when there is a strong relationship among the independent variables to <ins>prevent overfitting</ins>
 
 - Ridge regression controls the magnitude of polynomial coefficients by introducing a hyperparameter, alpha. 
 
