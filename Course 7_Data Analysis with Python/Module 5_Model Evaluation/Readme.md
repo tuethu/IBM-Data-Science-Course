@@ -95,6 +95,8 @@ plt.title('R^2 Using Test Data')
 plt.text(3, 0.75, 'Maximum R^2 ')  
 ```
 
+The <ins>lower the R^2</ins>, the <ins>worse the model</ins>. A negative R^2 is a sign of overfitting.
+
 ## Part 3: Ridge Regression
 
 - You should use ridge regression when there is a strong relationship among the independent variables.  
