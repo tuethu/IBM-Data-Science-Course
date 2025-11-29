@@ -95,19 +95,36 @@ plt.title('R^2 Using Test Data')
 plt.text(3, 0.75, 'Maximum R^2 ')  
 ```
 
-- The <ins>lower the R^2</ins>, the <ins>worse the model</ins>. A negative R^2 is a sign of overfitting.
+- The <ins>lower the R^2</ins>, the <ins>worse the model</ins>.
+- A <ins>negative R^2 </ins> is a sign of <ins>overfitting</ins>.
 
 ## Part 3: Ridge Regression
 
-- You should use ridge regression when there is a strong relationship among the independent variables.  
+![Ridge Regression](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%207_Data%20Analysis%20with%20Python/Module%205_Model%20Evaluation/Ridge%20Regression.png)
 
-- That ridge regression prevents overfitting.
+- You should use ridge regression when there is a strong relationship among the independent variables to prevent overfitting.
 
 - Ridge regression controls the magnitude of polynomial coefficients by introducing a hyperparameter, alpha. 
 
 - To determine alpha, you divide your data into training  and validation data. Starting with a small value for alpha, you train the model, make a prediction using the validation data, then calculate the R-squared and store the values. You repeat the value for a larger value of alpha. You repeat the process for different alpha values, training the model, and making a prediction. You select the value of alpha that maximizes R-squared.
+  
+```
+from sklearn.linear_model import Ridge
+pr=PolynomialFeatures(degree=2) x_train_pr=pr.fit_transform(x_train[['attribute_1', 'attribute_2', ...]])
+x_test_pr=pr.fit_transform(x_test[['attribute_1', 'attribute_2',...]])
+RigeModel=Ridge(alpha=1)
+RigeModel.fit(x_train_pr, y_train)
+yhat = RigeModel.predict(x_test_pr)
+```
 
-## Part 4: Grid Search
+- A model that closely follows every training point but diverges from the actual function that generated the data is overfitting.
+
+<ins>Overfitting</ins> means the model has <ins>low bias</ins> (it matches training data very well) but <ins>high variance/ins> (its predictions swing wildly when applied to new or unseen data).
+
+Because it diverges from the true underlying function, it does not generalize well.
+
+
+  ## Part 4: Grid Search
 
 - That grid search allows you to scan through multiple hyperparameters using the Scikit-learn library, which iterates over these parameters using cross-validation. Based on the results of the grid search method, you select optimum hyperparameter values.
 
