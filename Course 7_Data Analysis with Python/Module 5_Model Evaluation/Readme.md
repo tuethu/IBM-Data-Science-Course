@@ -119,7 +119,7 @@ yhat = RigeModel.predict(x_test_pr)
 
 - A model that closely follows every training point but diverges from the actual function that generated the data is overfitting.
 
-<ins>Overfitting</ins> means the model has <ins>low bias</ins> (it matches training data very well) but <ins>high variance/ins> (its predictions swing wildly when applied to new or unseen data).
+<ins>Overfitting</ins> means the model has <ins>low bias</ins> (it matches training data very well) but <ins>high variance </ins> (its predictions swing wildly when applied to new or unseen data).
 
 Because it diverges from the true underlying function, it does not generalize well.
 
