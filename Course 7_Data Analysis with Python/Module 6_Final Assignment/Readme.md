@@ -12,3 +12,5 @@ The dataset contains house sale prices for King County, which includes Seattle. 
  [here](https://www.kaggle.com/datasets/harlfoxem/housesalesprediction)
  
 . It was also slightly modified for the purposes of this course. 
+
+[Cheat Sheet: Data Analysis for Python](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-DA0101EN-Coursera/labs/Python%20Cheat%20Sheet%20for%20Data%20Analysis.pdf)
