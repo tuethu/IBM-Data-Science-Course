@@ -13,4 +13,4 @@ The dataset contains house sale prices for King County, which includes Seattle. 
  
 . It was also slightly modified for the purposes of this course. 
 
-[Cheat Sheet: Data Analysis for Python](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-DA0101EN-Coursera/labs/Python%20Cheat%20Sheet%20for%20Data%20Analysis.pdf)
+[Cheat Sheet: Data Analysis for Python](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%207_Data%20Analysis%20with%20Python/Module%206_Final%20Assignment/Python%20Cheat%20Sheet%20for%20Data%20Analysis.pdf)
