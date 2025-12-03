@@ -14,7 +14,13 @@ Congratulations! You have completed this module. At this point in the course, yo
 - There are various types of plots commonly used in data visualization.
 
 - Line plots capture trends and changes over time, allowing us to see patterns and fluctuations.
+  
+- Line plot is one of the most basic type of chart and is common in many fields.
+  
+- A line plot is a plot in the form of a series of data points connected by straight line segments. 
 
+- You can generate a line plot by assigning "line" to 'Kind' parameter in the plot() function.
+  
 - Bar plots compare categories or groups, providing a visual comparison of their values.
 
 - Scatter plots explore relationships between variables, helping us identify correlations or trends.
@@ -22,6 +28,10 @@ Congratulations! You have completed this module. At this point in the course, yo
 - Box plots display the distribution of data, showcasing the median, quartiles, and outliers.
 
 - Histograms illustrate the distribution of data within specific intervals, allowing us to understand its shape and concentration.
+
+- The anatomy of a plot refers to the different components and elements that make up a visual representation of data.
+  
+- Jupyter Notebook is an open-source web application that allows you to create and share documents.
 
 ## Python Data Visualization Libraries
 ![Python Data Visualization Libraries](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%208_Data%20Visualization%20with%20Python/Module%201_Introduction%20to%20Data%20Visualization%20Tools/Introduction%20to%20Data%20Visualization/Python%20Data%20Visualization%20Libraries.png)
@@ -35,6 +45,8 @@ Congratulations! You have completed this module. At this point in the course, yo
 
 - PyWaffle enables you to visualize proportional representation using squares or rectangles.
 
+### Matplotlib
+
 - Matplotlib is a plotting library that offers a wide range of plotting capabilities.
 
 - Matplotlib is one of the most widely used data visualization libraries in Python. 
@@ -44,22 +56,16 @@ Congratulations! You have completed this module. At this point in the course, yo
 - Matplotlib’s architecture is composed of three main layers: Backend layer, Artist layer, and the Scripting layer.
 [Matplotlib Architectur](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%208_Data%20Visualization%20with%20Python/Module%201_Introduction%20to%20Data%20Visualization%20Tools/Introduction%20to%20Data%20Visualization/Matplotlib%20Architecture.png)
 
-- The anatomy of a plot refers to the different components and elements that make up a visual representation of data.
-
 - Matplotlib is a well-established data visualization library that can be integrated in different environments. 
 
-- Jupyter Notebook is an open-source web application that allows you to create and share documents.
+- Matplotlib has a number of different backends available.
 
-- Matplotlib has a number of different backends available. 
+  
 
 - You can easily include the label and title to your plot with plt.
 
 - In order to start creating different types of plots of the data, you will need to import the data into a Pandas DataFrame.
 
-- A line plot is a plot in the form of a series of data points connected by straight line segments. 
 
-- Line plot is one of the most basic type of chart and is common in many fields. 
-
-- You can generate a line plot by assigning "line" to 'Kind' parameter in the plot() function.
 
 [Cheat Sheet: Data Preprocessing Tasks in Pandas & Plot Libraries](https://author-ide.skills.network/render?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZF9pbnN0cnVjdGlvbnNfdXJsIjoiaHR0cHM6Ly9jZi1jb3Vyc2VzLWRhdGEuczMudXMuY2xvdWQtb2JqZWN0LXN0b3JhZ2UuYXBwZG9tYWluLmNsb3VkL0lCTURldmVsb3BlclNraWxsc05ldHdvcmstRFYwMTAxRU4tU2tpbGxzTmV0d29yay9sYWJzL3Y0L0RWMDEwMUVOLUNoZWF0U2hlZXQtMS5tZD90PTE3NTAzMzEwNTciLCJ0b29sX3R5cGUiOiJpbnN0cnVjdGlvbmFsLWxhYiIsImF0bGFzX2ZpbGVfaWQiOjM1MTU1LCJhZG1pbiI6ZmFsc2UsImlhdCI6MTc1NzY5NDU1OH0.CwwmMVofPuex6A4yxMrAikfMdXimYm0AfCWwN-lDWgI)
