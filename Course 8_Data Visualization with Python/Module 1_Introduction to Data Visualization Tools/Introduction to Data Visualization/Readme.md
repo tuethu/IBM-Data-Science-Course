@@ -21,6 +21,27 @@ Congratulations! You have completed this module. At this point in the course, yo
 
 - You can generate a line plot by assigning "line" to 'Kind' parameter in the plot() function.
   
+- In order to start creating different types of plots of the data, you will need to import the data into a Pandas DataFrame.
+  
+```
+# Compare the number of immigrants from India and China from 1980 to 2013.
+years = list(map(str, range(1980, 2013)))
+df_IC = df_can.loc[['India', 'China'], years] # passing in years 1980 - 2013 to exclude the 'total' column
+df_IC.head()
+
+df_IC = df_IC.transpose() # swap the row and columns
+df_IC.head()
+
+df_IC.index = df_IC .index.map(int) ####### import the data into a Pandas DataFrame to create different types of plots of the data
+df_IC.plot(kind='line') ####### generate a line plot
+
+plt.title('Immigration from China and Indiai')
+plt.ylabel('Number of immigrants')
+plt.xlabel('Years')
+
+plt.show()
+```
+ 
 - Bar plots compare categories or groups, providing a visual comparison of their values.
 
 - Scatter plots explore relationships between variables, helping us identify correlations or trends.
@@ -37,6 +58,7 @@ Congratulations! You have completed this module. At this point in the course, yo
 ![Python Data Visualization Libraries](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%208_Data%20Visualization%20with%20Python/Module%201_Introduction%20to%20Data%20Visualization%20Tools/Introduction%20to%20Data%20Visualization/Python%20Data%20Visualization%20Libraries.png)
 
 - Pandas is a plotting library that provides Integrated plotting functionalities for data analysis.
+  
 - Seaborn is a specialized library for statistical visualizations, offering attractive default aesthetics and color palettes.
 
 - Folium is a Python library that allows you to create interactive and customizable maps.
@@ -49,7 +71,16 @@ Congratulations! You have completed this module. At this point in the course, yo
 
 - Matplotlib is a plotting library that offers a wide range of plotting capabilities.
 
-- Matplotlib is one of the most widely used data visualization libraries in Python. 
+- Matplotlib is one of the most widely used data visualization libraries in Python.
+
+- You can easily include the label and title to your plot with plt.
+
+```
+%matplotlib inline 
+
+import matplotlib as mpl
+import matplotlib.pyplot as plt ###  include the label and title to the plot
+```
 
 - Matplotlib was initially developed as an EEG/ECoG visualization tool. 
 
@@ -64,9 +95,6 @@ Congratulations! You have completed this module. At this point in the course, yo
 
   
 
-- You can easily include the label and title to your plot with plt.
-
-- In order to start creating different types of plots of the data, you will need to import the data into a Pandas DataFrame.
 
 
 
