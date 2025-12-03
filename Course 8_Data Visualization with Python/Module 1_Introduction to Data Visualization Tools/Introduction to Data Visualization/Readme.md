@@ -8,6 +8,9 @@ Congratulations! You have completed this module. At this point in the course, yo
 
 - It is important to follow best practices, such as selecting appropriate visualizations for the data being presented, choosing colors and fonts that are easy to read and interpret, and minimizing clutter.
 
+## Python Plot Types 
+[Python Charts](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%208_Data%20Visualization%20with%20Python/Module%201_Introduction%20to%20Data%20Visualization%20Tools/Introduction%20to%20Data%20Visualization/Python%20Charts.webp)
+
 - There are various types of plots commonly used in data visualization.
 
 - Line plots capture trends and changes over time, allowing us to see patterns and fluctuations.
@@ -20,10 +23,10 @@ Congratulations! You have completed this module. At this point in the course, yo
 
 - Histograms illustrate the distribution of data within specific intervals, allowing us to understand its shape and concentration.
 
-- Matplotlib is a plotting library that offers a wide range of plotting capabilities.
+## Python Data Visualization Libraries
+[Python Data Visualization Libraries](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%208_Data%20Visualization%20with%20Python/Module%201_Introduction%20to%20Data%20Visualization%20Tools/Introduction%20to%20Data%20Visualization/Python%20Data%20Visualization%20Libraries.png)
 
 - Pandas is a plotting library that provides Integrated plotting functionalities for data analysis.
-
 - Seaborn is a specialized library for statistical visualizations, offering attractive default aesthetics and color palettes.
 
 - Folium is a Python library that allows you to create interactive and customizable maps.
@@ -32,11 +35,14 @@ Congratulations! You have completed this module. At this point in the course, yo
 
 - PyWaffle enables you to visualize proportional representation using squares or rectangles.
 
+- Matplotlib is a plotting library that offers a wide range of plotting capabilities.
+
 - Matplotlib is one of the most widely used data visualization libraries in Python. 
 
 - Matplotlib was initially developed as an EEG/ECoG visualization tool. 
 
-- Matplotlib’s architecture is composed of three main layers: Backend layer, Artist layer, and the Scripting layer. 
+- Matplotlib’s architecture is composed of three main layers: Backend layer, Artist layer, and the Scripting layer.
+[Matplotlib Architectur](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%208_Data%20Visualization%20with%20Python/Module%201_Introduction%20to%20Data%20Visualization%20Tools/Introduction%20to%20Data%20Visualization/Matplotlib%20Architecture.png)
 
 - The anatomy of a plot refers to the different components and elements that make up a visual representation of data.
 
