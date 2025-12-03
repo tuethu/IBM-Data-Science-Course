@@ -9,7 +9,7 @@ Congratulations! You have completed this module. At this point in the course, yo
 - It is important to follow best practices, such as selecting appropriate visualizations for the data being presented, choosing colors and fonts that are easy to read and interpret, and minimizing clutter.
 
 ## Python Plot Types 
-[Python Charts](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%208_Data%20Visualization%20with%20Python/Module%201_Introduction%20to%20Data%20Visualization%20Tools/Introduction%20to%20Data%20Visualization/Python%20Charts.webp)
+![Python Charts](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%208_Data%20Visualization%20with%20Python/Module%201_Introduction%20to%20Data%20Visualization%20Tools/Introduction%20to%20Data%20Visualization/Python%20Charts.webp)
 
 - There are various types of plots commonly used in data visualization.
 
@@ -24,7 +24,7 @@ Congratulations! You have completed this module. At this point in the course, yo
 - Histograms illustrate the distribution of data within specific intervals, allowing us to understand its shape and concentration.
 
 ## Python Data Visualization Libraries
-[Python Data Visualization Libraries](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%208_Data%20Visualization%20with%20Python/Module%201_Introduction%20to%20Data%20Visualization%20Tools/Introduction%20to%20Data%20Visualization/Python%20Data%20Visualization%20Libraries.png)
+![Python Data Visualization Libraries](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%208_Data%20Visualization%20with%20Python/Module%201_Introduction%20to%20Data%20Visualization%20Tools/Introduction%20to%20Data%20Visualization/Python%20Data%20Visualization%20Libraries.png)
 
 - Pandas is a plotting library that provides Integrated plotting functionalities for data analysis.
 - Seaborn is a specialized library for statistical visualizations, offering attractive default aesthetics and color palettes.
