@@ -54,6 +54,7 @@ Congratulations! You have completed this module. At this point in the course, yo
 - Matplotlib was initially developed as an EEG/ECoG visualization tool. 
 
 - Matplotlib’s architecture is composed of three main layers: Backend layer, Artist layer, and the Scripting layer.
+  
 
 ![Matplotlib Architecture](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%208_Data%20Visualization%20with%20Python/Module%201_Introduction%20to%20Data%20Visualization%20Tools/Introduction%20to%20Data%20Visualization/Matplotlib%20Architecture.png)
 
