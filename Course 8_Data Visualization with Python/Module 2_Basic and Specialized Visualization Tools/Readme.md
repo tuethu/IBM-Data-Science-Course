@@ -77,7 +77,7 @@ You can use plt i.e. matplotlib.pyplot and add more elements by calling differen
     plt.ylabel('Number of immigrants')
     plt.xlabel('Years')
 ```    
-   - 2. Artist layer (Object oriented method) - using an Axes instance from Matplotlib (preferred)
+2.  Artist layer (Object oriented method) - using an Axes instance from Matplotlib (preferred)
 
 You can use an Axes instance of your current plot and store it in a variable (eg. ax). You can add more elements by calling methods with a little change in syntax (by adding "set_" to the previous methods). 
 
