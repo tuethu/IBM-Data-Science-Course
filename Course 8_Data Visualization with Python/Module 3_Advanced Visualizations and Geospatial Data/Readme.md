@@ -38,6 +38,8 @@ Congratulations! You have completed this module. At this point in the course, yo
 
 - Markers can be created using “feature group.”
 
+### Choropleth map
+
 - A choropleth map is a thematic map in which areas are shaded or patterned in proportion to the measurement of the statistical variable.
   
 - First step when converting a world map into a choropleth map is DEFINING THE VARIABLE that points to our Geo JSON file.
