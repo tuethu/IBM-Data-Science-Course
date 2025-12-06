@@ -111,6 +111,11 @@ df_total.head()
 ![Scatter Plots](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%208_Data%20Visualization%20with%20Python/Module%202_Basic%20and%20Specialized%20Visualization%20Tools/Lesson%202_Specialized%20Visualization%20Tools/Scatter%20Plots.png)
 
 ## BUBBLE PLOTS
+
+- A bubble plot is a variation of the scatter plot that displays three dimensions of data (x, y, z). The data points are replaced with bubbles, and the size of the bubble is determined by the third variable z, also known as the weight.
+  
+- In maplotlib, we can pass in an array or scalar to the parameter s to plot(), that contains the weight of each point.
+
 ![Bubble Plots](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%208_Data%20Visualization%20with%20Python/Module%202_Basic%20and%20Specialized%20Visualization%20Tools/Lesson%202_Specialized%20Visualization%20Tools/Bubble%20Plots.png)
 
 ### MATPLOTLIB
