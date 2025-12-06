@@ -59,6 +59,8 @@ plt.show()
 - A feature of Folium is that you can create different map styles using the tiles parameter.
 
 - With Folium, you can easily add markers on maps.
+
+![Marker](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%208_Data%20Visualization%20with%20Python/Module%203_Advanced%20Visualizations%20and%20Geospatial%20Data/Marker.png)
   
 - The default map style in Folium is the OPEN STREET MAP.
   
@@ -82,6 +84,8 @@ ZOOM_START=PARAMETER
 ### Choropleth map
 
 - A choropleth map is a thematic map in which areas are shaded or patterned in proportion to the measurement of the statistical variable.
+
+![Choropleth map](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%208_Data%20Visualization%20with%20Python/Module%203_Advanced%20Visualizations%20and%20Geospatial%20Data/Choropleth%20Maps.png)
   
 - First step when converting a world map into a choropleth map is DEFINING THE VARIABLE that points to our Geo JSON file.
 
