@@ -94,3 +94,8 @@ ZOOM_START=PARAMETER
 - The Mapbox Bright Tileset displays the name of every country when used on a map.
 
 [Cheat Sheet : Maps, Waffles, WordCloud and Seaborn](https://author-ide.skills.network/render?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZF9pbnN0cnVjdGlvbnNfdXJsIjoiaHR0cHM6Ly9jZi1jb3Vyc2VzLWRhdGEuczMudXMuY2xvdWQtb2JqZWN0LXN0b3JhZ2UuYXBwZG9tYWluLmNsb3VkL0lCTURldmVsb3BlclNraWxsc05ldHdvcmstRFYwMTAxRU4tU2tpbGxzTmV0d29yay9sYWJzL3Y0L0RWMDEwMUVOLUNoZWF0U2hlZXQtMy5tZD90PTE3NDYxMjMxOTIiLCJ0b29sX3R5cGUiOiJpbnN0cnVjdGlvbmFsLWxhYiIsImF0bGFzX2ZpbGVfaWQiOjM1MTU3LCJhZG1pbiI6ZmFsc2UsImlhdCI6MTc1NzY5NDU1OH0.tELqwbJFsawYfpd7a6ADyhsXIlqqZOb8eGaN4H9Ea3w)
+
+
+[Hands-on Lab_Waffle Charts, Word Clouds, and Regression Plots](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%208_Data%20Visualization%20with%20Python/Module%203_Advanced%20Visualizations%20and%20Geospatial%20Data/Lesson%201_Advanced%20Visualization%20Tools/Hands-on%20Lab_Waffle%20Charts%2C%20Word%20Clouds%2C%20and%20Regression%20Plots.ipynb)
+
+[Hands-on Lab_Creating Maps and Visualizing Geospatial Data](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%208_Data%20Visualization%20with%20Python/Module%203_Advanced%20Visualizations%20and%20Geospatial%20Data/Lesson%202_Visualizing%20Geospatial%20Data/Hands-on%20Lab_Creating%20Maps%20and%20Visualizing%20Geospatial%20Data.ipynb)
