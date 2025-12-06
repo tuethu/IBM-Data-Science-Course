@@ -42,6 +42,7 @@ Congratulations! You have completed this module. At this point in the course, yo
   
 - The process of creating a pie chart involves importing Matplotlib to represent a large set of data over a period of time.
 
+![Pie Charts](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%208_Data%20Visualization%20with%20Python/Module%202_Basic%20and%20Specialized%20Visualization%20Tools/Lesson%202_Specialized%20Visualization%20Tools/Pie%20Charts.png)
 
 [Hands-on Lab_Area Plots, Histograms, and Bar Charts](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%208_Data%20Visualization%20with%20Python/Module%202_Basic%20and%20Specialized%20Visualization%20Tools/Lesson%201_Basic%20Visualization%20Tools/Hands-on%20Lab_Area%20Plots%2C%20Histograms%2C%20and%20Bar%20Charts.ipynb)
 
@@ -49,6 +50,8 @@ Congratulations! You have completed this module. At this point in the course, yo
 
 ## BOX PLOT
 - A box plot is a way of statistically representing given data distribution through FIVE main dimensions. These include Minimum, First quartile, Median, Third quartile, and Maximum.
+
+![Box Plot Definition](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%208_Data%20Visualization%20with%20Python/Module%202_Basic%20and%20Specialized%20Visualization%20Tools/Lesson%202_Specialized%20Visualization%20Tools/Box%20Plot%20Definition.png)
 
 - The five main dimensions are minimum, first quartile, median, third quartile, and maximum.
 
@@ -59,8 +62,26 @@ DataFrame.plot.box()
 DataFrame.plot(kind = ‘box’)
 
 - The combination of function and parameter to create a box plot in Matplotlib is:
-Function = plot, and Parameter = kind with value = "box" 
+Function = plot, and Parameter = kind with value = "box"
 
+![Box Plot](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%208_Data%20Visualization%20with%20Python/Module%202_Basic%20and%20Specialized%20Visualization%20Tools/Lesson%202_Specialized%20Visualization%20Tools/Box%20Plot.png)
+
+### Subplots of Box Plot
+
+- Often times we might want to plot multiple plots within the same figure. For example, we might want to perform a side by side comparison of the box plot with the line plot of China and India's immigration.
+
+- To visualize multiple plots together, we can create a figure (overall canvas) and divide it into subplots, each containing a plot. With subplots, we usually work with the artist layer instead of the scripting layer.
+
+- Typical syntax is :
+
+    fig = plt.figure() # create figure
+    ax = fig.add_subplot(nrows, ncols, plot_number) # create subplots
+
+Where
+nrows and ncols are used to notionally split the figure into (nrows * ncols) sub-axes,
+plot_number is used to identify the particular subplot that this function is to create within the notional grid. plot_number starts at 1, increments across rows first and has a maximum of nrows * ncols as shown below.
+
+![Subplots](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%208_Data%20Visualization%20with%20Python/Module%202_Basic%20and%20Specialized%20Visualization%20Tools/Lesson%202_Specialized%20Visualization%20Tools/Subplots.png)
 
 ## SCATTER PLOT
 
