@@ -25,7 +25,15 @@ Congratulations! You have completed this module. At this point in the course, yo
 
 ## BAR CHART
 
-- A BAR CHART is a type of plot where the length of each bar is proportional to the value of the item that it represents
+- A BAR CHART is a type of plot where the length of each bar is proportional to the value/ magnitude/size of the item that it represents
+  
+- Bar graphs usually represent numerical and categorical variables grouped in intervals.
+
+- To create a bar plot, we can pass one of two arguments via kind parameter in plot():
+   - kind=bar creates a vertical bar plot
+   - kind=barh creates a horizontal bar plot
+
+![Bar Charts](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%208_Data%20Visualization%20with%20Python/Module%202_Basic%20and%20Specialized%20Visualization%20Tools/Lesson%201_Basic%20Visualization%20Tools/Bar%20Charts.png)
 
 
 ## PIE CHART
