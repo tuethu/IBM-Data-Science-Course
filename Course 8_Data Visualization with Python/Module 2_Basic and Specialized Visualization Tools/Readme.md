@@ -8,6 +8,8 @@ Congratulations! You have completed this module. At this point in the course, yo
 
 - Area plots are like a line plot but with the area below the line filled with color to emphasize the cumulative magnitude of the variables.
 
+![Area Plots](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%208_Data%20Visualization%20with%20Python/Module%202_Basic%20and%20Specialized%20Visualization%20Tools/Lesson%201_Basic%20Visualization%20Tools/Area%20Plots.png)
+
 ## HISTOGRAM
 
 - A histogram is a way of representing the frequency distribution of a  NUMERIC dataset
@@ -61,6 +63,27 @@ Function = plot, and Parameter = kind with value = "box"
 - Matplotlib’s Pyplot module offers a convenient way to create and customize plots quickly.
 
 [Hands-on Lab_Plotting Directly with Matplotlib](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%208_Data%20Visualization%20with%20Python/Module%202_Basic%20and%20Specialized%20Visualization%20Tools/Lesson%202_Specialized%20Visualization%20Tools/Hands-on%20Lab_Plotting%20Directly%20with%20Matplotlib.ipynb)
+
+### Two types of plotting
+There are two styles/options of plotting with matplotlib， plotting using the Artist layer and plotting using the scripting layer.
+
+1. Scripting layer (procedural method) - using matplotlib.pyplot as 'plt'
+
+You can use plt i.e. matplotlib.pyplot and add more elements by calling different methods procedurally; for example, plt.title(...) to add title or plt.xlabel(...) to add label to the x-axis.
+```
+    # Option 1: This is what we have been using so far
+    df_top5.plot(kind='area', alpha=0.35, figsize=(20, 10)) 
+    plt.title('Immigration trend of top 5 countries')
+    plt.ylabel('Number of immigrants')
+    plt.xlabel('Years')
+```    
+   - 2. Artist layer (Object oriented method) - using an Axes instance from Matplotlib (preferred)
+
+You can use an Axes instance of your current plot and store it in a variable (eg. ax). You can add more elements by calling methods with a little change in syntax (by adding "set_" to the previous methods). 
+
+For example, use ax.set_title() instead of plt.title() to add title, or ax.set_xlabel() instead of plt.xlabel() to add label to the x-axis.
+
+This option sometimes is more transparent and flexible to use for advanced plots (in particular when having multiple plots, as you will see later).
 
 - Data Storytelling is the ‘art of storytelling’ that involves creating a narrative around the data.
 
