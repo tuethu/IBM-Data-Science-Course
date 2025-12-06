@@ -88,7 +88,30 @@ plot_number is used to identify the particular subplot that this function is to 
 - A scatter plot displays values pertaining to typically TWO variables against each other.
 
 - The process of creating a scatter plot involves importing MATPLOTLIB to visualize a large set of data.
+  
+```
+df_countries = df_can.loc[['Denmark', 'Norway', 'Sweden'], years].transpose()
 
+# create df_total by summing across three countries for each year
+df_total = pd.DataFrame(df_countries.sum(axis=1))
+
+# reset index in place
+df_total.reset_index(inplace=True)
+
+# rename columns
+df_total.columns = ['year', 'total']
+
+# change column year from string to int to create scatter plot
+df_total['year'] = df_total['year'].astype(int)
+
+# show resulting dataframe
+df_total.head()
+```
+
+![Scatter Plots](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%208_Data%20Visualization%20with%20Python/Module%202_Basic%20and%20Specialized%20Visualization%20Tools/Lesson%202_Specialized%20Visualization%20Tools/Scatter%20Plots.png)
+
+## BUBBLE PLOTS
+![Bubble Plots](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%208_Data%20Visualization%20with%20Python/Module%202_Basic%20and%20Specialized%20Visualization%20Tools/Lesson%202_Specialized%20Visualization%20Tools/Bubble%20Plots.png)
 
 ### MATPLOTLIB
 
