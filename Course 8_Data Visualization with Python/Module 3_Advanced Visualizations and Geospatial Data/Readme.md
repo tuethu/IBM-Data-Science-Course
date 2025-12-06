@@ -7,14 +7,48 @@ Congratulations! You have completed this module. At this point in the course, yo
 - WAFFLE CHARTS are a visualization technique that represents categorical data in the form of square tiles or cells.
   
 - The squares on a waffle chart represent  a specific value or category.
+
+![Waffle Charts](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%208_Data%20Visualization%20with%20Python/Module%203_Advanced%20Visualizations%20and%20Geospatial%20Data/Waffle%20Charts.png)
   
 - Seaborn is another data visualization library, it is based on MATPLOTLIB.
 
 - Seaborn provides specialized plot types such as regression, distribution, and categorical plots that are particularly useful for analyzing data and modeling relationships.
-  
+
+![Seaborn Regression Plot](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%208_Data%20Visualization%20with%20Python/Module%203_Advanced%20Visualizations%20and%20Geospatial%20Data/Seaborn%20Regression%20Plot.png)
+
 - SEABORN is a visualization library that provides a higher level interface for creating visually appealing and informative statistical graphics and deals with complex visualizations and statistical analysis.
   
 - The easiest way to create a waffle chart in Python is using the Python package called PYWAFFLE
+
+```
+#install pywaffle
+!pip install pywaffle
+
+#import Waffle from pywaffle
+from pywaffle import Waffle
+
+#Set up the Waffle chart figure
+
+fig = plt.figure(FigureClass = Waffle,
+                 rows = 20, columns = 30, #pass the number of rows and columns for the waffle 
+                 values = df_dsn['Total'], #pass the data to be used for display
+                 cmap_name = 'tab20', #color scheme
+                 legend = {'labels': [f"{k} ({v})" for k, v in zip(df_dsn.index.values,df_dsn.Total)],
+                            'loc': 'lower left', 'bbox_to_anchor':(0,-0.1),'ncol': 3}
+                 #notice the use of list comprehension for creating labels 
+                 #from index and total of the dataset
+                )
+
+#Display the waffle chart
+plt.show()
+```
+
+## WORD CLOUDS
+
+- Word clouds (also known as text clouds or tag clouds) work in a simple way: the more a specific word appears in a source of textual data (such as a speech, blog post, or database), the bigger and bolder it appears in the word cloud.
+
+  ![Word Clouds](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%208_Data%20Visualization%20with%20Python/Module%203_Advanced%20Visualizations%20and%20Geospatial%20Data/Word%20Clouds.png)
+  
 
 ## FOLIUM
 
