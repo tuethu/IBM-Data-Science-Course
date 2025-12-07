@@ -26,7 +26,8 @@ Congratulations! You have completed this module. At this point in the course, yo
 
 - The callback function takes input and output components as PARAMETERS  and performs operations to return the desired result for the output component.
 
-The correct way of adding a callback decorator is the following: @app.callback( Output(component_id='bar-plot’, component_property='figure’), Input(component_id='input-yr,’ component_property='value’)).
+- The correct way of adding a callback decorator is the following:
+  @app.callback( Output(component_id='bar-plot’, component_property='figure’), Input(component_id='input-yr,’ component_property='value’)).
 (All are  Parenthesis, not Curly brackets)
 
 - VISUAL is the feature that dashboards offer in real-time
