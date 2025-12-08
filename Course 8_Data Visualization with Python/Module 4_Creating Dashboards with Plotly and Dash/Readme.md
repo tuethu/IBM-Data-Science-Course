@@ -33,3 +33,20 @@ Congratulations! You have completed this module. At this point in the course, yo
 - VISUAL is the feature that dashboards offer in real-time
 
 - JSON is a Plotly.graph object that has a dictionary structure
+  
+- Additional Resources for Dashboards
+[Dashboarding tools](https://pyviz.org/dashboarding/)
+[John Snow's data journalism](https://www.theguardian.com/news/datablog/2013/mar/15/john-snow-cholera-map)
+
+- Additional Resources for Plotly
+[Getting Started with Plotly in Python](https://plotly.com/python/getting-started/)
+[Graph Objects in Python](https://plotly.com/python/graph-objects/)
+[Plotly Express in Python](https://plotly.com/python/plotly-express/)
+[Python API reference for plotly](https://plotly.com/python-api-reference/)
+
+
+[Plotly cheatsheet](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://images.plot.ly/plotly-documentation/images/plotly_js_cheat_sheet.pdf)
+[Plotly community](https://community.plotly.com/c/plotly-python/5)
+[Related blogs](https://plotlygraphs.medium.com/)
+[Open-source datasets](https://www.transtats.bts.gov/DataIndex.asp)
+
