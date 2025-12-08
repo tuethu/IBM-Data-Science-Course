@@ -127,11 +127,11 @@ def compute_info(airline_data, entered_year):
    - Next is to update the get_graph function. We have already added a function compute_info that will perform computation on the data using the input.
 
    - Mapping the returned value from the function compute_info to graph:
-   - avg_car - input for carrier delay
-   - avg_weather - input for weather delay
-   - avg_NAS - input for NAS delay
-   - avg_sec - input for security delay
-   - avg_late - input for late aircraft delay
+     - avg_car - input for carrier delay
+     - avg_weather - input for weather delay
+     - avg_NAS - input for NAS delay
+     - avg_sec - input for security delay
+     - avg_late - input for late aircraft delay
 
 
 ## Computation to callback function and return graph
