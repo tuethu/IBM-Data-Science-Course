@@ -39,14 +39,14 @@ Congratulations! You have completed this module. At this point in the course, yo
 [John Snow's data journalism](https://www.theguardian.com/news/datablog/2013/mar/15/john-snow-cholera-map)
 
 - Additional Resources for Plotly
-[Getting Started with Plotly in Python](https://plotly.com/python/getting-started/)
-[Graph Objects in Python](https://plotly.com/python/graph-objects/)
-[Plotly Express in Python](https://plotly.com/python/plotly-express/)
-[Python API reference for plotly](https://plotly.com/python-api-reference/)
+   - [Getting Started with Plotly in Python](https://plotly.com/python/getting-started/)
+   - [Graph Objects in Python](https://plotly.com/python/graph-objects/)
+   - [Plotly Express in Python](https://plotly.com/python/plotly-express/)
+   - [Python API reference for plotly](https://plotly.com/python-api-reference/)
 
 
-[Plotly cheatsheet](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://images.plot.ly/plotly-documentation/images/plotly_js_cheat_sheet.pdf)
-[Plotly community](https://community.plotly.com/c/plotly-python/5)
-[Related blogs](https://plotlygraphs.medium.com/)
-[Open-source datasets](https://www.transtats.bts.gov/DataIndex.asp)
+   - [Plotly cheatsheet](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://images.plot.ly/plotly-documentation/images/plotly_js_cheat_sheet.pdf)
+   - [Plotly community](https://community.plotly.com/c/plotly-python/5)
+   - [Related blogs](https://plotlygraphs.medium.com/)
+   - [Open-source datasets](https://www.transtats.bts.gov/DataIndex.asp)
 
