@@ -35,8 +35,8 @@ Congratulations! You have completed this module. At this point in the course, yo
 - JSON is a Plotly.graph object that has a dictionary structure
   
 - Additional Resources for Dashboards
-[Dashboarding tools](https://pyviz.org/dashboarding/)
-[John Snow's data journalism](https://www.theguardian.com/news/datablog/2013/mar/15/john-snow-cholera-map)
+   - [Dashboarding tools](https://pyviz.org/dashboarding/)
+   - [John Snow's data journalism](https://www.theguardian.com/news/datablog/2013/mar/15/john-snow-cholera-map)
 
 - Additional Resources for Plotly
    - [Getting Started with Plotly in Python](https://plotly.com/python/getting-started/)
