@@ -4,21 +4,27 @@ Congratulations! You have completed this module. At this point in the course, yo
 
 - MATPLOTLIB is a comprehensive library for creating static, animated, and interactive VISUALIZATIONS in Python.
 
+## PLOTLY
+
 - Web-based visualizations created using PLOTLY Python can be displayed in Jupyter Notebook, saved to standalone HTML files, or served as part of pure Python-built web applications using Dash.
 
-- The PLOTLY graph objects module provides an automatically generated hierarchy of classes.
+- The PLOTLY GRAPH OBJECTS module provides an automatically generated hierarchy of classes, they are LOW-LEVEL interface to figures, traces, and layout
+![Plotly graph objects](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%208_Data%20Visualization%20with%20Python/Module%204_Creating%20Dashboards%20with%20Plotly%20and%20Dash/PLOTLY%20graph%20objects.png)
+
+- Plotly EXPRESS is a HIGH-LEVEL wrapper.
+![Plotly Express](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%208_Data%20Visualization%20with%20Python/Module%204_Creating%20Dashboards%20with%20Plotly%20and%20Dash/Plotly%20EXPRESS.png)
+
+## DASH
 
 - Dash is an OPEN-Source User Interface Python library for creating reactive, web-based applications.
 
 - It is easy to build Graphical User Interfaces using Dash as it abstracts all technologies required to make the applications.
 
-- Plotly express is a HIGH-LEVEL wrapper.
-
 - There are two components of Dash: Core and HTML components.
 
-- The dash_core_components describe higher-level interactive components generated with JavaScript, HTML, and CSS through the React.js library.
+   - The dash_core_components describe higher-level interactive components generated with JavaScript, HTML, and CSS through the React.js library.
 
-- The dash_html_components library has a component for every HTML tag.
+   - The dash_html_components library has a component for every HTML tag.
 
 - A callback function is DECORATOR_a python function that is automatically called by DASH whenever an input component's property changes.
 
@@ -29,6 +35,8 @@ Congratulations! You have completed this module. At this point in the course, yo
 - The correct way of adding a callback decorator is the following:<br/>
   @app.callback( Output(component_id='bar-plot’, component_property='figure’), Input(component_id='input-yr,’ component_property='value’)).<br/>
 (All are  Parenthesis, not Curly brackets)
+
+[Callback function example](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%208_Data%20Visualization%20with%20Python/Module%204_Creating%20Dashboards%20with%20Plotly%20and%20Dash/Example.md)
 
 - VISUAL is the feature that dashboards offer in real-time
 
