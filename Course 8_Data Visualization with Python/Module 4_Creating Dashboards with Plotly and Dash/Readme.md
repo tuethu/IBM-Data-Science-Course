@@ -43,10 +43,23 @@ Congratulations! You have completed this module. At this point in the course, yo
    - [Graph Objects in Python](https://plotly.com/python/graph-objects/)
    - [Plotly Express in Python](https://plotly.com/python/plotly-express/)
    - [Python API reference for plotly](https://plotly.com/python-api-reference/)
-
-
-   - [Plotly cheatsheet](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://images.plot.ly/plotly-documentation/images/plotly_js_cheat_sheet.pdf)
+   - [Plotly cheatsheet](https://images.plot.ly/plotly-documentation/images/plotly_js_cheat_sheet.pdf)
    - [Plotly community](https://community.plotly.com/c/plotly-python/5)
    - [Related blogs](https://plotlygraphs.medium.com/)
    - [Open-source datasets](https://www.transtats.bts.gov/DataIndex.asp)
+ 
+- Additional Resources for Dash
+   - [Complete dash user guide](https://dash.plotly.com/)
+   - [Dash core components](https://dash.plotly.com/dash-core-components)
+   - [Dash HTML components](https://dash.plotly.com/dash-html-components)
+   - [Dash community forum](https://community.plotly.com/c/python/25)
+   - [Related blogs](https://medium.com/plotly/all?topic=dash)
+ 
+- Additional Resources for Interactive Dashboards
+   - [Python decorators reference 1](https://realpython.com/primer-on-python-decorators/)
+   - [Python decorators reference 2](https://peps.python.org/pep-0318/#current-syntax)
+   - [Callbacks with example](https://dash.plotly.com/basic-callbacks)
+   - [Dash app gallery](https://dash.gallery/Portal/)
+   - [Dash community components](https://community.plotly.com/t/community-components-index/60098)
+  
 
