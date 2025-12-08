@@ -1,7 +1,7 @@
-------------------------------------------------------------------
+
 # TASK 1 - Read the data
-------------------------------------------------------------------
-# Import required libraries
+
+## Import required libraries
 import pandas as pd
 import dash
 from dash import dcc
@@ -9,31 +9,31 @@ from dash import html
 from dash.dependencies import Input, Output
 import plotly.express as px
 
-# Read the airline data into pandas dataframe
+## Read the airline data into pandas dataframe
 airline_data =  pd.read_csv('https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-DV0101EN-SkillsNetwork/Data%20Files/airline_data.csv', 
                             encoding = "ISO-8859-1",
                             dtype={'Div1Airport': str, 'Div1TailNum': str, 
                                    'Div2Airport': str, 'Div2TailNum': str})
 
-# Create a dash application
+## Create a dash application
 app = dash.Dash(__name__)
 
-# Build dash app layout
+## Build dash app layout
 
-------------------------------------------------------------------
+
 # TASK 2 - Create dash application and get the layout skeleton
-------------------------------------------------------------------
-# TASK 3 - Update layout components
-------------------------------------------------------------------
 
-# Application title: Title as Flight Delay Time Statistics, align text as center, color as #503D36, and font size as 30
+# TASK 3 - Update layout components
+
+
+## Application title: Title as Flight Delay Time Statistics, align text as center, color as #503D36, and font size as 30
 
 app.layout = html.Div(children=[ html.H1('Flight Delay Time Statistics', 
                                 style={'textAlign': 'center', 'color': '#503D36',
                                 'font-size': 30}),
 
 
-# Input component: Update dcc.Input component id as input-year, default value as 2010, and type as number. Use style parameter and assign height of the input box to be 35px and font-size to be 30
+## Input component: Update dcc.Input component id as input-year, default value as 2010, and type as number. Use style parameter and assign height of the input box to be 35px and font-size to be 30
 
                                 html.Div(["Input Year: ", dcc.Input(id='input-year', value='2010', 
                                 type='number', style={'height':'35px', 'font-size': 30}),], 
@@ -67,9 +67,9 @@ app.layout = html.Div(children=[ html.H1('Flight Delay Time Statistics',
                                
                                 html.Div(dcc.Graph(id='late-plot'), style={'width':'65%'})
                                 ])
-------------------------------------------------------------------
+
 # TASK 4 - Review and add supporting function
-------------------------------------------------------------------
+
 
 """ Compute_info function description
 
@@ -107,14 +107,14 @@ Returns:
     List of figures computed using the provided helper function `compute_info`.
 """
 
-------------------------------------------------------------------
-# TASK 5 - Add the application callback function
-------------------------------------------------------------------
-# TASK 6 - Update the callback function
-------------------------------------------------------------------
 
-# Callback decorator
-# We have 5 output components added in a list. Update output component id parameter with the ids provided in the dcc.Graph() component and set the component property as figure. One sample has been added to the skeleton.
+# TASK 5 - Add the application callback function
+
+# TASK 6 - Update the callback function
+
+
+## Callback decorator
+##  We have 5 output components added in a list. Update output component id parameter with the ids provided in the dcc.Graph() component and set the component property as figure. One sample has been added to the skeleton.
 
 
 @app.callback( [
@@ -128,18 +128,18 @@ Returns:
 #Update input component id parameter with the id provided in the dcc.Input() component and component property as value
                Input(component_id='input-year', component_property='value'))
 
-# Callback function
-# Next is to update the get_graph function. We have already added a function compute_info that will perform computation on the data using the input.
+## Callback function
+## Next is to update the get_graph function. We have already added a function compute_info that will perform computation on the data using the input.
 
-# Mapping the returned value from the function compute_info to graph:
-# avg_car - input for carrier delay
-# avg_weather - input for weather delay
-# avg_NAS - input for NAS delay
-# avg_sec - input for security delay
-# avg_late - input for late aircraft delay
+##  Mapping the returned value from the function compute_info to graph:
+## avg_car - input for carrier delay
+## avg_weather - input for weather delay
+## avg_NAS - input for NAS delay
+## avg_sec - input for security delay
+## avg_late - input for late aircraft delay
 
 
-# Computation to callback function and return graph
+## Computation to callback function and return graph
 def get_graph(entered_year):
     
     # Compute required information for creating graph from the data
@@ -158,7 +158,7 @@ def get_graph(entered_year):
             
     return[carrier_fig, weather_fig, nas_fig, sec_fig, late_fig]
 
-# Run the app
+##  Run the app
 if __name__ == '__main__':
     app.run()
 
