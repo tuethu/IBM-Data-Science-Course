@@ -61,5 +61,6 @@ Congratulations! You have completed this module. At this point in the course, yo
    - [Callbacks with example](https://dash.plotly.com/basic-callbacks)
    - [Dash app gallery](https://dash.gallery/Portal/)
    - [Dash community components](https://community.plotly.com/t/community-components-index/60098)
-  
+
+- [Cheat Sheet: Plotly and Dash](https://author-ide.skills.network/render?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZF9pbnN0cnVjdGlvbnNfdXJsIjoiaHR0cHM6Ly9jZi1jb3Vyc2VzLWRhdGEuczMudXMuY2xvdWQtb2JqZWN0LXN0b3JhZ2UuYXBwZG9tYWluLmNsb3VkL0lCTURldmVsb3BlclNraWxsc05ldHdvcmstRFYwMTAxRU4tU2tpbGxzTmV0d29yay9sYWJzL3Y0L0RWMDEwMUVOLUNoZWF0U2hlZXQtNC5tZD90PTE3NDYxMjMxNjgiLCJ0b29sX3R5cGUiOiJpbnN0cnVjdGlvbmFsLWxhYiIsImF0bGFzX2ZpbGVfaWQiOjM1MTYxLCJhZG1pbiI6ZmFsc2UsImlhdCI6MTc1NzY5NDU1OH0.UbD9NfC26n1AFoCM4rLrrzCTuHTllmsTQtiUbWBqox4)
 
