@@ -32,6 +32,10 @@ Congratulations! You have completed this module. At this point in the course, yo
 
 - The callback function takes input and output components as PARAMETERS  and performs operations to return the desired result for the output component.
 
+- Callback: Callbacks in Dash are functions that update the output of components based on user input, enabling interactive web applications.
+  
+- html.Div: html.Div is a container in Dash that holds other components, allowing for structured layouts in web applications.
+  
 - The correct way of adding a callback decorator is the following:<br/>
   @app.callback( Output(component_id='bar-plot’, component_property='figure’), Input(component_id='input-yr,’ component_property='value’)).<br/>
 (All are  Parenthesis, not Curly brackets)
