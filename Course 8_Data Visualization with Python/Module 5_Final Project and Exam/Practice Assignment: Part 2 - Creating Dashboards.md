@@ -30,8 +30,8 @@ df['Month'] = pd.to_datetime(df['Date']).dt.month_name() #used for the names of 
 df['Year'] = pd.to_datetime(df['Date']).dt.year
 ```
 
-## Layout Section of Dash
-   - Task 2.1 Add the Title to the Dashboard
+# Layout Section of Dash
+## Task 2.1 Add the Title to the Dashboard
 
 ```
 app.layout = html.Div(children=[html.H1('Australia Wildfire Dashboard', 
@@ -39,7 +39,7 @@ app.layout = html.Div(children=[html.H1('Australia Wildfire Dashboard',
                                 'font-size': 26}),
 ```
 
-  - Task 2.2 Add the radio items and a dropdown right below the first inner division
+## Task 2.2 Add the radio items and a dropdown right below the first inner division
 
 - outer division starts
   
@@ -66,7 +66,7 @@ app.layout = html.Div(children=[html.H1('Australia Wildfire Dashboard',
 
 ```
 
-  - Task 2.3 Add two empty divisions for output inside the next inner division. 
+## Task 2.3 Add two empty divisions for output inside the next inner division. 
 - Second Inner division for adding 2 inner divisions for 2 output graphs
 
 ```
@@ -84,7 +84,7 @@ app.layout = html.Div(children=[html.H1('Australia Wildfire Dashboard',
 ```
 
 
-#TASK 2.5: Add the Ouput and input components inside the app.callback decorator.
+## TASK 2.4 Add the Ouput and input components inside the app.callback decorator.
 
 - Place to add @app.callback Decorator
 
@@ -96,7 +96,7 @@ app.layout = html.Div(children=[html.H1('Australia Wildfire Dashboard',
 ```
 
 
-#TASK 5: Add the callback function.   
+## TASK 2.5 Add the callback function.   
 - Place to define the callback function .
 
 ```
