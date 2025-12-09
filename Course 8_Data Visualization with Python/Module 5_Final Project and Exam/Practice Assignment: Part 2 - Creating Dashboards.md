@@ -61,6 +61,7 @@ For your reference below are the abrivations used in the dataset for regions
      - WA - Western Australia
 
 - outer division starts
+(dcc stands for Dash Core Components, part of the Dash framework. These components are essential for building dynamic and responsive web applications in Python. They include elements like dropdowns, sliders, graphs, checklists, and more, enabling developers to create feature-rich dashboards with minimal effort.)
   
 ```
      html.Div([
