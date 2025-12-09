@@ -32,6 +32,8 @@ df['Year'] = pd.to_datetime(df['Date']).dt.year
 
 # Layout Section of Dash
 ## Task 2.1 Add the Title to the Dashboard
+- Application title is Australia Wildfire Dashboard
+- Use style parameter provided below to make the title center aligned, with color code #503D36, and font-size as 26
 
 ```
 app.layout = html.Div(children=[html.H1('Australia Wildfire Dashboard', 
@@ -40,6 +42,23 @@ app.layout = html.Div(children=[html.H1('Australia Wildfire Dashboard',
 ```
 
 ## Task 2.2 Add the radio items and a dropdown right below the first inner division
+
+- Radio items to choose the Region
+- The radio items work similar to the dropdown, you need to call dcc.RadioItems and pass the list of items. Make use of inline=True property to display the radio items in a horizontal line
+
+   - You can extract the regions from the dataframe using df.Region.unque() or pass the list of all regions directly as ['NSW','QL','SA','TA','VI','WA','NT'] .
+   - Assign radioitems id as region
+   - Label as Select Region
+   - value as NSW
+     
+For your reference below are the abrivations used in the dataset for regions
+     - NSW - New South Wales
+     - NT - Northern Territory
+     - QL - Queensland
+     - SA - South Australia
+     - TA - Tasmania
+     - VI - Victoria
+     - WA - Western Australia
 
 - outer division starts
   
@@ -58,7 +77,15 @@ app.layout = html.Div(children=[html.H1('Australia Wildfire Dashboard',
                                     {"label":"Tasmania","value": "TA"},
                                     {"label":"Victoria","value": "VI"},
                                     {"label":"Western Australia","value": "WA"}],"NSW", id='region',inline=True)]),
+```
+
                     #Dropdown to select year
+- The dropdown has an id as year.
+- The label as Select Year
+- The values allowed in the dropdown are years from 2005 to 2020
+- The default value when the dropdown is displayed is 2005.
+              
+```
                     html.Div([
                             html.H2('Select Year:', style={'margin-right': '2em'}),
                         dcc.Dropdown(df.Year.unique(), value = 2005,id='year')
@@ -68,7 +95,9 @@ app.layout = html.Div(children=[html.H1('Australia Wildfire Dashboard',
 
 ## Task 2.3 Add two empty divisions for output inside the next inner division. 
 - Second Inner division for adding 2 inner divisions for 2 output graphs
-
+- Use 2 html.Div() tags .
+- Provide division ids as plot1 and plot2
+  
 ```
                     html.Div([
                 
@@ -86,6 +115,20 @@ app.layout = html.Div(children=[html.H1('Australia Wildfire Dashboard',
 
 ## TASK 2.4 Add the Ouput and input components inside the app.callback decorator.
 
+- The inputs and outputs of our application’s interface are described declaratively as the arguments of @app.callback decorator.
+
+  -In Dash, the inputs and outputs of our application are simply the properties of a particular component.
+
+- In this example, we have two inputs:-
+  - input for Region is the value property of the component that has the ID region
+  - input for Year is the value property of the component that has the ID year
+
+- Our layout has 2 outputs so we need to create 2 output components.
+
+It is a list with 2 output parameters with component id and property. Here, the component property will be children as we have created empty division and passing in dcc.Graph (figure) after computation.
+
+Component ids will be plot1 , plot2.
+
 - Place to add @app.callback Decorator
 
 ```
@@ -98,6 +141,21 @@ app.layout = html.Div(children=[html.H1('Australia Wildfire Dashboard',
 
 ## TASK 2.5 Add the callback function.   
 - Place to define the callback function .
+
+- Whenever an input property changes, the function that the callback decorator wraps will get called automatically.
+- In this case let us define a function reg_year_display() which will be wrapped by our decorator.
+- The function first filters our dataframe df by the selected value of the region from the radio items and year from the dropdown as follows
+  - region_data = df[df['Region'] == input_region]
+  - y_r_data = region_data[region_data['Year']==input_year]
+- For pie chart on Monthly Average Estimated Fire Area: -
+  - Next we will group by the Month and calculate the mean Estimated_fire_area of the dataframe.
+  - Use the px.pie() function to plot the pie chart
+- For bar chart on Monthly Average Count of Pixels for Presumed Vegetation Fires: -
+  - Next we will group by the Month and calculate the mean Count of the dataframe.
+  - Use the px.bar() function to plot the bar chart
+ 
+- Finally we return the 2 figure objects fig1 and fig2 in dcc.Graph method.
+- Once you have finished coding save your code.
 
 ```
 def reg_year_display(input_region,input_year):  
