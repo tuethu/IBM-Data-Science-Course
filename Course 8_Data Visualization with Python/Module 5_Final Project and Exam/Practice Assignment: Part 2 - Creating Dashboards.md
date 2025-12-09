@@ -44,7 +44,7 @@ app.layout = html.Div(children=[html.H1('Australia Wildfire Dashboard',
 ## Task 2.2 Add the radio items and a dropdown right below the first inner division
 
 - Radio items to choose the Region
-- The radio items work similar to the dropdown, you need to call dcc.RadioItems and pass the list of items. Make use of inline=True property to display the radio items in a horizontal line
+- The radio items work similar to the dropdown, you need to call dcc.RadioItems and pass the list of items. Make use of <ins>inline=True</ins> property to display the radio items in a HORIZONTAL line
 
    - You can extract the regions from the dataframe using df.Region.unque() or pass the list of all regions directly as ['NSW','QL','SA','TA','VI','WA','NT'] .
    - Assign radioitems id as region
