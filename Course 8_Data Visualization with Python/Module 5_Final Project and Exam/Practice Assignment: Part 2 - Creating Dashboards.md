@@ -117,7 +117,6 @@ For your reference below are the abrivations used in the dataset for regions
 ## TASK 2.4 Add the Ouput and input components inside the app.callback decorator.
 
 - The inputs and outputs of our application’s interface are described declaratively as the arguments of @app.callback decorator.
-
   -In Dash, the inputs and outputs of our application are simply the properties of a particular component.
 
 - In this example, we have two inputs:-
@@ -125,8 +124,8 @@ For your reference below are the abrivations used in the dataset for regions
   - input for Year is the value property of the component that has the ID year
 
 - Our layout has 2 outputs so we need to create 2 output components.
-
-It is a list with 2 output parameters with component id and property. Here, the component property will be children as we have created empty division and passing in dcc.Graph (figure) after computation.
+It is a list with 2 output parameters with component id and property.
+Here, the component property will be children as we have created empty division and passing in dcc.Graph (figure) after computation.
 
 Component ids will be plot1 , plot2.
 
@@ -145,12 +144,15 @@ Component ids will be plot1 , plot2.
 
 - Whenever an input property changes, the function that the callback decorator wraps will get called automatically.
 - In this case let us define a function reg_year_display() which will be wrapped by our decorator.
+  
 - The function first filters our dataframe df by the selected value of the region from the radio items and year from the dropdown as follows
   - region_data = df[df['Region'] == input_region]
   - y_r_data = region_data[region_data['Year']==input_year]
+    
 - For pie chart on Monthly Average Estimated Fire Area: 
   - Next we will group by the Month and calculate the mean Estimated_fire_area of the dataframe.
   - Use the px.pie() function to plot the pie chart
+    
 - For bar chart on Monthly Average Count of Pixels for Presumed Vegetation Fires: 
   - Next we will group by the Month and calculate the mean Count of the dataframe.
   - Use the px.bar() function to plot the bar chart
@@ -163,14 +165,17 @@ def reg_year_display(input_region,input_year):
     #data
    region_data = df[df['Region'] == input_region]
    y_r_data = region_data[region_data['Year']==input_year]
+
     #Plot one - Monthly Average Estimated Fire Area   
    est_data = y_r_data.groupby('Month')['Estimated_fire_area'].mean().reset_index()
-   fig1 = px.pie(est_data, values='Estimated_fire_area', names='Month', title="{} : Monthly Average Estimated Fire Area in year {}".format(input_region,input_year))   
+   fig1 = px.pie(est_data, values='Estimated_fire_area', names='Month', title="{} : Monthly Average Estimated Fire Area in year {}".format(input_region,input_year))
+
      #Plot two - Monthly Average Count of Pixels for Presumed Vegetation Fires
    veg_data = y_r_data.groupby('Month')['Count'].mean().reset_index()
    fig2 = px.bar(veg_data, x='Month', y='Count', title='{} : Average Count of Pixels for Presumed Vegetation Fires in year {}'.format(input_region,input_year))    
    return [dcc.Graph(figure=fig1),
             dcc.Graph(figure=fig2) ]
+
 if __name__ == '__main__':
     app.run()
 ```
