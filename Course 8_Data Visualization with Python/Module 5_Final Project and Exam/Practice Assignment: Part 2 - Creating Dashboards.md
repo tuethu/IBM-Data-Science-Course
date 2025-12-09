@@ -147,7 +147,7 @@ Component ids will be plot1 , plot2.
 - The function first filters our dataframe df by the selected value of the region from the radio items and year from the dropdown as follows
   - region_data = df[df['Region'] == input_region]
   - y_r_data = region_data[region_data['Year']==input_year]
-- For pie chart on Monthly Average Estimated Fire Area: -
+- For pie chart on Monthly Average Estimated Fire Area: 
   - Next we will group by the Month and calculate the mean Estimated_fire_area of the dataframe.
   - Use the px.pie() function to plot the pie chart
 - For bar chart on Monthly Average Count of Pixels for Presumed Vegetation Fires: 
