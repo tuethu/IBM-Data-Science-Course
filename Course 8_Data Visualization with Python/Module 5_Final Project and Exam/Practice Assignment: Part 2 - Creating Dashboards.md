@@ -30,8 +30,8 @@ df['Month'] = pd.to_datetime(df['Date']).dt.month_name() #used for the names of 
 df['Year'] = pd.to_datetime(df['Date']).dt.year
 ```
 
-- Layout Section of Dash
-   - Task 1 Add the Title to the Dashboard
+## Layout Section of Dash
+   - Task 2.1 Add the Title to the Dashboard
 
 ```
 app.layout = html.Div(children=[html.H1('Australia Wildfire Dashboard', 
@@ -39,9 +39,10 @@ app.layout = html.Div(children=[html.H1('Australia Wildfire Dashboard',
                                 'font-size': 26}),
 ```
 
-# TASK 2: Add the radio items and a dropdown right below the first inner division
+  - Task 2.2 Add the radio items and a dropdown right below the first inner division
 
 - outer division starts
+  
 ```
      html.Div([
                    # First inner divsion for  adding dropdown helper text for Selected Drive wheels
@@ -63,9 +64,12 @@ app.layout = html.Div(children=[html.H1('Australia Wildfire Dashboard',
                         dcc.Dropdown(df.Year.unique(), value = 2005,id='year')
                     ]),
 
+```
 
-#TASK 3: Add two empty divisions for output inside the next inner division. 
+  - Task 2.3 Add two empty divisions for output inside the next inner division. 
 - Second Inner division for adding 2 inner divisions for 2 output graphs
+
+```
                     html.Div([
                 
                         html.Div([ ], id='plot1'),
@@ -80,7 +84,7 @@ app.layout = html.Div(children=[html.H1('Australia Wildfire Dashboard',
 ```
 
 
-#TASK 4: Add the Ouput and input components inside the app.callback decorator.
+#TASK 2.5: Add the Ouput and input components inside the app.callback decorator.
 
 - Place to add @app.callback Decorator
 
