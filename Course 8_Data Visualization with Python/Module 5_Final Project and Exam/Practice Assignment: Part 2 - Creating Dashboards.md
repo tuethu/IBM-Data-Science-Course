@@ -150,7 +150,7 @@ Component ids will be plot1 , plot2.
 - For pie chart on Monthly Average Estimated Fire Area: -
   - Next we will group by the Month and calculate the mean Estimated_fire_area of the dataframe.
   - Use the px.pie() function to plot the pie chart
-- For bar chart on Monthly Average Count of Pixels for Presumed Vegetation Fires: -
+- For bar chart on Monthly Average Count of Pixels for Presumed Vegetation Fires: 
   - Next we will group by the Month and calculate the mean Count of the dataframe.
   - Use the px.bar() function to plot the bar chart
  
