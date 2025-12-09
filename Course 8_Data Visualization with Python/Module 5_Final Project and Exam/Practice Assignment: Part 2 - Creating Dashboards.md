@@ -173,3 +173,6 @@ def reg_year_display(input_region,input_year):
 if __name__ == '__main__':
     app.run()
 ```
+
+
+![Expected Layout](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%208_Data%20Visualization%20with%20Python/Module%205_Final%20Project%20and%20Exam/Practice%20Assignment_Part%202_Expected%20Layout.png)
