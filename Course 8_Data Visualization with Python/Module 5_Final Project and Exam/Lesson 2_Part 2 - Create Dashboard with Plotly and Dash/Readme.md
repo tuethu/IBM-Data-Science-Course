@@ -1,4 +1,4 @@
-# Create Dashboard using Plotly and Dash
+- Create Dashboard using Plotly and Dash
 
 import dash
 import more_itertools
@@ -9,28 +9,30 @@ import pandas as pd
 import plotly.graph_objs as go
 import plotly.express as px
 
-# Load the data using pandas
+- Load the data using pandas
 data = pd.read_csv('https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-DV0101EN-SkillsNetwork/Data%20Files/historical_automobile_sales.csv')
 
 # TASK 2.1: Create a Dash application and give it a meaningful title
-# Initialize the Dash app
+- Initialize the Dash app
 app = dash.Dash(__name__)
 
-# Set the title of the dashboard
+- Set the title of the dashboard
 #app.title = "Automobile Statistics Dashboard"
 
 #---------------------------------------------------------------------------------
 # TASK 2.2: Add drop-down menus to your dashboard with appropriate titles and options
+
 dropdown_options = [
     {'label': 'Yearly Statistics', 'value': 'Yearly Statistics'},
     {'label': 'Recession Period Statistics', 'value': 'Recession Period Statistics'}
 ]
 # List of years 
 year_list = [i for i in range(1980, 2024, 1)]
+
 #---------------------------------------------------------------------------------------
 
 
-# Create the layout of the app
+- Create the layout of the app
 app.layout = html.Div([
 
     #1 Add title to the dashboard
@@ -56,7 +58,9 @@ app.layout = html.Div([
             value='Select-year',
             placeholder='Select-year'
         )),
+
 # TASK 2.3: Add a division for output display with appropriate id and classname property
+
     # 3. Add an inner division to display the output
     # We will pass the plots as returned by the callback function into this output-container later refering to the class name of it.
     # Save it as ‘Outputdiv.png’
@@ -67,10 +71,11 @@ app.layout = html.Div([
 
 
 # TASK 2.4: Creating Callbacks; Define the callback function to update the input container based on the selected statistics and the output container
-# 4 Creating Callbacks
-# 4.1 Callback definition
-# 4.2 Callback Function
-# Define the callback function to update the input container based on the selected statistics
+- 4 Creating Callbacks
+- 4.1 Callback definition
+- 4.2 Callback Function
+- Define the callback function to update the input container based on the selected statistics
+  
 @app.callback(
     Output(component_id='select-year', component_property='disabled'),
     Input(component_id='dropdown-statistics',component_property='value'))
@@ -81,25 +86,26 @@ def update_input_container(selected_statistics):
     else:
        return True
 
-# Callback for plotting
-# Define the callback function to update the input container based on the selected statistics
-# Update Output Container callback function
+- Callback for plotting
+- Define the callback function to update the input container based on the selected statistics
+- Update Output Container callback function
 
 @app.callback(
     Output(component_id='output-container', component_property='children'),
     [Input(component_id='dropdown-statistics', component_property='value'), Input(component_id='select-year', component_property='value')])
 
 
-# When Recession Period Statistics is selected, the data is filtered to include only recession periods where Recession equals 1. 
-# Conversely, when Yearly Statistics is chosen, the data is filtered based on the selected year.
-# Save it as ‘Callbacks.png’
+- When Recession Period Statistics is selected, the data is filtered to include only recession periods where Recession equals 1. 
+- Conversely, when Yearly Statistics is chosen, the data is filtered based on the selected year.
+- Save it as ‘Callbacks.png’
+  
 def update_output_container(input_year, selected_statistics):
     if selected_statistics == 'Recession Period Statistics':
         #Filter the data for recession periods
         recession_data = data[data['Recession'] == 1]
 
 # TASK 2.5: Create and display graphs for Recession Report Statistics       
-#5 Create and display graphs for Recession Report Statistics
+- 5 Create and display graphs for Recession Report Statistics
 
 #Plot 1 Automobile sales fluctuate over Recession Period (year wise)
         # use groupby to create relevant data for plotting
@@ -150,8 +156,8 @@ def update_output_container(input_year, selected_statistics):
             ]
 
 # TASK 2.6: Create and display graphs for Yearly Report Statistics
-# 6 Create and display graphs for Yearly Report Statistics
-# Save it as‘YearlyReportgraphs.png’
+- 6 Create and display graphs for Yearly Report Statistics
+- Save it as‘YearlyReportgraphs.png’
  # Yearly Statistic Report Plots
     # Check for Yearly Statistics.                             
     elif (input_year and selected_statistics=='Yearly Statistics') :
