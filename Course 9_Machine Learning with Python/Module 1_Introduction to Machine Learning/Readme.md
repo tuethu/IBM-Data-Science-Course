@@ -45,6 +45,7 @@ Association technique
 
 - Data visualization tools such as Matplotlib and Seaborn create customizable plots, ggplot2 enables building graphics in layers, and Tableau provides interactive data dashboards.
 
+## PYTHON LIBRARIES
 - Python libraries commonly used in machine learning include
   - NumPy for numerical computations
   - Pandas for data analysis and preparation
@@ -63,14 +64,14 @@ Association technique
 
 - The machine learning ecosystem includes a network of tools, frameworks, libraries, platforms, and processes that collectively support the development and management of machine learning models.
 
-- Sana is designing statistical plots for visualizing trends in her dataset and wants to leverage a Python tool designed specifically for this purpose. Which tool should she use to customize plots and visualizations?<br/>
+- Sana is designing statistical plots for <ins>visualizing</ins> trends in her dataset and wants to leverage a Python tool designed specifically for this purpose. Which tool should she use to customize plots and visualizations?<br/>
 Matplotlib
 
 - Which library is a tool for data analysis, visualization, cleaning, and preparing data for machine learning?<br/>
 PANDAS
 
 - Which Python library is commonly used for data manipulation and analysis in machine learning? <br/>
-PANDAS. Pandas is a popular library in Python that is used for data manipulation and analysis, particularly for working with tabular data and performing tasks like cleaning and transforming data. 
+PANDAS. Pandas is a popular library in Python that is used for data manipulation and analysis, particularly for working with <ins>tabular data</ins> and performing tasks like cleaning and transforming data. 
 
 - Which Python library provides the foundational support for machine learning with efficient numerical computations on large, multi-dimensional DATA ARRAYS?<br/> 
 NUMPY. NumPy is a powerful Python library that supports numerical computations on large arrays, making it the foundation of many machine learning processes. 
