@@ -37,3 +37,10 @@ PANEL
 - What type of interface does Dash have?<br/>
 Open-Source 
 
+- What is the key difference between Plotly Graph Objects and Plotly Express?<br/>
+Plotly Graph Objects requires fewer commands, while Plotly Express automatically generates layout and figure objects.
+
+- What does the @app.callback decorator in Dash indicate?<br/>
+It connects the input and output components.
+
+
