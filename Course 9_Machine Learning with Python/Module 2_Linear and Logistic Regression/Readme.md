@@ -73,6 +73,8 @@ For modeling a non-linear single-variable relationship, polynomial regression is
 Logistic regression predicts the probability of an observation belonging to one of two classes, 
 such as true or false, and assigns the class using a threshold probability
 
+![Churn Prediction](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/Churn%20Prediction.png)
+
 -What kind of outcomes does logistic regression predict?<br/>
 BINARY classification. 
 Logistic regression predicts the probability that observations belong to one of two classes, such as true or false, and classifies it using a threshold
