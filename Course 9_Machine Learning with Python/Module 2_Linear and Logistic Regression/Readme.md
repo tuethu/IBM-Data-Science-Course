@@ -22,7 +22,7 @@ Multiple linear regression is suited for situations where more than one independ
 OLS regression may inaccurately weigh outliers, resulting in skewed outputs.
 
 - What multiple linear regression model estimates the values of coefficients by minimizing the Mean Squared Error (MSE)?<br/>
-Ordinary least squares (OLS) is a popular method for estimating coefficients by <ins>minimizing the MSE</ins>.
+Ordinary least squares (OLS) is a popular method for ESTIMATING COEFFICIENTS by <ins>minimizing the MSE</ins>.
 
 - A real estate company wants to forecast housing prices based on factors like location, square footage, and number of bedrooms. Which type of analysis would best help predict prices as a continuous variable?<br/>
 Multiple regression
