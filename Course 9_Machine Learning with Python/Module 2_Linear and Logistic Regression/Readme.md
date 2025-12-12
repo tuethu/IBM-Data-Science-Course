@@ -76,6 +76,16 @@ Logistic regression predicts the probability that observations belong to one of 
 THRESHOLD probability.
 Logistic regression assigns classes based on a threshold probability to differentiate between the two classes.
 
+- A healthcare provider uses logistic regression to predict whether a patient will develop a certain condition based on features like age, weight, and medical history. The model correctly identifies most high-risk patients but often misclassifies low-risk patients as high-risk. What method could help the provider reduce false positives?<br/>
+Tune the decision threshold of a logistic regression model.
+
+- An e-commerce company uses logistic regression to predict whether a product will be returned based on order details (like delivery time and product rating). What does a predicted probability of 0.8 mean in this case?<br/>
+The model predicts an 80% likelihood of product return.
+
+- A data scientist is using logistic regression to predict customer churn. After evaluating the model, they notice a high log-loss value. What is the most appropriate first step to improve the model?<br/>
+Parameter Tuning.<br/>
+Adjusting the model's parameters can directly address the high log-loss value and improve performance.
+
 -What is the primary objective of the logistic regression TRAINING process?<br/>
 MINIMIZE the cost function (log-loss) to improve class predictions.
 
@@ -87,15 +97,6 @@ The model predicts a probability of 0.1 for the correct class and 0.9 for the IN
 - In a multi-class classification problem, log loss is used to measure model performance. Which of the following statements is true about log loss in this context?<br/>
 A LOWER log loss indicates BETTER model performance, predicting models are close to the true labels. 
 
-- A healthcare provider uses logistic regression to predict whether a patient will develop a certain condition based on features like age, weight, and medical history. The model correctly identifies most high-risk patients but often misclassifies low-risk patients as high-risk. What method could help the provider reduce false positives?<br/>
-Tune the decision threshold of a logistic regression model.
-
-- An e-commerce company uses logistic regression to predict whether a product will be returned based on order details (like delivery time and product rating). What does a predicted probability of 0.8 mean in this case?<br/>
-The model predicts an 80% likelihood of product return.
-
-- A data scientist is using logistic regression to predict customer churn. After evaluating the model, they notice a high log-loss value. What is the most appropriate first step to improve the model?<br/>
-Parameter Tuning.<br/>
-Adjusting the model's parameters can directly address the high log-loss value and improve performance.
 
 - Use StandardScalar function in the Scikit-Learn library to standardize or normalize the dataset in order to have all the features at the same scale. This helps the model learn faster and improves the model performance<br/>
 ```
