@@ -50,6 +50,7 @@ RANDOM FOREST regression
 ![Random-Forest](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/random-forest.jpg)
 
 ## POLYNOMIAL REGRESSION
+![Polynomial Regression](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/Polynomial%20Regression.png)
 - Polynomial regression can fit data but may overfit by capturing random noise rather than the underlying patterns.
 
 - What type of issue occurs when a high-degree polynomial regression model <ins>memorizes random noise</ins> in the data?<br/>
