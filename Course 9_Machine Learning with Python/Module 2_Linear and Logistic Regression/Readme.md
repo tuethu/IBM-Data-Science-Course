@@ -69,6 +69,7 @@ For modeling a non-linear single-variable relationship, polynomial regression is
 ![Logistic Regression](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/Logistic%20Regression.png)
 
 - Gradient descent is an iterative process to minimize the cost function, which is crucial for training logistic regression models.
+![Gradient Descent](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/Gradient%20Descent.png)
 
 - The primary purpose of logistic regression in machine learning?<br/>
 Logistic regression predicts the probability of an observation belonging to one of two classes, 
