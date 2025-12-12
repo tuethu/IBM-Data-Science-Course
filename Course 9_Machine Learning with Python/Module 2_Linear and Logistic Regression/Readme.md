@@ -20,7 +20,12 @@ Congratulations! You have completed this lesson. At this point in the course, yo
 - Nonlinear regression models complex relationships using polynomial, exponential, or logarithmic functions when data does not fit a straight line.
 
 ## POLYNOMIAL REGRESSION
-- Polynomial regression can fit data but may overfit by capturing random noise rather than the underlying patterns.  
+- Polynomial regression can fit data but may overfit by capturing random noise rather than the underlying patterns.
+  
+- A researcher wants to model a non-linear growth in CO2 emissions as engine size increases, showing a smooth curve. Which regression technique is suitable in this scenario?<br/>
+Polynomial regression. <br/>
+For modeling a non-linear single-variable relationship, polynomial regression is the right choice.
+
 
 ## LOGISTIC REGRESSION
 
