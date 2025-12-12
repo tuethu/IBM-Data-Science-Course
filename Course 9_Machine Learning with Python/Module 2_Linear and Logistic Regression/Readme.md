@@ -1,6 +1,8 @@
 # Module 2 Summary and Highlights
 Congratulations! You have completed this lesson. At this point in the course, you know: 
 
+## LINEAR REGRESSION
+
 - Regression models relationships between a continuous target variable and explanatory features, covering simple and multiple regression types.
 
 - Simple regression uses a single independent variable to estimate a dependent variable, while multiple regression involves more than one independent variable.
@@ -17,7 +19,10 @@ Congratulations! You have completed this lesson. At this point in the course, yo
 
 - Nonlinear regression models complex relationships using polynomial, exponential, or logarithmic functions when data does not fit a straight line.
 
+## POLYNOMIAL REGRESSION
 - Polynomial regression can fit data but may overfit by capturing random noise rather than the underlying patterns.  
+
+## LOGISTIC REGRESSION
 
 - Logistic regression is a probability predictor and binary classifier, suitable for binary targets and assessing feature impact.
 
