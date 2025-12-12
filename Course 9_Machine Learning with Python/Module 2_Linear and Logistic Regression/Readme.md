@@ -105,6 +105,7 @@ The model predicts a probability of 0.1 for the correct class and 0.9 for the IN
 - In a multi-class classification problem, log loss is used to measure model performance. Which of the following statements is true about log loss in this context?<br/>
 A LOWER log loss indicates BETTER model performance, predicting models are close to the true labels. 
 
+![Log Loss](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/Log%20Loss.png)
 
 - Use StandardScalar function in the Scikit-Learn library to standardize or normalize the dataset in order to have all the features at the same scale. This helps the model learn faster and improves the model performance<br/>
 ```
