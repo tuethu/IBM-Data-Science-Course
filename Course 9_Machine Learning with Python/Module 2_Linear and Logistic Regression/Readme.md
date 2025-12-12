@@ -47,6 +47,7 @@ Predicting future sales based on last year's sales data.
 ## RANDOM FOREST REGRESSION
 - Which of the following regression methods is a MODERN machine learning technique?<br/>
 RANDOM FOREST regression
+![Random-Forest](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/random-forest.jpg)
 
 ## POLYNOMIAL REGRESSION
 - Polynomial regression can fit data but may overfit by capturing random noise rather than the underlying patterns.
@@ -63,7 +64,7 @@ For modeling a non-linear single-variable relationship, polynomial regression is
 
 - Logistic regression is a probability predictor and binary classifier, suitable for binary targets and assessing feature impact.
 
-- Logistic regression minimizes errors using log-loss and optimizes with gradient descent or stochastic gradient descent for efficiency.
+- Logistic regression MINIMIZES ERRORS using LOG-LOSS and optimizes with gradient descent or stochastic gradient descent for efficiency.
 
 ![Logistic Regression](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/Logistic%20Regression.png)
 
