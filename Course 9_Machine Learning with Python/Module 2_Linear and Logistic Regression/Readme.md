@@ -16,6 +16,8 @@ Multiple linear regression
 - What type of regression would be most appropriate for predicting carbon dioxide emissions when the independent variables considered are engine size and number of cylinders?<br/>
 Multiple linear regression is suited for situations where more than one independent variable is utilized to predict a dependent variable. It is the most appropriate choice as both engine size and number of cylinders are being considered.
 
+### ORDINARY LEAST SQUARES (OLS) REGRESSION
+
 - Why is ordinary least squares (OLS) regression's accuracy for complex data sets limited?<br/>
 OLS regression may inaccurately weigh outliers, resulting in skewed outputs.
 
