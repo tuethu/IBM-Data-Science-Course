@@ -18,11 +18,11 @@ Multiple linear regression is suited for situations where more than one independ
 
 ### ORDINARY LEAST SQUARES (OLS) REGRESSION
 
-- Why is ordinary least squares (OLS) regression's accuracy for complex data sets limited?<br/>
-OLS regression may inaccurately weigh outliers, resulting in skewed outputs.
-
 - What multiple linear regression model estimates the values of coefficients by minimizing the Mean Squared Error (MSE)?<br/>
 Ordinary least squares (OLS) is a popular method for ESTIMATING COEFFICIENTS by <ins>minimizing the MSE</ins>.
+
+- Why is ordinary least squares (OLS) regression's accuracy for complex data sets limited?<br/>
+OLS regression may inaccurately weigh outliers, resulting in skewed outputs.
 
 - A real estate company wants to forecast housing prices based on factors like location, square footage, and number of bedrooms. Which type of analysis would best help predict prices as a continuous variable?<br/>
 Multiple regression
