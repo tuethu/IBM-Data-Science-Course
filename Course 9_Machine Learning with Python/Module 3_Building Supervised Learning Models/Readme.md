@@ -75,6 +75,8 @@ To predict continuous values based on features
 - Random forests use bagging to train multiple decision trees on bootstrapped data, improving accuracy by reducing variance.
 
 [Lab_Multi-class Classification](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Module%203_Building%20Supervised%20Learning%20Models/Lesson%201_Classification%20and%20Regression/Lab_Multi-class%20Classification.ipynb)
+
 [Decision Trees](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Module%203_Building%20Supervised%20Learning%20Models/Lesson%201_Classification%20and%20Regression/Lab_Decision%20Trees.ipynb)
+
 [Lab_Regression Trees](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Module%203_Building%20Supervised%20Learning%20Models/Lesson%201_Classification%20and%20Regression/Lab_Regression%20Trees.ipynb)
 
