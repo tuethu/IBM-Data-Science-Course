@@ -20,7 +20,7 @@ Congratulations! You have completed this lesson. At this point in the course, yo
 - Disadvantages:
    - Classifiers may struggle with class imbalance since each binary classifier must distinguish between one class and the rest.
    - Requires the classifier to perform well even with highly imbalanced datasets, as the "all" group typically contains more samples than the "one" class.
-![One-versus-all]([https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/One-versus-one.png](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/One-versus-all.png))
+![One-versus-all](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/One-versus-one.png](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/One-versus-all.png)
 
 - What is the purpose of using a one-versus-all classification strategy?<br/>
 To EXTEND binary classifiers to handle multiple classes
