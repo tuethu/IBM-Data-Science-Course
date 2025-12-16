@@ -66,7 +66,7 @@ The LEVEL of disorder or RANDOMNESS in a node
 
 - You want to determine the best feature to split the data at each node while building a decision tree. Which of the following criteria will you use?
 Information gain
-
+(Information Gain is a measure used in decision trees to determine how well a feature splits the data, by quantifying the reduction in uncertainty (entropy) after the split.)
 
 ![Pruning Decision tree](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/Pruning%20Decision%20tree.png)
 
