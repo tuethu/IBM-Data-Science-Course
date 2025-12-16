@@ -242,7 +242,10 @@ To create a single strong learner from a series of weak learners by reducing bia
 
 [Lab_Regression Trees](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Module%203_Building%20Supervised%20Learning%20Models/Lesson%201_Classification%20and%20Regression/Lab_Regression%20Trees.ipynb)
 
+[Lab_Credit Card Fraud Detection with Decision Trees and SVM.](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Module%203_Building%20Supervised%20Learning%20Models/Lesson%202_Other%20Supervised%20Learning%20Models/Lab_Credit%20Card%20Fraud%20Detection%20with%20Decision%20Trees%20and%20SVM.ipynb)
 
+[Lab_K-Nearest Neighbors Classifier](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Module%203_Building%20Supervised%20Learning%20Models/Lesson%202_Other%20Supervised%20Learning%20Models/Lab_K-Nearest%20Neighbors%20Classifier.ipynb)
 
+[Lab_Random Forests and XGBoost](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Module%203_Building%20Supervised%20Learning%20Models/Lesson%202_Other%20Supervised%20Learning%20Models/Lab_Random%20Forests%20and%20XGBoost.ipynb)
 
 
