@@ -64,11 +64,7 @@ A feature that DECREASES ENTROPY in the resulting nodes
 - Alice is building a decision tree and wants to evaluate how mixed data is mixed at each node. What does this measure represent in terms of entropy in a decision tree?
 The LEVEL of disorder or RANDOMNESS in a node
 
-
 - You want to determine the best feature to split the data at each node while building a decision tree. Which of the following criteria will you use?
-x Mean squared error
-Random selection
-Accuracy score
 Information gain
 
 
