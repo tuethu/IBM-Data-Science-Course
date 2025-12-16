@@ -123,6 +123,8 @@ A larger epsilon creates a wider margin where small errors are ignored.
    - 0.5 → No better than random guessing.
    - <0.5 → Worse than random (model is misleading).
 
+![ROC and AUC](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/ROC%20and%20AUC.png)
+
 
 - Comparison between SVM (Support Vector Machine) and Decision Trees
    - With a larger set of features, SVM performed relatively better in comparison to the Decision Trees.
