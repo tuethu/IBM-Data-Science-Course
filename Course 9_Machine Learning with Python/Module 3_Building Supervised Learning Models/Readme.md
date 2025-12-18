@@ -248,4 +248,4 @@ To create a single strong learner from a series of weak learners by reducing bia
 
 [Lab_Random Forests and XGBoost](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Module%203_Building%20Supervised%20Learning%20Models/Lesson%202_Other%20Supervised%20Learning%20Models/Lab_Random%20Forests%20and%20XGBoost.ipynb)
 
-
+[Cheat Sheet: Building Supervised Learning Models](https://author-ide.skills.network/render?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZF9pbnN0cnVjdGlvbnNfdXJsIjoiaHR0cHM6Ly9jZi1jb3Vyc2VzLWRhdGEuczMudXMuY2xvdWQtb2JqZWN0LXN0b3JhZ2UuYXBwZG9tYWluLmNsb3VkL05RZmhxbEFLN1Uxb2RnemVNWlI3N2cvTW9kdWxlJTIwMyUyMGNoZWF0JTIwc2hlZXQtVjIubWQ_dD0xNzQ2MTI3NTMxIiwidG9vbF90eXBlIjoiaW5zdHJ1Y3Rpb25hbC1sYWIiLCJhdGxhc19maWxlX2lkIjoyNTI1MDEsImFkbWluIjpmYWxzZSwiaWF0IjoxNzU3Njk3MjI4fQ.-Q0bZWPRJVWw_W8gx3JCUKIvg7ra7ak14aoxUd3UqKo)
