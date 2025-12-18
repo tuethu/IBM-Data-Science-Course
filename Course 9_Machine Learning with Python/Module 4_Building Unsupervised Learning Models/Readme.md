@@ -13,25 +13,24 @@ Congratulations! You have completed this lesson. At this point in the course, yo
 - Heuristic methods such as silhouette analysis, the elbow method, and the Davies-Bouldin Index help assess k-means performance.
 ![Heuristic methods to determine K-means](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/Heuristic%20methods%20to%20determine%20K-means.png)
 
-What is the purpose of the Elbow Method in K-Means Clustering?<br/>
+- What is the purpose of the Elbow Method in K-Means Clustering?<br/>
 To gauge performance by plotting the OBJECTIVE FUNCTION for different cluster numbers.
 
-How does the Davies-Bouldin INDEX evaluate K-Means?<br/>
+- How does the Davies-Bouldin INDEX evaluate K-Means?<br/>
 By measuring each cluster's average similarity RATIO with the most similar cluster.
 
-What is the goal of K-Means regarding within-cluster variance?<br/>
+- What is the goal of K-Means regarding within-cluster variance?<br/>
 To MINimize it.
 
-What does the centroid represent in K-Means Clustering?<br/>
+- What does the centroid represent in K-Means Clustering?<br/>
 The average position of all points in a cluster.
 ![Centroid](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/Centroid.png)
 
-What is the primary function of K-Means Clustering?<br/>
+- What is the primary function of K-Means Clustering?<br/>
 Partitioning a dataset into similar groups based on centroid distance.
 ![K-Means Clustering](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/K-Means%20Clustering.png)
 
-
-What is the initial step in the K-Means Algorithm Process?<br/>
+- What is the initial step in the K-Means Algorithm Process?<br/>
 Choosing the number of clusters and selecting starting centroids.
 
 ```
@@ -46,10 +45,8 @@ k_means = KMeans(init = "k-means++", n_clusters = 4, n_init = 12)
 # 3.2 Value will be: 12
 ```
 
-Which of the following scenarios is k-means best suited for?<br/>
+- Which of the following scenarios is k-means best suited for?<br/>
 Segmenting customers based on purchasing behavior
-
-
 
 
 ## Density-Based Spatial Clustering of Applications with Noise (DBSCAN) 
@@ -57,7 +54,7 @@ Segmenting customers based on purchasing behavior
 - DBSCAN is a density-based algorithm that creates clusters based on density and works well with natural, irregular patterns.
 ![DBSCAN](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/DBSCAN.png)
 
-What is a core point in DBSCAN?<br/>
+- What is a core point in DBSCAN?<br/>
 A point with a MINIMUM number of neighbors within its radius.
 
 ```
@@ -68,19 +65,17 @@ metric='euclidean' # distance measure
 dbscan = DBSCAN(eps=eps, min_samples=min_samples, metric=metric).fit(coords_scaled)
 ```
 
-What is the key feature of DBSCAN regarding cluster shapes?<br/>
+- What is the key feature of DBSCAN regarding cluster shapes?<br/>
 Can discover clusters of any shape
 
-What is a border point in DBSCAN?<br/>
+- What is a border point in DBSCAN?<br/>
 A point within a core point's neighborhood but not a core point.
 
-What is a noise point in DBSCAN?<br/>
+- What is a noise point in DBSCAN?<br/>
 A point isolated from core point neighborhoods.
 
-Which of the following scenarios is Density-Based Spatial Clustering of Applications with Noise (DBSCAN) best suited for?<br/>
+- Which of the following scenarios is Density-Based Spatial Clustering of Applications with Noise (DBSCAN) best suited for?<br/>
 Identifying geographic areas with high crime rates
-
-
 
 
 ## Hierarchical Density-Based Spatial Clustering of Applications with Noise (HDBSCAN)
@@ -93,7 +88,7 @@ min_cluster_size=3
 hdb = hdbscan.HDBSCAN(min_samples=min_samples, min_cluster_size=min_cluster_size, metric='euclidean')  # You can adjust parameters as needed
 ```
 
-How is a hierarchical tree constructed in HDBSCAN?<br/>
+- How is a hierarchical tree constructed in HDBSCAN?<br/>
 By lowering the density threshold to agglomerate clusters.
 
 ![HDBSCAN](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/HDBSCAN.png)
@@ -101,51 +96,46 @@ By lowering the density threshold to agglomerate clusters.
 ![DBSCAN and HDBSCAN](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/DBSCAN%20and%20HDBSCAN.png)
 
 
-How does Hierarchical Density-Based Spatial Clustering of Applications with Noise (HDBSCAN) improve upon the DBSCAN algorithm?<br/>
+- How does Hierarchical Density-Based Spatial Clustering of Applications with Noise (HDBSCAN) improve upon the DBSCAN algorithm?<br/>
 HDBSCAN can cluster data with varying densities.
-
-
-
 
 
 - Dimension reduction <ins>simplifies data structure</ins>, improves clustering outcomes, and is useful in tasks such as face recognition (using eigenfaces).
 ![Dimension reduction](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/Dimension%20reduction.png)
 
 ### PCA (Principal Component Analysis)
-What does Principal Component Analysis (PCA) create from dataset features?
+- What does Principal Component Analysis (PCA) create from dataset features?<br/>
 Uncorrelated variables called principal components.
 
-How does Principal Component Analysis (PCA) contribute to model accuracy in face recognition?
+- How does Principal Component Analysis (PCA) contribute to model accuracy in face recognition?<br/>
 Extracts key facial features
 
 ![Principal Component Analysis (PCA)](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/Principal%20Component%20Analysis%20(PCA).png)
 
-
-What is the main goal of dimensionality reduction algorithms?
+- What is the main goal of dimensionality reduction algorithms?<br/>
 To reduce dataset features without losing critical information.
 
-What is the primary purpose of dimensionality reduction algorithms?
+- What is the primary purpose of dimensionality reduction algorithms?<br/>
 Simplify data and maintain information content
-
 
 ### t-SNE (t-distributed Stochastic Neighbor Embedding)
 
-What is a notable feature of t-SNE for data visualization?
+- What is a notable feature of t-SNE for data visualization?<br/>
 Mapping high-dimensional data to a lower-dimensional space.
 
 ![t-SNE)](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/t-SNE.png)
 
 ### UMAP (Uniform Manifold Approximation and Projection)
-How does UMAP maintain data point relationships?
+- How does UMAP maintain data point relationships?<br/>
 By optimizing a low-dimensional graph structure.
 
-Which dimensionality reduction algorithm works with COMPLEX, HIGH-dimensional data that requires local and global structure preservation for clustering?
+- Which dimensionality reduction algorithm works with COMPLEX, HIGH-dimensional data that requires local and global structure preservation for clustering?
 Uniform Manifold Approximation and Projection (UMAP)
 ![UMAP)](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/UMAP.png)
 
 - Clustering and dimension reduction work together to improve model performance by reducing noise and simplifying feature selection.
 
-How can clustering facilitate feature selection in a dataset?
+- How can clustering facilitate feature selection in a dataset?<br/>
 Identifies redundant features
 
 - PCA, a linear dimensionality reduction method, minimizes information loss while reducing dimensionality and noise in data.
