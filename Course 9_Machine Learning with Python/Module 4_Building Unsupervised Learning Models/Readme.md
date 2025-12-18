@@ -109,7 +109,7 @@ HDBSCAN can cluster data with varying densities.
 
 
 - Dimension reduction <ins>simplifies data structure</ins>, improves clustering outcomes, and is useful in tasks such as face recognition (using eigenfaces).
-![Dimension reduction]()
+![Dimension reduction](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/Dimension%20reduction.png)
 
 ### PCA (Principal Component Analysis)
 What does Principal Component Analysis (PCA) create from dataset features?
@@ -118,8 +118,7 @@ Uncorrelated variables called principal components.
 How does Principal Component Analysis (PCA) contribute to model accuracy in face recognition?
 Extracts key facial features
 
-
-![Principal Component Analysis (PCA)]()
+![Principal Component Analysis (PCA)](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/Principal%20Component%20Analysis%20(PCA).png)
 
 
 What is the main goal of dimensionality reduction algorithms?
@@ -134,7 +133,7 @@ Simplify data and maintain information content
 What is a notable feature of t-SNE for data visualization?
 Mapping high-dimensional data to a lower-dimensional space.
 
-![t-SNE)]()
+![t-SNE)](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/t-SNE.png)
 
 ### UMAP (Uniform Manifold Approximation and Projection)
 How does UMAP maintain data point relationships?
@@ -142,7 +141,7 @@ By optimizing a low-dimensional graph structure.
 
 Which dimensionality reduction algorithm works with COMPLEX, HIGH-dimensional data that requires local and global structure preservation for clustering?
 Uniform Manifold Approximation and Projection (UMAP)
-![UMAP)]()
+![UMAP)](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/UMAP.png)
 
 - Clustering and dimension reduction work together to improve model performance by reducing noise and simplifying feature selection.
 
@@ -153,14 +152,13 @@ Identifies redundant features
 
 - t-SNE and UMAP are other dimensionality reduction techniques that map high-dimensional data into lower-dimensional spaces for visualization and analysis.
 
-![PCA, t-SNE and UMAP)]()
+![PCA, t-SNE and UMAP)](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/PCA%2C%20t-SNE%20and%20UMAP.png)
 
    - PCA is a <ins> linear</ins> method that identifies the directions of maximum variance in the data, making it fast and effective for capturing global structure but less suited for non-linear relationships. PCA is generally faster and preferred for preliminary analysis or when the relationships in the data are primarily linear.
    - t-SNE, on the other hand, is a <ins> non-linear</ins>technique that excels at preserving local structures, often revealing clusters within high-dimensional data, but it can be computationally <ins> expensive and is sensitive to hyperparameters. 
    - UMAP, also non-linear, is similar to t-SNE in preserving local structure but is <ins> faster, scalable, </ins>and tends to maintain both local and global relationships better. UMAP is often preferred for larger datasets or when maintaining both global and local patterns is crucial, while t-SNE might be used for finer cluster analysis in smaller datasets. 
 
 Link: https://biostatsquid.com/pca-umap-tsne-comparison/
-
 
 
 [Cheat Sheet: Building Unsupervised Learning Models](https://author-ide.skills.network/render?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZF9pbnN0cnVjdGlvbnNfdXJsIjoiaHR0cHM6Ly9jZi1jb3Vyc2VzLWRhdGEuczMudXMuY2xvdWQtb2JqZWN0LXN0b3JhZ2UuYXBwZG9tYWluLmNsb3VkLzZHc1pBUjRESFkwR3gzTEs2Nk1YT1EvTTRMMyUyMENoZWF0JTIwU2hlZXQtVjIubWQ_dD0xNzQ2MTI3NTEzIiwidG9vbF90eXBlIjoiaW5zdHJ1Y3Rpb25hbC1sYWIiLCJhdGxhc19maWxlX2lkIjoyNTI1MzMsImFkbWluIjpmYWxzZSwiaWF0IjoxNzU3Njk3MjI4fQ.7K7a8s3ZyDqD6YKJYD5Em0ib-VGN9YPOLHdWr6iaS-0)
