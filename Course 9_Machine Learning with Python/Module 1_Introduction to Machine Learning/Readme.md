@@ -33,7 +33,7 @@ SCIKIT-LEARN
 - Twinkle wants to train and evaluate a machine learning model using Python and prefers a library with built-in support. Which of the following statements best describes the capabilities of a scikit-learn library?<br/>
 Scikit-learn preprocesses data, trains, evaluates, and exports data.
 
-![Scikit-learn](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Module%201_Introduction%20to%20Machine%20Learning/Scikit-Learn.png)
+![Scikit-learn](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/Scikit-Learn.png)
 
 - Jimmy is analyzing patients’ data and wants to predict whether a tumor is benign or malignant. Which machine learning techniques should Jimmy use in this scenario?<br/>
 Classification technique
@@ -52,9 +52,9 @@ Association technique
   - SciPy for scientific computing
   - Scikit-learn for building traditional machine learning models.
 
-![Types of ML Tools 1](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Module%201_Introduction%20to%20Machine%20Learning/Types%20of%20ML%20Tools%201.png)
+![Types of ML Tools 1](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/Types%20of%20ML%20Tools%201.png)
 
-![Types of ML Tools 2](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Module%201_Introduction%20to%20Machine%20Learning/Types%20of%20ML%20Tools%202.png)
+![Types of ML Tools 2](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/Types%20of%20ML%20Tools%202.png)
 
 - Deep learning frameworks such as TensorFlow, Keras, Theano, and PyTorch support the design, training, and testing of neural networks used in areas like computer vision and natural language processing.
 
