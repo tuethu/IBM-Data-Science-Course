@@ -155,13 +155,21 @@ Identifies redundant features
 ![PCA, t-SNE and UMAP)](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/PCA%2C%20t-SNE%20and%20UMAP.png)
 
    - PCA is a <ins> linear</ins> method that identifies the directions of maximum variance in the data, making it fast and effective for capturing global structure but less suited for non-linear relationships. PCA is generally faster and preferred for preliminary analysis or when the relationships in the data are primarily linear.
-   - t-SNE, on the other hand, is a <ins> non-linear</ins>technique that excels at preserving local structures, often revealing clusters within high-dimensional data, but it can be computationally <ins> expensive and is sensitive to hyperparameters. 
+   - t-SNE, on the other hand, is a <ins> non-linear</ins> technique that excels at preserving local structures, often revealing clusters within high-dimensional data, but it can be computationally <ins> expensive and is sensitive to hyperparameters. 
    - UMAP, also non-linear, is similar to t-SNE in preserving local structure but is <ins> faster, scalable, </ins>and tends to maintain both local and global relationships better. UMAP is often preferred for larger datasets or when maintaining both global and local patterns is crucial, while t-SNE might be used for finer cluster analysis in smaller datasets. 
 
 Link: https://biostatsquid.com/pca-umap-tsne-comparison/
 
 
 [Cheat Sheet: Building Unsupervised Learning Models](https://author-ide.skills.network/render?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZF9pbnN0cnVjdGlvbnNfdXJsIjoiaHR0cHM6Ly9jZi1jb3Vyc2VzLWRhdGEuczMudXMuY2xvdWQtb2JqZWN0LXN0b3JhZ2UuYXBwZG9tYWluLmNsb3VkLzZHc1pBUjRESFkwR3gzTEs2Nk1YT1EvTTRMMyUyMENoZWF0JTIwU2hlZXQtVjIubWQ_dD0xNzQ2MTI3NTEzIiwidG9vbF90eXBlIjoiaW5zdHJ1Y3Rpb25hbC1sYWIiLCJhdGxhc19maWxlX2lkIjoyNTI1MzMsImFkbWluIjpmYWxzZSwiaWF0IjoxNzU3Njk3MjI4fQ.7K7a8s3ZyDqD6YKJYD5Em0ib-VGN9YPOLHdWr6iaS-0)
+
+[Lab_Comparing DBSCAN and HDBSCAN](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Module%204_Building%20Unsupervised%20Learning%20Models/Lesson%201_Clustering/Lab_Comparing%20DBSCAN%20and%20HDBSCAN.ipynb)
+
+[Lab_K-Means](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Module%204_Building%20Unsupervised%20Learning%20Models/Lesson%201_Clustering/Lab_K-Means.ipynb)
+
+[Lab_Applications of Principal Component Analysis (PCA)](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Module%204_Building%20Unsupervised%20Learning%20Models/Lesson%202_Dimension%20Reduction%20%26%20Feature%20Engineering/Lab_Applications%20of%20Principal%20Component%20Analysis%20(PCA).ipynb)
+
+[Lab_t-SNE and UMAP](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Module%204_Building%20Unsupervised%20Learning%20Models/Lesson%202_Dimension%20Reduction%20%26%20Feature%20Engineering/Lab_t-SNE%20and%20UMAP.ipynb)
 
 
 
