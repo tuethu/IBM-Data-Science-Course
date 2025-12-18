@@ -146,7 +146,7 @@ Identifies redundant features
 
    - PCA is a <ins> linear</ins> method that identifies the directions of maximum variance in the data, making it fast and effective for capturing global structure but less suited for non-linear relationships. PCA is generally faster and preferred for preliminary analysis or when the relationships in the data are primarily linear.
    - t-SNE, on the other hand, is a <ins> non-linear</ins> technique that excels at preserving local structures, often revealing clusters within high-dimensional data, but it can be computationally <ins> expensive and is sensitive to hyperparameters. 
-   - UMAP, also non-linear, is similar to t-SNE in preserving local structure but is <ins> faster, scalable, </ins>and tends to maintain both local and global relationships better. UMAP is often preferred for <ins>larger</ins> datasets or when maintaining both global and local patterns is crucial, while t-SNE might be used for finer cluster analysis in smaller datasets. 
+   - UMAP, also non-linear, is similar to t-SNE in preserving local structure but is <ins> faster, scalable, </ins>and tends to maintain both local and GLOBAL relationships better. UMAP is often preferred for <ins>larger</ins> datasets or when maintaining both global and local patterns is crucial, while t-SNE might be used for finer cluster analysis in smaller datasets. 
 
 Link: https://biostatsquid.com/pca-umap-tsne-comparison/
 
