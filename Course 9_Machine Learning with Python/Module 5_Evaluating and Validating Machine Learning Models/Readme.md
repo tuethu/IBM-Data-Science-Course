@@ -127,12 +127,14 @@ To group similar data points into clusters.
 - Model validation, including dividing data into training, validation, and test sets, helps prevent overfitting by tuning hyperparameters carefully.
 
 - Cross-validation methods, especially K-fold and stratified cross-validation, support robust model validation without overfitting to test data.
-![Cross-validation algorithm]()
+  
+![Cross-validation algorithm](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/Cross-validation%20algorithm.png)
 
-![K-fold Cross-validation]()
+![K-fold Cross-validation](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/K-fold%20Cross-validation.png)
 
 - Regularization techniques, such as ridge (L2) and lasso (L1) regression, help prevent overfitting by adding penalty terms to linear regression models.
-![Ridge and Lasso Regression]()
+![Ridge and Lasso Regression](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/Ridge%20and%20Lasso%20Regression.png)
+
    -Ridge regression, also called L2 regularization, is a linear regression technique designed to handle multicollinearity and overfitting by adding a penalty term to the Ordinary Least Squares (OLS) loss function.
    -Lasso (Least Absolute Shrinkage and Selection Operator; or L1 regularization) is a regression analysis method that performs both variable selection and regularization in order to enhance the prediction accuracy and interpretability of the resulting statistical model. The lasso method assumes that the coefficients of the linear model are sparse, meaning that few of them are non-zero.
 
@@ -143,16 +145,16 @@ When the data is sparse and has many irrelevant features
 The penalty term's influence on the cost function
 
 
-![Model Comparision 1]()
+![Model Comparision 1](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/Model%20Comparision%201.png)
 
-![Model Comparision 2]()
+![Model Comparision 2](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/Model%20Comparision%202.png)
 
 - Data leakage occurs when training data includes information UNAVAILABLE in REAL-WORLD data, which is preventable by separating data properly and mindful feature selection.
 
 - Common modelling pitfalls include misinterpreting feature importance, ignoring class imbalance, and making causal inferences without sufficient evidence.”  
-![Common modelling pitfalls]()
+![Common modelling pitfalls](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/Common%20modelling%20pitfalls.png)
 
-![Machine Learning Pipelines and GridSearchCV]()
+![Machine Learning Pipelines and GridSearchCV](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/Machine%20Learning%20Pipelines%20and%20GridSearchCV.png)
 
 - Feature importance assessments should consider redundancy, scale sensitivity, and avoid misinterpretation, as well as inappropriate assumptions about causation.
 
@@ -160,7 +162,7 @@ The penalty term's influence on the cost function
 -What is the benefit of transforming a skewed target variable, such as using a Box-Cox or logarithmic transformation?
 It makes the model fit the target variable more easily by reducing skewness (Độ lệch- là sự biến dạng sự bất đối xứng trong một phân phối hình chuông đối xứng hay phân phối chuẩn trong một tập dữ liệu.)
 
-![Skewness]()
+![Skewness](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/Skewness.png)
 
 
 -Which of the following best describes the role of the test set in model validation?
