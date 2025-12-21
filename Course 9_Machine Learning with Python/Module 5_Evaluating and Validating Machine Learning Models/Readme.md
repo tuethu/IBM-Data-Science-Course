@@ -164,9 +164,11 @@ To group similar data points into clusters.
 
 - Model validation, including dividing data into training, validation, and test sets, helps prevent overfitting by tuning hyperparameters carefully.
 
+### CROSS-VALIDATION
+
 - Cross-validation methods, especially K-fold and stratified cross-validation, support robust model validation without overfitting to test data.
 
-   -A data scientist wants to build a fraud detection model that works well on unseen financial transactions. Which technique should a data scientist use to validate a model and avoid overfitting?<br/>
+   -A data scientist wants to build a fraud detection model that works well on unseen financial transactions. Which technique should a data scientist use to VALIDATE a model and AVOID OBERFITTING?<br/>
 Cross-validation<br/>
 (Cross-validation splits the data into multiple folds for training and validation, helping the model generalize better to unseen data.)
 
