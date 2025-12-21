@@ -23,6 +23,18 @@ True positives divided by predicted positives.
    - What does accuracy represent in machine learning?<br/>
 Ratio of correct predictions to total instances.
 
+   - In the context of model evaluation, which metric would be particularly useful when the COST of FALSE NEGATIVES is high?<br/>
+Recall<br/>
+( Recall measures how many of the actual positive cases your model successfully identifies. When the cost of false negatives is high—meaning missing a positive case is dangerous or expensive—recall becomes the priority.
+Examples where recall matters:
+Detecting diseases
+Fraud detection
+Identifying safety hazards
+In these situations, you want to catch as many true positives as possible, even if it means tolerating more false positives.)
+
+   - In a medical diagnosis scenario, where it is crucial to AVOID MISSING any TRUE POSITIVE cases, which metric is most important?<br/>
+Recall
+
 ![KNN and SVM Prediction Sensitivity](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/KNN%20and%20SVM%20Prediction%20Sensitivity.png)
 
 
@@ -38,6 +50,10 @@ Variance explained by the independent variable.
 The proportion of variance in the target variable explained by the model<br/>
 (For example: An R² of 0.80 means the model explains 80% of the variance in the outcome. The remaining 20% is unexplained (error, noise, missing predictors, etc.).
 
+   -Which regression evaluation metric measures the proportion of variance in the target variable explained by the input variables?<br/>
+R-squared<br/>
+(R-squared measures the proportion of variance in the target variable explained by the input variables, indicating the model’s goodness of fit.)
+
    -What is the effect of using a mean-value model in regression analysis?<br/>
 R-squared will be zero, as the model explains no variance<br/>
 (A mean-value model predicts the same constant value (the mean of the target variable) for every observation. It does not use any features to explain variation in the data.
@@ -50,6 +66,8 @@ Because of that: The model explains 0% of the variance in the target. All variab
 RMSE has the same units as the target variable.
    - How do you calculate Mean Absolute Error (MAE)?<br/>
 Average absolute difference between fitted and observed values.
+   -Which regression metric is the square root of Mean Squared Error (MSE)?<br/>
+Root Mean Squared Error (RMSE)
 
 ![Regression model evaluation metrics](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/Regression%20model%20evaluation%20metrics.png)
 
@@ -122,6 +140,22 @@ To compare COHESION(united whole)within clusters to separation from other cluste
 Silhouette Score
 ![Silhouette Score2](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/Silhouette%20Score2.png)
 
+   -You are using a clustering algorithm to group customers based on purchasing behavior and assessing the quality of the clusters to determine how well-separated the clusters are. Which of the following metrics is most suitable for this task?<br/>
+Silhouette score <br/>
+(The Silhouette score measures how similar each point is to its cluster compared to others, evaluating the quality and separation of clusters. This makes it most suitable for assessing how well the clusters are formed regarding separation and cohesion.)
+
+   -A company uses a clustering algorithm to segment customers based on purchasing patterns. They want to evaluate the compactness and separation of the resulting clusters. Which of the following metrics is most appropriate for this evaluation?<br/>
+Silhouette score<br/>
+(The Silhouette score evaluates the compactness (how close points are within the same cluster) and separation (how distinct clusters are from each other), making it ideal for assessing the overall quality of the clusters.)
+
+   -You are using a clustering algorithm to group customers based on purchasing behavior and assessing the quality of the clusters to determine how well-separated the clusters are. Which of the following metrics is most suitable for this task?<br/>
+Silhouette score<br/>
+(The silhouette score measures how well each data point fits within its assigned cluster compared to other clusters. It directly evaluates:
+Cluster cohesion (how close points are within the same cluster)
+Cluster separation (how far clusters are from each other)
+This makes it ideal when you want to know how well-separated and meaningful your clusters are.)
+
+
    -What is the primary goal of clustering in unsupervised learning?<br/>
 To group similar data points into clusters.
 
@@ -130,6 +164,14 @@ To group similar data points into clusters.
 - Model validation, including dividing data into training, validation, and test sets, helps prevent overfitting by tuning hyperparameters carefully.
 
 - Cross-validation methods, especially K-fold and stratified cross-validation, support robust model validation without overfitting to test data.
+
+   -A data scientist wants to build a fraud detection model that works well on unseen financial transactions. Which technique should a data scientist use to validate a model and avoid overfitting?<br/>
+Cross-validation<br/>
+(Cross-validation splits the data into multiple folds for training and validation, helping the model generalize better to unseen data.)
+
+   -A data analyst has interpreted a model’s feature importance without considering its relationship with input variables. What mistake could this lead to?<br/>
+Overlooking correlated features in importance scores<br/>
+(Correlations between features can cause the model to assign a shared importance to those features. Ignoring their redundancy may lead to incomplete or incorrect conclusions about their significance.
   
 ![Cross-validation algorithm](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/Cross-validation%20algorithm.png)
 
@@ -141,6 +183,15 @@ To group similar data points into clusters.
 ![Ridge and Lasso Regression](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/Ridge%20and%20Lasso%20Regression.png)
 
    -Lasso (Least Absolute Shrinkage and Selection Operator; or L1 regularization) is a regression analysis method that performs both variable selection and regularization in order to enhance the prediction accuracy and interpretability of the resulting statistical model. The lasso method assumes that the coefficients of the linear model are sparse, meaning that few of them are non-zero.
+
+   -A researcher wants to simplify a predictive model by retaining the most relevant features. Which type of regularization can often be used for feature selection?<br/>
+Lasso regression<br/>
+(Lasso regression applied to the features can shrink some of their coefficients to zero, so those features can optionally be left out in subsequent modeling.)
+
+   -During a model performance review, a machine learning engineer compares two regularization techniques and observes that one shrinks coefficients to zero while the other reduces their size. What is the key difference between Lasso and Ridge regression?<br/>
+Lasso uses an L-1 penalty, and Ridge uses an L-2 penalty.<br/>
+(The primary difference between Lasso and Ridge regression lies in the penalty term used: Lasso uses an L-1 penalty (sum of absolute values), while Ridge uses an L-2 penalty (sum of squares of coefficients).)
+
 
 ### RIDGE REGRESSION (L2 REGULARIZATION)
    -Ridge regression, also called L2 regularization, is a linear regression technique designed to handle multicollinearity and overfitting by adding a penalty term to the Ordinary Least Squares (OLS) loss function.
@@ -156,6 +207,11 @@ The penalty term's influence on the cost function
 ![Model Comparision 2](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/Model%20Comparision%202.png)
 
 - Data leakage occurs when training data includes information UNAVAILABLE in REAL-WORLD data, which is preventable by separating data properly and mindful feature selection.
+
+-Jimmy wants to develop a model that predicts the overall average approval rate as a feature in the loan approval process. How can he mitigate the risk of data leakage in machine learning?<br/>
+Avoid including features derived from the entire dataset<br/>
+(Features like global averages, which use data from the entire dataset, can cause data leakage by introducing information that wouldn’t be available in production.)
+
 
 - Common modelling pitfalls include misinterpreting feature importance, ignoring class imbalance, and making causal inferences without sufficient evidence.”  
 ![Common modelling pitfalls](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/Common%20modelling%20pitfalls.png)
@@ -173,6 +229,22 @@ It makes the model fit the target variable more easily by reducing skewness (Đ�
 -Which of the following best describes the role of the test set in model validation?
 The test set is used to evaluate the model after it has been trained and validated.
 
+   -A machine learning engineer selected hyperparameters based on performance on the test set. What risk does this introduce?<br/>
+Data snooping<br/>
+(When you choose hyperparameters based on test‑set performance, the test set is no longer a true “unseen” dataset. You’ve indirectly learned from it, even if you didn’t retrain on it.
+This contaminates the evaluation process and leads to:
+Data snooping (data leakage) → the model has indirectly “peeked” at the test set
+Overly optimistic performance estimates
+A test set that no longer reflects real‑world generalization)
+
+   -A developer adds a feature to a model that relies on future data that will remain unavailable during predictions. Which approach would best mitigate this issue?<br/>
+Ensuring that no information is included in the training data
+
+   -When assessing feature importance, what can cause misleading results?<br/>
+Overlooking the combined effect of correlated features
+
+   -Thomas noticed that his model performs very well on the training data but poorly on unseen test data. Which problem is his model likely suffering from?<br/>
+Overfitting
 
 
 
