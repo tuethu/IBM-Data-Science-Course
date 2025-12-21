@@ -30,13 +30,13 @@ Ratio of correct predictions to total instances.
    - What does R-squared measure in a model?<br/>
 Variance explained by the independent variable.
 
-   -What does R-squared measure in regression analysis?
-The proportion of variance in the target variable explained by the model
+   -What does R-squared measure in regression analysis?<br/>
+The proportion of variance in the target variable explained by the model<br/>
 (For example: An R² of 0.80 means the model explains 80% of the variance in the outcome. The remaining 20% is unexplained (error, noise, missing predictors, etc.).
 
 
-   -What is the effect of using a mean-value model in regression analysis?
-R-squared will be zero, as the model explains no variance
+   -What is the effect of using a mean-value model in regression analysis?<br/>
+R-squared will be zero, as the model explains no variance<br/>
 (A mean-value model predicts the same constant value (the mean of the target variable) for every observation. It does not use any features to explain variation in the data.
 Because of that: The model explains 0% of the variance in the target. All variability remains in the residuals. Therefore, R² = 0.)
 ![R-squared](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/R-squared.png)
