@@ -43,8 +43,8 @@ Recall
 - Regression model evaluation metrics include MAE(Mean Absolute Error), MSE (Mean Squared Error), RMSE (Root Mean Squared Error), R-squared(coefficient of determination), and explained variance to measure prediction accuracy.
 
 ### R-SQUARED 
-   - What does R-squared measure in a model?<br/>
-Variance explained by the independent variable.
+   - What does R-SQUARED measure in a model?<br/>
+VARIANCE explained by the independent variable.
 
    -What does R-squared measure in regression analysis?<br/>
 The proportion of variance in the target variable explained by the model<br/>
