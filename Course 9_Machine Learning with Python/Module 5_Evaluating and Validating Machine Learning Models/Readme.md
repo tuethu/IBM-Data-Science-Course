@@ -60,11 +60,11 @@ print(f"Root Mean Squared Error (RMSE): {rmse:.4f}")
 print(f"R² Score: {r2:.4f}")
 ```
    -Mean Absolute Error (MAE): 0.3276 <br/>
--> The mean absolute error is $33,220. So, on average, predicted median house prices are off by $33k.
+-> The mean absolute error is $33,220. So, on average, predicted median house prices are off by $33k.<br/>
    -Mean Squared Error (MSE): 0.2556<br/>
--> Mean squared error is less intuitive to interpret, but is usually what is being minimized by the model fit.
+-> Mean squared error is less intuitive to interpret, but is usually what is being minimized by the model fit.<br/>
    -Root Mean Squared Error (RMSE): 0.5055<br/>
--> On the other hand, taking the square root of MSE yields a dollar value, here RMSE = $50,630.
+-> On the other hand, taking the square root of MSE yields a dollar value, here RMSE = $50,630.<br/>
    -R² Score: 0.8050<br/>
 ->An R-squared score of 0.80 is not considered very high. It means the model explains about %80 of the variance in median house prices, although this interpretation can be misleading for compex data with nonlinear relationships, skewed values, and outliers. R-squard can still be useful for comparing models though.
 
