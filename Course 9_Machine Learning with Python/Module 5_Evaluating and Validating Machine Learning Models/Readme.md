@@ -14,13 +14,13 @@ To assess model predictions against ground truth labels.
 HARMONIC mean of PRECISION and RECALL.
 
 ### RECALL- PRECISION
-   - What does RECALL measure in machine learning?<br/>
-TRUE positives divided by ACTUAL positives.
    - How do you calculate precision in a model?<br/>
 True positives divided by predicted positives.
    - What does accuracy represent in machine learning?<br/>
 Ratio of correct predictions to total instances.
 
+   - What does RECALL measure in machine learning?<br/>
+TRUE positives divided by ACTUAL positives.
    - In the context of model evaluation, which metric would be particularly useful when the COST of FALSE NEGATIVES is high?<br/>
 Recall<br/>
 ( Recall measures how many of the actual positive cases your model successfully identifies. When the cost of false negatives is high—meaning missing a positive case is dangerous or expensive—recall becomes the priority.
