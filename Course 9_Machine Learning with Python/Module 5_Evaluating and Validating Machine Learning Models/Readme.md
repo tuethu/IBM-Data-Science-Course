@@ -63,7 +63,7 @@ Because of that: The model explains 0% of the variance in the target. All variab
 
 ### ROOT MEAN SQUARED ERROR (RMSE) & MEAN ABSOLUTE ERROR (MAE)
    - Why is Root Mean Squared Error (RMSE) more intuitive than Mean Squared Error (MSE)?<br/>
-RMSE has the SAME UNITS as the TARGET variable.
+RMSE has the SAME UNITS as the TARGET variable.<br/>
    -Which regression metric is the square root of Mean Squared Error (MSE)?<br/>
 Root Mean Squared Error (RMSE)
 
