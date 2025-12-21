@@ -69,7 +69,7 @@ print(f"R² Score: {r2:.4f}")
 -> On the other hand, taking the square root of MSE yields a dollar value, here RMSE = $50,630.<br/>
 
    -R² Score: 0.8050<br/>
-->An R-squared score of 0.80 is not considered very high. It means the model explains about %80 of the variance in median house prices, although this interpretation can be misleading for compex data with nonlinear relationships, skewed values, and outliers. R-squard can still be useful for comparing models though.
+->An R-squared score of 0.80 is not considered very high. It means the model explains about %80 of the variance in median house prices, although this interpretation can be misleading for compex data with nonlinear relationships, skewed values, and outliers. R-square can still be useful for comparing models though.
 
 ### EVALUATION OF UNSUPERVISED LEARNING MODELS
 
