@@ -13,8 +13,6 @@ To assess model predictions against ground truth labels.
    - How is the F1 SCORE determined?<br/>
 HARMONIC mean of PRECISION and RECALL.
 
-![Key metrics for classification evaluation](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/Key%20metrics%20for%20classification%20evaluation.png)
-
 ### RECALL- PRECISION
    - What does recall measure in machine learning?<br/>
 True positives divided by actual positives.
@@ -34,6 +32,8 @@ In these situations, you want to catch as many true positives as possible, even 
 
    - In a medical diagnosis scenario, where it is crucial to AVOID MISSING any TRUE POSITIVE cases, which metric is most important?<br/>
 Recall
+
+![Key metrics for classification evaluation](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/Key%20metrics%20for%20classification%20evaluation.png)
 
 ![KNN and SVM Prediction Sensitivity](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/KNN%20and%20SVM%20Prediction%20Sensitivity.png)
 
