@@ -4,36 +4,39 @@ Congratulations! You have completed this lesson. At this point in the course, yo
 
 - Supervised learning evaluation assesses a model's ability to predict outcomes for unseen data, often using a train/test split to estimate performance.
 
+## KEY METRICS FOR CLASSIFICATION EVALUATION
 - Key metrics for classification evaluation include accuracy, confusion matrix, precision, recall, and the F1 score, which balances precision and recall.
+   - What is the purpose of supervised learning evaluation?<br/>
+To assess model predictions against ground truth labels.
 
+### F1 SCORE
    - How is the F1 SCORE determined?<br/>
 HARMONIC mean of PRECISION and RECALL.
 
 ![Key metrics for classification evaluation](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/Key%20metrics%20for%20classification%20evaluation.png)
 
+### RECALL- PRECISION
    - What does recall measure in machine learning?<br/>
 True positives divided by actual positives.
    - How do you calculate precision in a model?<br/>
 True positives divided by predicted positives.
-   - What is the purpose of supervised learning evaluation?<br/>
-To assess model predictions against ground truth labels.
    - What does accuracy represent in machine learning?<br/>
 Ratio of correct predictions to total instances.
 
 ![KNN and SVM Prediction Sensitivity](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/KNN%20and%20SVM%20Prediction%20Sensitivity.png)
 
 
-### REGRESSION MODEL EVALUATION METRICS
+## REGRESSION MODEL EVALUATION METRICS
 
 - Regression model evaluation metrics include MAE(Mean Absolute Error), MSE (Mean Squared Error), RMSE (Root Mean Squared Error), R-squared(coefficient of determination), and explained variance to measure prediction accuracy.
 
+### R-SQUARED 
    - What does R-squared measure in a model?<br/>
 Variance explained by the independent variable.
 
    -What does R-squared measure in regression analysis?<br/>
 The proportion of variance in the target variable explained by the model<br/>
 (For example: An R² of 0.80 means the model explains 80% of the variance in the outcome. The remaining 20% is unexplained (error, noise, missing predictors, etc.).
-
 
    -What is the effect of using a mean-value model in regression analysis?<br/>
 R-squared will be zero, as the model explains no variance<br/>
@@ -42,6 +45,7 @@ Because of that: The model explains 0% of the variance in the target. All variab
 
 ![R-squared](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/R-squared.png)
 
+### ROOT MEAN SQUARED ERROR (RMSE) & MEAN ABSOLUTE ERROR (MAE)
    - Why is Root Mean Squared Error (RMSE) more intuitive than Mean Squared Error (MSE)?<br/>
 RMSE has the same units as the target variable.
    - How do you calculate Mean Absolute Error (MAE)?<br/>
@@ -80,7 +84,6 @@ print(f"R² Score: {r2:.4f}")
 More distinct and compact clusters.
 ![Davies-Bouldin index](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/Davies-Bouldin%20index.png)
 
-
 ![External Clustering Evaluation Metrics](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/External%20Clustering%20Evaluation%20Metrics.png)
    
    -How do external clustering evaluation metrics differ from internal metrics?<br/>
@@ -92,14 +95,13 @@ Better clustering performance.
    -What does an adjusted Rand index score of 1 signify?<br/>
 Perfect alignment between true labels and clustering outcomes.
 
-
    -How does the explained variance ratio in PCA help in dimensionality reduction?<br/>
 It measures variance captured by each component.
+
 ![Explained variance ratio for PCA](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/Explained%20variance%20ratio%20for%20PCA.png)
 
    -What is the purpose of evaluating dimensionality reduction techniques?<br/>
 To assess how well-reduced data retains important information.
-
 
    -In k-means clustering, what does a LOWER INERTIA (remain unchanged) value suggest?<br/>
 More COMPACT clusters.It is defined as the sum of squared distances between each data point and its cluster centroid. <br/>
@@ -110,6 +112,7 @@ However, inertia tends to decrease as the number of clusters increases, so it's 
    -What is the significance of a normalized mutual information score of 1?<br/>
 Perfect agreement between predicted clusters and true labels.
 
+### SILHOUETTE SCORE
    -How is the Silhouette Score used in clustering evaluation?<br/>
 To compare COHESION(united whole)within clusters to separation from other clusters.
 ![Silhouette Score](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/Silhouette%20Score.png)
@@ -132,18 +135,21 @@ To group similar data points into clusters.
 
 ![K-fold Cross-validation](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/K-fold%20Cross-validation.png)
 
-- Regularization techniques, such as ridge (L2) and lasso (L1) regression, help prevent overfitting by adding penalty terms to linear regression models.
+### LASSO REGRESSION (L1 REGULARIZATION)
+
+- Regularization techniques, such as Lasso (L1) and Ridge (L2) regression , help prevent overfitting by adding penalty terms to linear regression models.
 ![Ridge and Lasso Regression](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/Ridge%20and%20Lasso%20Regression.png)
 
-   -Ridge regression, also called L2 regularization, is a linear regression technique designed to handle multicollinearity and overfitting by adding a penalty term to the Ordinary Least Squares (OLS) loss function.
    -Lasso (Least Absolute Shrinkage and Selection Operator; or L1 regularization) is a regression analysis method that performs both variable selection and regularization in order to enhance the prediction accuracy and interpretability of the resulting statistical model. The lasso method assumes that the coefficients of the linear model are sparse, meaning that few of them are non-zero.
+
+### RIDGE REGRESSION (L2 REGULARIZATION)
+   -Ridge regression, also called L2 regularization, is a linear regression technique designed to handle multicollinearity and overfitting by adding a penalty term to the Ordinary Least Squares (OLS) loss function.
 
 -In which scenario is Lasso regression most beneficial?
 When the data is sparse and has many irrelevant features
 
 -In the context of regularization, what does the lambda parameter control?
 The penalty term's influence on the cost function
-
 
 ![Model Comparision 1](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/Model%20Comparision%201.png)
 
@@ -158,12 +164,11 @@ The penalty term's influence on the cost function
 
 - Feature importance assessments should consider redundancy, scale sensitivity, and avoid misinterpretation, as well as inappropriate assumptions about causation.
 
-
+### SKEWNESS
 -What is the benefit of transforming a skewed target variable, such as using a Box-Cox or logarithmic transformation?
 It makes the model fit the target variable more easily by reducing skewness (Độ lệch- là sự biến dạng sự bất đối xứng trong một phân phối hình chuông đối xứng hay phân phối chuẩn trong một tập dữ liệu.)
 
 ![Skewness](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/Skewness.png)
-
 
 -Which of the following best describes the role of the test set in model validation?
 The test set is used to evaluate the model after it has been trained and validated.
@@ -179,9 +184,9 @@ The test set is used to evaluate the model after it has been trained and validat
 
 [Lab_Evaluating Random Forest Performance](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Module%205_Evaluating%20and%20Validating%20Machine%20Learning%20Models/Lesson%201_Evaluating%20Machine%20Learning%20Models/Lab_Evaluating%20Random%20Forest%20Performance.ipynb)
 
-[]()
+[Lab_Regularization in Linear Regression](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Module%205_Evaluating%20and%20Validating%20Machine%20Learning%20Models/Lesson%202_Best%20Practices%20for%20Ensuring%20Model%20Generalizability/Lab_Regularization%20in%20Linear%20Regression.ipynb)
 
-[]()
+[Lab_Machine Learning Pipelines and GridSearchCV](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Module%205_Evaluating%20and%20Validating%20Machine%20Learning%20Models/Lesson%202_Best%20Practices%20for%20Ensuring%20Model%20Generalizability/Lab_Machine%20Learning%20Pipelines%20and%20GridSearchCV.ipynb)
 
 []()
 
