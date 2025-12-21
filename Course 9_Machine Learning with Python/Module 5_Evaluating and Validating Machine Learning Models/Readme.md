@@ -85,8 +85,10 @@ More distinct and compact clusters.
    
    -How do external clustering evaluation metrics differ from internal metrics?<br/>
 They use labeled data to evaluate clustering quality.
+
    -What does a higher Fowlkes-Mallows index score indicate?<br/>
 Better clustering performance.
+
    -What does an adjusted Rand index score of 1 signify?<br/>
 Perfect alignment between true labels and clustering outcomes.
 
@@ -100,9 +102,9 @@ To assess how well-reduced data retains important information.
 
 
    -In k-means clustering, what does a LOWER INERTIA (remain unchanged) value suggest?<br/>
-More COMPACT clusters.It is defined as the sum of squared distances between each data point and its cluster centroid. 
-LOWER inertia values indicate MORE COMPACT clusters and a potentially BETTER clustering outcome. 
-However, inertia tends to decrease as the number of clusters increases, so it's important to interpret it alongside other metrics.
+More COMPACT clusters.It is defined as the sum of squared distances between each data point and its cluster centroid. <br/>
+LOWER inertia values indicate MORE COMPACT clusters and a potentially BETTER clustering outcome. <br/>
+However, inertia tends to decrease as the number of clusters increases, so it's important to interpret it alongside other metrics.<br/>
 ![Cluster Stability](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/Cluster%20Stability.png)
 
    -What is the significance of a normalized mutual information score of 1?<br/>
