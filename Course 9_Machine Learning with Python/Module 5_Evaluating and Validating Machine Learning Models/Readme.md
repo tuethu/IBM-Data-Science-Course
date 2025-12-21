@@ -39,6 +39,7 @@ The proportion of variance in the target variable explained by the model<br/>
 R-squared will be zero, as the model explains no variance<br/>
 (A mean-value model predicts the same constant value (the mean of the target variable) for every observation. It does not use any features to explain variation in the data.
 Because of that: The model explains 0% of the variance in the target. All variability remains in the residuals. Therefore, R² = 0.)
+
 ![R-squared](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/R-squared.png)
 
    - Why is Root Mean Squared Error (RMSE) more intuitive than Mean Squared Error (MSE)?<br/>
