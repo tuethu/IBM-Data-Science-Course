@@ -127,26 +127,65 @@ To group similar data points into clusters.
 - Model validation, including dividing data into training, validation, and test sets, helps prevent overfitting by tuning hyperparameters carefully.
 
 - Cross-validation methods, especially K-fold and stratified cross-validation, support robust model validation without overfitting to test data.
+![Cross-validation algorithm]()
+
+![K-fold Cross-validation]()
 
 - Regularization techniques, such as ridge (L2) and lasso (L1) regression, help prevent overfitting by adding penalty terms to linear regression models.
+![Ridge and Lasso Regression]()
+   -Ridge regression, also called L2 regularization, is a linear regression technique designed to handle multicollinearity and overfitting by adding a penalty term to the Ordinary Least Squares (OLS) loss function.
+   -Lasso (Least Absolute Shrinkage and Selection Operator; or L1 regularization) is a regression analysis method that performs both variable selection and regularization in order to enhance the prediction accuracy and interpretability of the resulting statistical model. The lasso method assumes that the coefficients of the linear model are sparse, meaning that few of them are non-zero.
 
-- Data leakage occurs when training data includes information unavailable in real-world data, which is preventable by separating data properly and mindful feature selection.
+-In which scenario is Lasso regression most beneficial?
+When the data is sparse and has many irrelevant features
+
+-In the context of regularization, what does the lambda parameter control?
+The penalty term's influence on the cost function
+
+
+![Model Comparision 1]()
+
+![Model Comparision 2]()
+
+- Data leakage occurs when training data includes information UNAVAILABLE in REAL-WORLD data, which is preventable by separating data properly and mindful feature selection.
 
 - Common modelling pitfalls include misinterpreting feature importance, ignoring class imbalance, and making causal inferences without sufficient evidence.”  
+![Common modelling pitfalls]()
+
+![Machine Learning Pipelines and GridSearchCV]()
 
 - Feature importance assessments should consider redundancy, scale sensitivity, and avoid misinterpretation, as well as inappropriate assumptions about causation.
 
+
+-What is the benefit of transforming a skewed target variable, such as using a Box-Cox or logarithmic transformation?
+It makes the model fit the target variable more easily by reducing skewness (Độ lệch- là sự biến dạng sự bất đối xứng trong một phân phối hình chuông đối xứng hay phân phối chuẩn trong một tập dữ liệu.)
+
+![Skewness]()
+
+
+-Which of the following best describes the role of the test set in model validation?
+The test set is used to evaluate the model after it has been trained and validated.
+
+
+
+
+
+
 [Lab_Evaluating Classification Models](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Module%205_Evaluating%20and%20Validating%20Machine%20Learning%20Models/Lesson%201_Evaluating%20Machine%20Learning%20Models/Lab_Evaluating%20Classification%20Models.ipynb)
 
-[Evaluating K-means Clustering](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Module%205_Evaluating%20and%20Validating%20Machine%20Learning%20Models/Lesson%201_Evaluating%20Machine%20Learning%20Models/Lab_Evaluating%20K-means%20Clustering.ipynb)
+[Lab_Evaluating K-means Clustering](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Module%205_Evaluating%20and%20Validating%20Machine%20Learning%20Models/Lesson%201_Evaluating%20Machine%20Learning%20Models/Lab_Evaluating%20K-means%20Clustering.ipynb)
 
-[Evaluating Random Forest Performance](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Module%205_Evaluating%20and%20Validating%20Machine%20Learning%20Models/Lesson%201_Evaluating%20Machine%20Learning%20Models/Lab_Evaluating%20Random%20Forest%20Performance.ipynb)
-
-[]()
+[Lab_Evaluating Random Forest Performance](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Module%205_Evaluating%20and%20Validating%20Machine%20Learning%20Models/Lesson%201_Evaluating%20Machine%20Learning%20Models/Lab_Evaluating%20Random%20Forest%20Performance.ipynb)
 
 []()
 
 []()
+
+[]()
+
+![]()
+
+![]()
 
 [Cheat Sheet: Evaluating and Validating Machine Learning Models](https://author-ide.skills.network/render?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZF9pbnN0cnVjdGlvbnNfdXJsIjoiaHR0cHM6Ly9jZi1jb3Vyc2VzLWRhdGEuczMudXMuY2xvdWQtb2JqZWN0LXN0b3JhZ2UuYXBwZG9tYWluLmNsb3VkLzloWDBlUk13aXY3RTVwd2Jwc3N0a2cvTW9kdWxlJTIwNSUyMENoZWF0JTIwU2hlZXQtVjIubWQ_dD0xNzQ2MTMwMzI5IiwidG9vbF90eXBlIjoiaW5zdHJ1Y3Rpb25hbC1sYWIiLCJhdGxhc19maWxlX2lkIjoyNTI1NzAsImFkbWluIjpmYWxzZSwiaWF0IjoxNzU3Njk3MjI5fQ.MRGfNS8jJP7fjDztRX_-mlYSC41jJ6u49ReaXLeLKTk)
 
