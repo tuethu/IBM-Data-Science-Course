@@ -136,4 +136,17 @@ To group similar data points into clusters.
 
 - Feature importance assessments should consider redundancy, scale sensitivity, and avoid misinterpretation, as well as inappropriate assumptions about causation.
 
+[Lab_Evaluating Classification Models](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Module%205_Evaluating%20and%20Validating%20Machine%20Learning%20Models/Lesson%201_Evaluating%20Machine%20Learning%20Models/Lab_Evaluating%20Classification%20Models.ipynb)
+
+[Evaluating K-means Clustering](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Module%205_Evaluating%20and%20Validating%20Machine%20Learning%20Models/Lesson%201_Evaluating%20Machine%20Learning%20Models/Lab_Evaluating%20K-means%20Clustering.ipynb)
+
+[Evaluating Random Forest Performance](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Module%205_Evaluating%20and%20Validating%20Machine%20Learning%20Models/Lesson%201_Evaluating%20Machine%20Learning%20Models/Lab_Evaluating%20Random%20Forest%20Performance.ipynb)
+
+[]()
+
+[]()
+
+[]()
+
+[Cheat Sheet: Evaluating and Validating Machine Learning Models](https://author-ide.skills.network/render?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZF9pbnN0cnVjdGlvbnNfdXJsIjoiaHR0cHM6Ly9jZi1jb3Vyc2VzLWRhdGEuczMudXMuY2xvdWQtb2JqZWN0LXN0b3JhZ2UuYXBwZG9tYWluLmNsb3VkLzloWDBlUk13aXY3RTVwd2Jwc3N0a2cvTW9kdWxlJTIwNSUyMENoZWF0JTIwU2hlZXQtVjIubWQ_dD0xNzQ2MTMwMzI5IiwidG9vbF90eXBlIjoiaW5zdHJ1Y3Rpb25hbC1sYWIiLCJhdGxhc19maWxlX2lkIjoyNTI1NzAsImFkbWluIjpmYWxzZSwiaWF0IjoxNzU3Njk3MjI5fQ.MRGfNS8jJP7fjDztRX_-mlYSC41jJ6u49ReaXLeLKTk)
 
