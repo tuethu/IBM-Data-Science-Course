@@ -63,11 +63,12 @@ Because of that: The model explains 0% of the variance in the target. All variab
 
 ### ROOT MEAN SQUARED ERROR (RMSE) & MEAN ABSOLUTE ERROR (MAE)
    - Why is Root Mean Squared Error (RMSE) more intuitive than Mean Squared Error (MSE)?<br/>
-RMSE has the same units as the target variable.
-   - How do you calculate Mean Absolute Error (MAE)?<br/>
-Average absolute difference between fitted and observed values.
+RMSE has the SAME UNITS as the TARGET variable.
    -Which regression metric is the square root of Mean Squared Error (MSE)?<br/>
 Root Mean Squared Error (RMSE)
+
+   - How do you calculate Mean Absolute Error (MAE)?<br/>
+Average absolute DIFFERENCE between FITTED and OBSERVED values.<br/>
 
 ![Regression model evaluation metrics](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/Regression%20model%20evaluation%20metrics.png)
 
