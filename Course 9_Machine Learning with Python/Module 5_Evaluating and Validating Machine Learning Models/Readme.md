@@ -63,8 +63,8 @@ print(f"R² Score: {r2:.4f}")
 -> The mean absolute error is $33,220. So, on average, predicted median house prices are off by $33k.<br/>
 
    -Mean Squared Error (MSE): 0.2556<br/>
--> Mean squared error is less intuitive to interpret, but is usually what is being minimized by the model fit.<br
-                                                                                                                 />
+-> Mean squared error is less intuitive to interpret, but is usually what is being minimized by the model fit.<br/>
+                                                                                                               
    -Root Mean Squared Error (RMSE): 0.5055<br/>
 -> On the other hand, taking the square root of MSE yields a dollar value, here RMSE = $50,630.<br/>
 
