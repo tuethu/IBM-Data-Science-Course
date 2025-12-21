@@ -193,7 +193,7 @@ Lasso regression<br/>
 
    -During a model performance review, a machine learning engineer compares two regularization techniques and observes that one shrinks coefficients to zero while the other reduces their size. What is the key difference between Lasso and Ridge regression?<br/>
 Lasso uses an L-1 penalty, and Ridge uses an L-2 penalty.<br/>
-(The primary difference between Lasso and Ridge regression lies in the penalty term used: Lasso uses an L-1 penalty (sum of absolute values), while Ridge uses an L-2 penalty (sum of squares of coefficients).)
+(The primary difference between Lasso and Ridge regression lies in the penalty term used: Lasso uses an L-1 penalty (sum of <ins>absolute</ins> values), while Ridge uses an L-2 penalty (sum of squares of <ins>coefficients</ins>).)
 
 
 ### RIDGE REGRESSION (L2 REGULARIZATION)
