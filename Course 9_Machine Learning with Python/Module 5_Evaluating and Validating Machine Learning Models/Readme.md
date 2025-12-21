@@ -182,7 +182,7 @@ Overlooking correlated features in importance scores<br/>
 
 ### LASSO REGRESSION (L1 REGULARIZATION)
 
-- Regularization techniques, such as Lasso (L1) and Ridge (L2) regression , help prevent overfitting by adding penalty terms to linear regression models.
+- Regularization techniques, such as Lasso (L1) and Ridge (L2) regression , help <ins>prevent overfitting</ins> by <ins>adding penalty</ins> terms to linear regression models.
 ![Ridge and Lasso Regression](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/Ridge%20and%20Lasso%20Regression.png)
 
    -Lasso (Least Absolute Shrinkage and Selection Operator; or L1 regularization) is a regression analysis method that performs both variable selection and regularization in order to enhance the prediction accuracy and interpretability of the resulting statistical model. The lasso method assumes that the coefficients of the linear model are sparse, meaning that few of them are non-zero.
