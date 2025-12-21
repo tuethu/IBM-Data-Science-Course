@@ -117,6 +117,8 @@ Better clustering performance.
    -What does an adjusted Rand index score of 1 signify?<br/>
 Perfect alignment between true labels and clustering outcomes.
 
+### Principal Component Analysis (PCA) 
+
    -How does the explained variance ratio in PCA help in dimensionality reduction?<br/>
 It measures variance captured by each component.
 
