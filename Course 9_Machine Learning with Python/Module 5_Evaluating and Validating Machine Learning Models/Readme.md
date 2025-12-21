@@ -167,7 +167,7 @@ To group similar data points into clusters.
 
 - Model validation, including dividing data into training, validation, and test sets, helps prevent overfitting by tuning hyperparameters carefully.
 
-### CROSS-VALIDATION
+### CROSS-VALIDATION AND DATA SNOOPING
 
 - Cross-validation methods, especially K-fold and stratified cross-validation, support robust model validation without overfitting to test data.
 
@@ -178,6 +178,14 @@ Cross-validation<br/>
    -A data analyst has interpreted a model’s feature importance without considering its relationship with input variables. What mistake could this lead to?<br/>
 Overlooking correlated features in importance scores<br/>
 (Correlations between features can cause the model to assign a shared importance to those features. Ignoring their redundancy may lead to incomplete or incorrect conclusions about their significance.
+
+   -A machine learning engineer selected hyperparameters based on performance on the test set. What risk does this introduce?<br/>
+Data snooping<br/>
+(When you choose hyperparameters based on test‑set performance, the test set is no longer a true “unseen” dataset. You’ve indirectly learned from it, even if you didn’t retrain on it.
+This contaminates the evaluation process and leads to:
+Data snooping (data leakage) → the model has indirectly “peeked” at the test set
+Overly optimistic performance estimates
+A test set that no longer reflects real‑world generalization)
   
 ![Cross-validation algorithm](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/Cross-validation%20algorithm.png)
 
@@ -234,14 +242,6 @@ It makes the model fit the target variable more easily by reducing skewness (Đ�
 
 -Which of the following best describes the role of the test set in model validation?
 The test set is used to evaluate the model after it has been trained and validated.
-
-   -A machine learning engineer selected hyperparameters based on performance on the test set. What risk does this introduce?<br/>
-Data snooping<br/>
-(When you choose hyperparameters based on test‑set performance, the test set is no longer a true “unseen” dataset. You’ve indirectly learned from it, even if you didn’t retrain on it.
-This contaminates the evaluation process and leads to:
-Data snooping (data leakage) → the model has indirectly “peeked” at the test set
-Overly optimistic performance estimates
-A test set that no longer reflects real‑world generalization)
 
    -A developer adds a feature to a model that relies on future data that will remain unavailable during predictions. Which approach would best mitigate this issue?<br/>
 Ensuring that no information is included in the training data
