@@ -82,6 +82,7 @@ More distinct and compact clusters.
 
 
 ![External Clustering Evaluation Metrics](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/External%20Clustering%20Evaluation%20Metrics.png)
+   
    -How do external clustering evaluation metrics differ from internal metrics?<br/>
 They use labeled data to evaluate clustering quality.
    -What does a higher Fowlkes-Mallows index score indicate?<br/>
