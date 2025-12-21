@@ -30,7 +30,7 @@ Ratio of correct predictions to total instances.
    - What does R-squared measure in a model?<br/>
 Variance explained by the independent variable.
 
-What does R-squared measure in regression analysis?
+   -What does R-squared measure in regression analysis?
 The proportion of variance in the target variable explained by the model
 (For example: An R² of 0.80 means the model explains 80% of the variance in the outcome. The remaining 20% is unexplained (error, noise, missing predictors, etc.).
 
