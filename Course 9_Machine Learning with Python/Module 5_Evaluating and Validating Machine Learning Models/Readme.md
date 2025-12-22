@@ -276,11 +276,5 @@ Excluding features that rely on future data during training<br/>
 
 [Lab_Machine Learning Pipelines and GridSearchCV](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Module%205_Evaluating%20and%20Validating%20Machine%20Learning%20Models/Lesson%202_Best%20Practices%20for%20Ensuring%20Model%20Generalizability/Lab_Machine%20Learning%20Pipelines%20and%20GridSearchCV.ipynb)
 
-[]()
-
-![]()
-
-![]()
-
 [Cheat Sheet: Evaluating and Validating Machine Learning Models](https://author-ide.skills.network/render?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZF9pbnN0cnVjdGlvbnNfdXJsIjoiaHR0cHM6Ly9jZi1jb3Vyc2VzLWRhdGEuczMudXMuY2xvdWQtb2JqZWN0LXN0b3JhZ2UuYXBwZG9tYWluLmNsb3VkLzloWDBlUk13aXY3RTVwd2Jwc3N0a2cvTW9kdWxlJTIwNSUyMENoZWF0JTIwU2hlZXQtVjIubWQ_dD0xNzQ2MTMwMzI5IiwidG9vbF90eXBlIjoiaW5zdHJ1Y3Rpb25hbC1sYWIiLCJhdGxhc19maWxlX2lkIjoyNTI1NzAsImFkbWluIjpmYWxzZSwiaWF0IjoxNzU3Njk3MjI5fQ.MRGfNS8jJP7fjDztRX_-mlYSC41jJ6u49ReaXLeLKTk)
 
