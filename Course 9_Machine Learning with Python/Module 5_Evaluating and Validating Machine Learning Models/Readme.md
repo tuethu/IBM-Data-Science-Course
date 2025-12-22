@@ -14,6 +14,8 @@ To assess model predictions against ground truth labels.
 HARMONIC mean of PRECISION and RECALL.
 
 ### RECALL- PRECISION
+   - In supervised learning evaluation, which metric would be the most useful when the cost of false positives is high?<br/>
+Precision
    - How do you calculate precision in a model?<br/>
 True positives divided by predicted positives.
    - What does accuracy represent in machine learning?<br/>
@@ -169,7 +171,7 @@ To group similar data points into clusters.
 
 - Model validation, including dividing data into training, validation, and test sets, helps prevent overfitting by tuning hyperparameters carefully.
 
-### CROSS-VALIDATION AND DATA SNOOPING
+### CROSS-VALIDATION
 
 - Cross-validation methods, especially K-fold and stratified cross-validation, support robust model validation without overfitting to test data.
 
@@ -181,13 +183,13 @@ Cross-validation<br/>
 Overlooking correlated features in importance scores<br/>
 (Correlations between features can cause the model to assign a shared importance to those features. Ignoring their redundancy may lead to incomplete or incorrect conclusions about their significance.
 
-   -A machine learning engineer selected hyperparameters based on performance on the test set. What risk does this introduce?<br/>
+### DATA SNOOPING
+
+- Data snooping, also known as data dredging or p-hacking, refers to the misuse of data analysis to find patterns in data that can be presented as statistically significant, thereby increasing the risk of false positives. 
+
+  -A machine learning engineer selected hyperparameters based on performance on the test set. What risk does this introduce?<br/>
 Data snooping<br/>
-(When you choose hyperparameters based on test‑set performance, the test set is no longer a true “unseen” dataset. You’ve indirectly learned from it, even if you didn’t retrain on it.
-This contaminates the evaluation process and leads to:
-Data snooping (data leakage) → the model has indirectly “peeked” at the test set
-Overly optimistic performance estimates
-A test set that no longer reflects real‑world generalization)
+(Data snooping occurs when information from the test set is used during model tuning, leading to over-optimistic and misleading results.n)
   
 ![Cross-validation algorithm](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/Cross-validation%20algorithm.png)
 
@@ -203,6 +205,9 @@ A test set that no longer reflects real‑world generalization)
    -A researcher wants to simplify a predictive model by retaining the most relevant features. Which type of regularization can often be used for feature selection?<br/>
 Lasso regression<br/>
 (Lasso regression applied to the features can shrink some of their coefficients to zero, so those features can optionally be left out in subsequent modeling.)
+
+   -A data scientist is optimizing a model to predict housing prices and wants to remove irrelevant features automatically during training. Which type of regression should they select?<br/>
+Lasso regression uses an L-1 penalty and can shrink some coefficients to zero.
 
    -During a model performance review, a machine learning engineer compares two regularization techniques and observes that one shrinks coefficients to zero while the other reduces their size. What is the key difference between Lasso and Ridge regression?<br/>
 Lasso uses an L-1 penalty, and Ridge uses an L-2 penalty.<br/>
@@ -254,6 +259,9 @@ Overlooking the combined effect of correlated features
    -Thomas noticed that his model performs very well on the training data but poorly on unseen test data. Which problem is his model likely suffering from?<br/>
 Overfitting
 
+   -Cristin, a machine learning engineer, is training a time-sensitive model and mistakenly included future timestamps in the training set. Which of the following would prevent data leakage?<br/>
+Excluding features that rely on future data during training<br/>
+(To mitigate data leakage, one should keep the training, validation, and test datasets separated to ensure no future information leaks into the training data. )
 
 
 
