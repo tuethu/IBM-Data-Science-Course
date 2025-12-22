@@ -44,9 +44,9 @@ To EXTEND binary classifiers to handle multiple classes
 - In a one-versus-one classification approach, how can the final class label be decided in case of a tie?
 Probability weighing
 
-- In a one-versus-one classification strategy, which method is typically used to determine the final predicted class?
-Popularity vote
-
+- Which voting scheme can be used to assign the final label in a one-versus-one classification approach?<br/>
+Popularity vote<br/>
+(In a one-versus-one strategy, the final class can be chosen by the popularity vote, where the class predicted by the most classifiers is assigned as the result.)
  
 
 ## Decision Tree
@@ -63,6 +63,11 @@ A feature that DECREASES ENTROPY in the resulting nodes
 
 - Alice is building a decision tree and wants to evaluate how mixed data is mixed at each node. What does this measure represent in terms of entropy in a decision tree?
 The LEVEL of disorder or RANDOMNESS in a node
+(Entropy measures randomness or disorder in the classes of a node, with lower entropy indicating more homogeneous nodes.)
+
+- A telecom company uses past customer behavior to predict service cancellations. Which model should they use for this classification task?<br/>
+Decision trees<br/>
+(Decision trees are commonly used in classification to split customer data into categories based on features.)
 
 - You want to determine the best feature to split the data at each node while building a decision tree. Which of the following criteria will you use?
 Information gain
@@ -74,6 +79,10 @@ Information gain
 ![Entropy and Information gain ](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/Entropy%20and%20Information%20gain.png)
 
 - Regression trees are similar to decision trees but predict continuous values by recursively splitting data to maximize information gain.
+
+- A data scientist splits a continuous feature using thresholds between consecutive sorted values. Which method is being used to determine candidate splits in this regression tree?<br/>
+Midpoints method<br/>
+(The midpoints of sorted, unique values are commonly used as candidate thresholds in regression trees.)
 
 - What is the primary goal of a regression tree?<br/>
 To predict continuous values based on features
@@ -103,8 +112,9 @@ It controls the width of the margin by allowing some misclassifications
 - Rommy is using support vector regression (SVR) to predict housing prices. He adjusts the epsilon (ε) value and notices that more data points are falling outside the shaded prediction band. What does this change in epsilon represent?<br/>
 It changes the width of the margin around the predicted curve.
 
-- Jammy is adjusting the epsilon (ɛ) parameter while tuning the support vector regression (SVR) model to predict housing prices. What aspect of the model is Jammy controlling by changing the "ɛ"?
-The maximum allowed error for points within the margin
+- Jammy is adjusting the epsilon (ɛ) parameter while tuning the support vector regression (SVR) model to predict housing prices. What aspect of the model is Jammy controlling by changing the "ɛ"? <br/>
+The maximum allowed error for points within the margin <br/>
+(Epsilon defines the margin around the prediction, treating points within it as acceptable deviations.)
 
 - Mark increases the epsilon (ε) value while tuning a support vector regression (SVR) model on noisy temperature data. As a result, fewer data points are marked as errors. Why does this happen? <br/>
 A larger epsilon creates a wider margin where small errors are ignored.
@@ -199,6 +209,10 @@ It can make majority voting unreliable due to class prevalence.
 - How can you determine the optimal K value in K-NN?<br/>
 By testing a range of K values and choosing the one with the best accuracy.
 
+- You are using K-nearest neighbors (KNN) to classify customer behavior into loyalty categories. How does increasing the value of k affect the KNN model?<br/>
+Causes underfitting by generalizing too much<br/>
+(An increase in K values reduces sensitivity, causing underfitting.)
+
 ```
 #Train Model and Predict  
 knn_classifier = KNeighborsClassifier(n_neighbors=k) # Create a KNN classifier with k neighbors
@@ -226,6 +240,11 @@ To REDUCE prediction VARIANCE by averaging multiple models.
 
 - What is the main goal of BOOSTING in ensemble modeling?<br/>
 To REDUCE prediction ERROR and BIAS by correcting previous errors.
+
+- Alex is comparing the combination of methods to improve the model's performance. He observed that one method helps reduce variance through parallel learners, while the other reduces bias by correcting previous errors. Which combination directly matches these techniques?<br/>
+Bagging reduces variance, while boosting reduces bias.<br/>
+(Bagging combines models to reduce variance, while sequentially trains models to reduce bias.)
+
 
 ![Bagging and Boosting](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/Bagging%20and%20Boosting.png)
 
