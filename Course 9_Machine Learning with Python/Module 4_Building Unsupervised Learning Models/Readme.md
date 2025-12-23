@@ -12,6 +12,8 @@ Congratulations! You have completed this lesson. At this point in the course, yo
 Hierarchical clustering enables the visualization of customer groups at various levels of similarity, making it easier to decide on an optimal number of clusters<br/>
 (Hierarchical clustering is particularly useful when a company needs to understand the nested structure of its data and visualize relationships at multiple levels. This process can help in selecting an appropriate number of clusters based on business needs.)
 
+## K-MEANS
+
 - K-means clustering partitions data into clusters based on the distance between data points and centroids but struggles with imbalanced or non-convex clusters.
 
 - Heuristic methods such as silhouette analysis, the elbow method, and the Davies-Bouldin Index help assess k-means performance.
