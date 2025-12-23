@@ -120,6 +120,9 @@ HDBSCAN can cluster data with varying densities.
 ![Dimension reduction](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/Dimension%20reduction.png)
 
 ### PCA (Principal Component Analysis)
+
+- PCA is a <ins> linear</ins> method that identifies the directions of maximum variance in the data, making it fast and effective for capturing global structure but less suited for non-linear relationships. PCA is generally faster and preferred for preliminary analysis or when the relationships in the data are primarily linear.
+
 - What does Principal Component Analysis (PCA) create from dataset features?<br/>
 Uncorrelated variables called principal components.
 
@@ -162,13 +165,13 @@ Uniform Manifold Approximation and Projection (UMAP)
 - How can clustering facilitate feature selection in a dataset?<br/>
 Identifies redundant features
 
-- PCA, a linear dimensionality reduction method, minimizes information loss while reducing dimensionality and noise in data.
+- PCA, a LINEAR dimensionality reduction method, minimizes information loss while reducing dimensionality and noise in data.
 
 - t-SNE and UMAP are other dimensionality reduction techniques that map high-dimensional data into lower-dimensional spaces for visualization and analysis.
 
 ![PCA, t-SNE and UMAP)](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/PCA%2C%20t-SNE%20and%20UMAP.png)
 
-   - PCA is a <ins> linear</ins> method that identifies the directions of maximum variance in the data, making it fast and effective for capturing global structure but less suited for non-linear relationships. PCA is generally faster and preferred for preliminary analysis or when the relationships in the data are primarily linear.
+
      
    - A marketing team wants to analyze customer purchasing behavior using multiple features like frequency of purchases and product categories. They use principal component analysis (PCA) to reduce dimensionality. What advantages does PCA offer over other techniques?<br/>
 Transforms features to capture data variance<br/>
