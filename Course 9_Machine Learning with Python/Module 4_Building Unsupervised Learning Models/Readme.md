@@ -22,6 +22,8 @@ Hierarchical clustering enables the visualization of customer groups at various 
 - What is the purpose of the Elbow Method in K-Means Clustering?<br/>
 To gauge performance by plotting the OBJECTIVE FUNCTION for different cluster numbers.
 
+![Heuristic methods](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/Heuristic%20methods.png)
+
 - How does the Davies-Bouldin INDEX evaluate K-Means?<br/>
 By measuring each cluster's average similarity RATIO with the most similar cluster.
 
