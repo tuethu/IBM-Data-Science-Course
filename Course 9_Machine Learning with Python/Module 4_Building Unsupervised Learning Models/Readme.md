@@ -8,6 +8,10 @@ Congratulations! You have completed this lesson. At this point in the course, yo
    - AGGLOMERATIVE (BOTTOM-up) and produces a dendrogram to visualize the cluster hierarchy.
 ![Hierarchical clustering](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/Hierarchical%20clustering.png)
 
+- A retail company wants to categorize its customers into distinct groups to optimize its marketing strategy with a dendrogram. How does hierarchical clustering help decide an optimal number of clusters?<br/>
+Hierarchical clustering enables the visualization of customer groups at various levels of similarity, making it easier to decide on an optimal number of clusters<br/>
+(Hierarchical clustering is particularly useful when a company needs to understand the nested structure of its data and visualize relationships at multiple levels. This process can help in selecting an appropriate number of clusters based on business needs.)
+
 - K-means clustering partitions data into clusters based on the distance between data points and centroids but struggles with imbalanced or non-convex clusters.
 
 - Heuristic methods such as silhouette analysis, the elbow method, and the Davies-Bouldin Index help assess k-means performance.
@@ -21,6 +25,10 @@ By measuring each cluster's average similarity RATIO with the most similar clust
 
 - What is the goal of K-Means regarding within-cluster variance?<br/>
 To MINimize it.
+
+- A clothing retailer is using k-means clustering to segment customers based on their purchasing habits, based on monthly spending, and purchase frequency. What does the centroid of each cluster represent with respect to K-means?<br/>
+The coordinate pair reflects the average spend and frequency of that cluster.<br/>
+(In k-means clustering, each centroid represents the “average” customer for that cluster based on the selected features—in this case, spending and frequency. This centroid helps summarize the typical behavior of customers in each segment, guiding targeted marketing strategies.)
 
 - What does the centroid represent in K-Means Clustering?<br/>
 The average position of all points in a cluster.
@@ -53,6 +61,10 @@ Segmenting customers based on purchasing behavior
 
 - DBSCAN is a density-based algorithm that creates clusters based on density and works well with natural, irregular patterns.
 ![DBSCAN](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/DBSCAN.png)
+
+- A bank wants to detect fraudulent transactions by analyzing customer spending patterns using density-based spatial clustering of applications with noise (DBSCAN). Why is DBSCAN a good fit for this analysis?<br/>
+It groups data based on density and can isolate suspicious events.<br/>
+(DBSCAN is useful to cluster dense areas of typical spending behavior while detecting outliers, such as transactions that deviate significantly. These outliers can be flagged for further fraud investigation.)
 
 - What is a core point in DBSCAN?<br/>
 A point with a MINIMUM number of neighbors within its radius.
@@ -123,6 +135,14 @@ Simplify data and maintain information content
 - What is a notable feature of t-SNE for data visualization?<br/>
 Mapping high-dimensional data to a lower-dimensional space.
 
+- A research team is working on visualizing the clustering patterns of gene expression data from various samples. They use t-SNE to reduce the dimensionality of the data to two or three dimensions. Why is t-SNE a good choice for this analysis?<br/>
+It preserves local relationships between similar data points.<br/>
+(t-SNE is ideal for capturing local structures, which makes it great for visualizing clusters in high-dimensional data, like gene expression patterns.)
+
+- Why is customer-behavior data reduced with t-SNE primarily in two-dimensional scatter plots?<br/>
+Maintains neighborhood similarities, aiding visual discovery of customer segments<br/>
+(t-SNE emphasizes near-neighbor relationships, which surface natural segments in a 2-D scatter.)
+
 ![t-SNE)](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/t-SNE.png)
 
 ### UMAP (Uniform Manifold Approximation and Projection)
@@ -145,11 +165,19 @@ Identifies redundant features
 ![PCA, t-SNE and UMAP)](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/PCA%2C%20t-SNE%20and%20UMAP.png)
 
    - PCA is a <ins> linear</ins> method that identifies the directions of maximum variance in the data, making it fast and effective for capturing global structure but less suited for non-linear relationships. PCA is generally faster and preferred for preliminary analysis or when the relationships in the data are primarily linear.
+     
+   - A marketing team wants to analyze customer purchasing behavior using multiple features like frequency of purchases and product categories. They use principal component analysis (PCA) to reduce dimensionality. What advantages does PCA offer over other techniques?<br/>
+Transforms features to capture data variance<br/>
+(PCA effectively reduces the dimensionality of the dataset by transforming features into principal components that capture most of the data's variance. This can enable a simplified analysis with fewer features without significantly sacrificing the ability to interpret underlying patterns or relationships in the data.)
+
    - t-SNE, on the other hand, is a <ins> non-linear</ins> technique that excels at preserving local structures, often revealing clusters within high-dimensional data, but it can be computationally <ins> expensive and is sensitive to hyperparameters. 
    - UMAP, also non-linear, is similar to t-SNE in preserving local structure but is <ins> faster, scalable, </ins>and tends to maintain both local and GLOBAL relationships better. UMAP is often preferred for <ins>larger</ins> datasets or when maintaining both global and local patterns is crucial, while t-SNE might be used for finer cluster analysis in smaller datasets. 
 
 Link: https://biostatsquid.com/pca-umap-tsne-comparison/
 
+- A data scientist receives a large transaction log without any labels. What is the primary objective of applying an unsupervised algorithm to this data?<br/>
+Discover hidden structures and similarities without labels<br/>
+(Unsupervised learning reveals natural groupings or patterns that exist in raw, unlabeled data.)
 
 [Cheat Sheet: Building Unsupervised Learning Models](https://author-ide.skills.network/render?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZF9pbnN0cnVjdGlvbnNfdXJsIjoiaHR0cHM6Ly9jZi1jb3Vyc2VzLWRhdGEuczMudXMuY2xvdWQtb2JqZWN0LXN0b3JhZ2UuYXBwZG9tYWluLmNsb3VkLzZHc1pBUjRESFkwR3gzTEs2Nk1YT1EvTTRMMyUyMENoZWF0JTIwU2hlZXQtVjIubWQ_dD0xNzQ2MTI3NTEzIiwidG9vbF90eXBlIjoiaW5zdHJ1Y3Rpb25hbC1sYWIiLCJhdGxhc19maWxlX2lkIjoyNTI1MzMsImFkbWluIjpmYWxzZSwiaWF0IjoxNzU3Njk3MjI4fQ.7K7a8s3ZyDqD6YKJYD5Em0ib-VGN9YPOLHdWr6iaS-0)
 
