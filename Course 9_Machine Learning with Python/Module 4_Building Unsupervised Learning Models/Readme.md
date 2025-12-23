@@ -141,7 +141,7 @@ To reduce dataset features without losing critical information.
 - What is the primary purpose of dimensionality reduction algorithms?<br/>
 Simplify data and maintain information content
 
-### t-SNE (t-distributed Stochastic Neighbor Embedding)
+### t-SNE (t-distributed Stochastic Neighbor Embedding) (Stochastic: chỉ báo dao động)
 
 - What is a notable feature of t-SNE for data visualization?<br/>
 Mapping high-dimensional data to a lower-dimensional space.
