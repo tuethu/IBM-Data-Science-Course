@@ -16,7 +16,7 @@ Hierarchical clustering enables the visualization of customer groups at various 
 
 - K-means clustering partitions data into clusters based on the distance between data points and centroids but struggles with imbalanced or non-convex clusters.
 
-- Heuristic methods such as silhouette analysis, the elbow method, and the Davies-Bouldin Index help assess k-means performance.
+- Heuristic (các kỹ thuật dựa trên kinh nghiệm để giải quyết vấn đề) methods such as silhouette analysis, the elbow method, and the Davies-Bouldin Index help assess k-means performance.
 ![Heuristic methods to determine K-means](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/Heuristic%20methods%20to%20determine%20K-means.png)
 
 - What is the purpose of the Elbow Method in K-Means Clustering?<br/>
