@@ -123,6 +123,10 @@ HDBSCAN can cluster data with varying densities.
 
 - PCA is a <ins> linear</ins> method that identifies the directions of maximum variance in the data, making it fast and effective for capturing global structure but less suited for non-linear relationships. PCA is generally faster and preferred for preliminary analysis or when the relationships in the data are primarily linear.
 
+- A marketing team wants to analyze customer purchasing behavior using multiple features like frequency of purchases and product categories. They use principal component analysis (PCA) to reduce dimensionality. What advantages does PCA offer over other techniques?<br/>
+Transforms features to capture data variance<br/>
+(PCA effectively reduces the dimensionality of the dataset by transforming features into principal components that capture most of the data's variance. This can enable a simplified analysis with fewer features without significantly sacrificing the ability to interpret underlying patterns or relationships in the data.)
+
 - What does Principal Component Analysis (PCA) create from dataset features?<br/>
 Uncorrelated variables called principal components.
 
@@ -143,7 +147,7 @@ Simplify data and maintain information content
 Mapping high-dimensional data to a lower-dimensional space.
 
 - A research team is working on visualizing the clustering patterns of gene expression data from various samples. They use t-SNE to reduce the dimensionality of the data to two or three dimensions. Why is t-SNE a good choice for this analysis?<br/>
-It preserves local relationships between similar data points.<br/>
+It preserves LOCAL relationships between similar data points.<br/>
 (t-SNE is ideal for capturing local structures, which makes it great for visualizing clusters in high-dimensional data, like gene expression patterns.)
 
 - Why is customer-behavior data reduced with t-SNE primarily in two-dimensional scatter plots?<br/>
@@ -172,13 +176,8 @@ Identifies redundant features
 ![PCA, t-SNE and UMAP)](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%209_Machine%20Learning%20with%20Python/Media/PCA%2C%20t-SNE%20and%20UMAP.png)
 
 
-     
-   - A marketing team wants to analyze customer purchasing behavior using multiple features like frequency of purchases and product categories. They use principal component analysis (PCA) to reduce dimensionality. What advantages does PCA offer over other techniques?<br/>
-Transforms features to capture data variance<br/>
-(PCA effectively reduces the dimensionality of the dataset by transforming features into principal components that capture most of the data's variance. This can enable a simplified analysis with fewer features without significantly sacrificing the ability to interpret underlying patterns or relationships in the data.)
-
-   - t-SNE, on the other hand, is a <ins> non-linear</ins> technique that excels at preserving local structures, often revealing clusters within high-dimensional data, but it can be computationally <ins> expensive and is sensitive to hyperparameters. 
-   - UMAP, also non-linear, is similar to t-SNE in preserving local structure but is <ins> faster, scalable, </ins>and tends to maintain both local and GLOBAL relationships better. UMAP is often preferred for <ins>larger</ins> datasets or when maintaining both global and local patterns is crucial, while t-SNE might be used for finer cluster analysis in smaller datasets. 
+   - t-SNE, on the other hand, is a <ins> non-linear</ins> technique that excels at preserving LOCAL structures, often revealing clusters within high-dimensional data, but it can be computationally <ins> expensive and is sensitive to hyperparameters. 
+   - UMAP, also <ins>non-linear</ins>, is similar to t-SNE in preserving local structure but is <ins> faster, scalable, </ins>and tends to maintain both local and GLOBAL relationships better. UMAP is often preferred for <ins>larger</ins> datasets or when maintaining both global and local patterns is crucial, while t-SNE might be used for finer cluster analysis in smaller datasets. 
 
 Link: https://biostatsquid.com/pca-umap-tsne-comparison/
 
