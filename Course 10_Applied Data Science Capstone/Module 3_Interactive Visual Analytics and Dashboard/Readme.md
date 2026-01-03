@@ -1,5 +1,6 @@
 # Hands-on Lab: Build an Interactive Dashboard with Plotly Dash
 
+```
 # Import required libraries
 import pandas as pd
 import dash
@@ -98,3 +99,4 @@ def scatter(entered_site,payload):
 if __name__ == '__main__':
     app.run()_main__':
     app.run()
+```
