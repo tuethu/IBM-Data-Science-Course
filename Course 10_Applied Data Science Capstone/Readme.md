@@ -1,4 +1,4 @@
-# Coursera Quiz Answers for Applied Data Science Capstone All Quiz Answers
+Coursera Quiz Answers for Applied Data Science Capstone All Quiz Answers
 
 ### Week 1 Quiz 1 >>Graded Quiz: Data Collection API with Webscraping 
 
@@ -92,23 +92,23 @@ Q17. How can you add marking objects such as circles, markers, or lines on a Fol
 
 Answer:<br/>
 
-object.add_to(map)<br/>
+   - object.add_to(map)<br/>
 
-map.add_child(object)<br/>
+   - map.add_child(object)<br/>
 
 
 Q18. If you want to add multiple markers with similar coordinates on the Folium map, which Folium plugin you should use? <br/>
 
-Answer:MarkerCluster 
+Answer: MarkerCluster 
 
 Q19. Which attribute is used to provide available selections (such as a list of launch sites) for a Plotly DropDown input? <br/>
-Answer:options
+Answer: options
 
 Q20. How can we associate the result of a callback function (like a Ploty figure) to an element defined in the application? <br/> 
-Answer:Using a unique component id 
+Answer: Using a unique component id 
 
 Q21. Can we add multiple input components to a dash callback function? <br/> 
-Answer:Yes
+Answer: Yes
 
 
 
@@ -118,11 +118,11 @@ Q22. How many records were there in the test sample? <br/>
 Answer: 18 
 
 Q23. For Support Vector Machines, what kernel has the best result on the validation dataset? <br/>
-sigmoid
+Answer: sigmoid
 
 Q24. After selecting the best hyperparameters for the decision tree classifier using the validation data, 
 what was the accuracy achieved on the test data Disclaimers? <br/>
-83.33%
+Answer: 83.33%
 
 
 
