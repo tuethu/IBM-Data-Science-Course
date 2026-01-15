@@ -130,6 +130,8 @@ Write an SQL query to determine the frequency of each type of chest pain (typica
 Write an SQL query to investigate the distribution of the target variable (presence or absence of heart disease) within different age groups (e.g., 20-30, 30-40, etc.).
 ```
 
+![Generative AI for Data Preparation and Data Querying 1](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%2011_Generative%20AI_Elevate%20Your%20Data%20Science%20Career/Media/Generative%20AI%20for%20Data%20Preparation%20and%20Data%20Querying%201.png)
+
 ![Generative AI for Data Preparation and Data Querying ](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%2011_Generative%20AI_Elevate%20Your%20Data%20Science%20Career/Media/Generative%20AI%20for%20Data%20Preparation%20and%20Data%20Querying%20.png)
 
 - Which tool is used for image data augmentation?<br/>
