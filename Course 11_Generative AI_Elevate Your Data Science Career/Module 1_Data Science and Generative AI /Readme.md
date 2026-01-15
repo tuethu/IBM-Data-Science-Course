@@ -141,6 +141,7 @@ Dialogflow
 
 - How does Synthetic Data Vault (SDV) augment structured data set?<br/>
 By generating synthetic data
+![Data Generation and Augmentation](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%2011_Generative%20AI_Elevate%20Your%20Data%20Science%20Career/Media/Data%20Generation%20and%20Augmentation.png)
 
 - How does generative AI make it easier to query databases?<br/>
 Enables users to query databases in natural language
