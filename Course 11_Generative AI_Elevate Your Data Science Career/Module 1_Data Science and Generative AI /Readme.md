@@ -134,6 +134,12 @@ Write an SQL query to investigate the distribution of the target variable (prese
 
 ![Generative AI for Data Preparation and Data Querying ](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%2011_Generative%20AI_Elevate%20Your%20Data%20Science%20Career/Media/Generative%20AI%20for%20Data%20Preparation%20and%20Data%20Querying%20.png)
 
+
+- Neural Machine Translation (NMT) is a subfield of artificial intelligence that focuses on developing algorithms capable of translating text from one language to another.
+- Large Language Models (LLMs) are advanced AI systems designed to process, understand, and generate human-like text. 
+- Recurrent Neural Networks (RNNs) are a type of deep learning model designed to process sequential data by maintaining a memory of previous inputs.
+- Graph Neural Networks (GNNs) are a specialized class of neural networks designed to process and analyze graph-structured data. 
+
 - Which tool is used for image data augmentation?<br/>
 Neural style transfer
 ![Data Generation and Augmentation](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%2011_Generative%20AI_Elevate%20Your%20Data%20Science%20Career/Media/Data%20Generation%20and%20Augmentation.png)
