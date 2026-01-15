@@ -130,8 +130,11 @@ Write an SQL query to determine the frequency of each type of chest pain (typica
 Write an SQL query to investigate the distribution of the target variable (presence or absence of heart disease) within different age groups (e.g., 20-30, 30-40, etc.).
 ```
 
+![Generative AI for Data Preparation and Data Querying ](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%2011_Generative%20AI_Elevate%20Your%20Data%20Science%20Career/Media/Generative%20AI%20for%20Data%20Preparation%20and%20Data%20Querying%20.png)
+
 - Which tool is used for image data augmentation?<br/>
 Neural style transfer
+![Data Generation and Augmentation](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%2011_Generative%20AI_Elevate%20Your%20Data%20Science%20Career/Media/Data%20Generation%20and%20Augmentation.png)
 
 - In which phase of the data science lifecycle will you extract patterns and insights from the data by selecting and training appropriate machine learning algorithms?<br/>
 Modeling and feature engineering
@@ -141,7 +144,7 @@ Dialogflow
 
 - How does Synthetic Data Vault (SDV) augment structured data set?<br/>
 By generating synthetic data
-![Data Generation and Augmentation](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%2011_Generative%20AI_Elevate%20Your%20Data%20Science%20Career/Media/Data%20Generation%20and%20Augmentation.png)
+
 
 - How does generative AI make it easier to query databases?<br/>
 Enables users to query databases in natural language
