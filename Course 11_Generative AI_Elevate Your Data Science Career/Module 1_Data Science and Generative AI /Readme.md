@@ -22,7 +22,7 @@ Unstructured data includes images and audio. BigGAN has remarkable capabilities 
 ![Generative adversarial networks (GANs)](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%2011_Generative%20AI_Elevate%20Your%20Data%20Science%20Career/Media/Generative%20adversarial%20networks%20(GANs).png)
 
 ## 2. Variational autoencoders (VAEs)
-- Which generative AI models are good at compressing the size of data sets without compromising on information content?<br/>
+- Which generative AI models are good at COMPRESSING the size of data sets without compromising on information content?<br/>
 Variational autoencoders (VAEs) <br/>
 VAEs can compress the size of data sets, making them suitable for handling large data sets.
 ![Variational autoencoders (VAEs)](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%2011_Generative%20AI_Elevate%20Your%20Data%20Science%20Career/Media/Variational%20autoencoders%20(VAEs).png)
@@ -30,13 +30,13 @@ VAEs can compress the size of data sets, making them suitable for handling large
 - Autoregressive models are good at text generation, speech synthesis, time series forecasting, and machine translation, and flow-based models are suitable for image and data generation and density estimation.  
 
 ## 3. Autoregressive model
-- Which type of generative AI models are known as sequential data champions?<br/>
+- Which type of generative AI models are known as SEQUENTIAL data champions?<br/>
 Autoregressive models<br/>
 They excel in generating data one element at a time.
 ![Autoregressive model](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%2011_Generative%20AI_Elevate%20Your%20Data%20Science%20Career/Media/Autoregressive%20model.png)
 
 ## 4. Flow-based model
-- What makes flow-based models efficient in sampling?<br/>
+- What makes flow-based models efficient in SAMPLING?<br/>
 They can perform direct modeling of the probability distribution of data.<br/>
 Flow-based models are efficient in sampling because they can directly model the probability distribution of data.
 ![Flow-based model](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%2011_Generative%20AI_Elevate%20Your%20Data%20Science%20Career/Media/Flow-based%20model.png)
