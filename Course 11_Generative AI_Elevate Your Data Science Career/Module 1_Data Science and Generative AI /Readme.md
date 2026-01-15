@@ -16,7 +16,7 @@ GANs
 Generative adversarial networks (GANs)<br/>
 GANs consist of two neural networks, a generator that produces increasingly realistic data and a discriminator that distinguishes between real and fake samples.
 
-- Which of the following tools is used to augment the unstructured data set?<br/>
+- Which of the following tools is used to augment the UNstructured data set?<br/>
 BigGAN
 Unstructured data includes images and audio. BigGAN has remarkable capabilities in augmenting image data sets by generating high-resolution, realistic images.
 ![Generative adversarial networks (GANs)](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%2011_Generative%20AI_Elevate%20Your%20Data%20Science%20Career/Media/Generative%20adversarial%20networks%20(GANs).png)
