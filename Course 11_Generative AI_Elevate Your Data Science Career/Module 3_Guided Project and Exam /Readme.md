@@ -33,7 +33,7 @@ Creating realistic data SAMPLES
 Augment their data sets using generative AI to create synthetic data.
 
 - Which tool can be used for IMAGE DATA AUGMENTATION ?<br/>
-CycleGAN
+CycleGAN<br/>
 ![CycleGAN](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%2011_Generative%20AI_Elevate%20Your%20Data%20Science%20Career/Media/CycleGAN.png)
 
 - During problem definition phase of data science lifecycle, how does generative AI help in idea generation?<br/>
@@ -43,7 +43,7 @@ By mimicking existing product descriptions, marketing campaigns, or successful s
 AUTOGRESSIVE models
 
 - Which generative AI model can generate coherent and grammatically correct poetry, scripts, and email?<br/>
-Autoregressive models
+Autoregressive models<br/>
 ![Autoregressive model](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%2011_Generative%20AI_Elevate%20Your%20Data%20Science%20Career/Media/Autoregressive%20model%201.png)
 
 - Which generative AI model generates new data that adheres to the original probability distribution?<br/>
@@ -82,11 +82,11 @@ Feature attribution
 Change management
 
 - Which of the following is a SIMULATION and data augmentation generative AI tool?<br/>
-Unity ML-Agents
+Unity ML-Agents<br/>
 ![Unity ML-Agents](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%2011_Generative%20AI_Elevate%20Your%20Data%20Science%20Career/Media/Unity%20ML-Agents.png)
 
 - Which of the following is an ANOMALY DETECTION generative AI tool? <br/>
-Isolation Forest
+Isolation Forest<br/>
 ![Isolation Forest](https://github.com/tuethu/IBM-Data-Science-Course/blob/main/Course%2011_Generative%20AI_Elevate%20Your%20Data%20Science%20Career/Media/Isolation%20Forest.png)
 
 - How do generative AI tools help data scientists in data exploration and preparation? <br/>
