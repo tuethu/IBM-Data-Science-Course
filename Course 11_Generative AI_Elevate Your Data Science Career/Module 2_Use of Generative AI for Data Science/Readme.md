@@ -31,65 +31,64 @@ Congratulations! You have completed this module. At this point, you know that:
 - Generative AI can help them hone these skills.
 
 
-
-- You can use generative AI tools to create Python code that will perform various operations to draw insights from a given data. Which function in the code can you use to generate statistical information about the data?
+- You can use generative AI tools to create Python code that will perform various operations to draw insights from a given data. Which function in the code can you use to generate statistical information about the data?<br/>
 Describe
 
-- Which of the following tools can be prompted to generate custom codes for development of predictive models?
+- Which of the following tools can be prompted to generate custom codes for development of predictive models?<br/>
 ChatGPT
 
-- Which tool supports algorithms, is cloud-based, with on-premises deployment, and is an end-to-end solution with automated data preparation, feature generation, model training, and selection?
+- Which tool supports algorithms, is cloud-based, with on-premises deployment, and is an end-to-end solution with automated data preparation, feature generation, model training, and selection?<br/>
 DataRobot
 
-- What is the limitation of using Amazon SageMaker Autopilot?
+- What is the limitation of using Amazon SageMaker Autopilot?<br/>
 Vendor lock-in to the AWS platform 
 
-- What is a key consideration under model considerations? 
+- What is a key consideration under model considerations? <br/>
 Explainability
 
-- Prevention of malicious activities
+- Prevention of malicious activities<br/>
 Regulatory requirements
 
-- Which technique can be used to check for biased loan approvals in the finance industry?
+- Which technique can be used to check for biased loan approvals in the finance industry?<br/>
 Fairness metrics
 
-- Which is a technical challenge using generative AI?
+- Which is a technical challenge using generative AI?<br/>
 Lack of standardization
 
-- What causes AI hallucinations?
+- What causes AI hallucinations?<br/>
 Flawed training data
 
-- If you manipulate public opinion while using generative AI, which type of consideration is violated?
+- If you manipulate public opinion while using generative AI, which type of consideration is violated?<br/>
 Ethical
 
-- Under which kind of consideration is it important to inform patients about using the generative AI model in their care and explain its limitations and potential risks?
+- Under which kind of consideration is it important to inform patients about using the generative AI model in their care and explain its limitations and potential risks?<br/>
 Ethical consideration
 
-- Under which kind of consideration is it important to be robust against adversarial attacks that produce misleading outputs?
+- Under which kind of consideration is it important to be robust against adversarial attacks that produce misleading outputs?<br/>
 MODEL consideration
 
-- What does the explainability of a generative AI model refer to?
+- What does the explainability of a generative AI model refer to?<br/>
 The model's ability to provide clear insights into its decision-making process
 
-- Integrating generative AI models into existing systems is challenging, requiring change management and carefully calculating Return on Investment (ROI). Under which category does this challenge come?
+- Integrating generative AI models into existing systems is challenging, requiring change management and carefully calculating Return on Investment (ROI). Under which category does this challenge come?<br/>
 Organizational challenge
 
-- Generative AI models may generate inaccurate or illogical information. What is this challenge called?
+- Generative AI models may generate inaccurate or illogical information. What is this challenge called?<br/>
 AI hallucination
 
-- What does the generalization ability of a generative AI model refer to?
+- What does the generalization ability of a generative AI model refer to?<br/>
 The model's ability to perform well on data it hasn't been trained on
 
-- Generative AI models can identify potential patterns and relationships in the data that may warrant further investigation. How does this ability help data scientists?
+- Generative AI models can identify potential patterns and relationships in the data that may warrant further investigation. How does this ability help data scientists?<br/>
 Hypothesis generation
 
-- How do generative AI models help data scientists select the most appropriate model architecture for a data set?
+- How do generative AI models help data scientists select the most appropriate model architecture for a data set?<br/>
 By generating latent data representations that capture the underlying structure of the data
 
-- What is the common disadvantage of using dedicated generative AI tools, such as DataRobot and AutoGluon, for building predictive models on tabular data?
+- What is the common disadvantage of using dedicated generative AI tools, such as DataRobot and AutoGluon, for building predictive models on tabular data?<br/>
 Limited customization options
 
-- What is the common advantage of using open-source generative AI tools, such as ChatGPT or Google Bard, for building predictive models on tabular data?
+- What is the common advantage of using open-source generative AI tools, such as ChatGPT or Google Bard, for building predictive models on tabular data?<br/>
 Require beginner-level skillset to use, personalize, and optimize the code
 
 
